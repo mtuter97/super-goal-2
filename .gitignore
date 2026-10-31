@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Vercel
+.vercel/
+
+# Environment files
+.env
+.env.local
+
+# Large reference PDFs (>40MB/90MB)
+*.pdf
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
