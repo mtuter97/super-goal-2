@@ -1,0 +1,10 @@
+# Exclude large textbook PDFs (86MB/40MB)
+*.pdf
+
+# Git and dev artifacts
+.git
+.github
+.gitignore
+.env*
+node_modules
+*.log
