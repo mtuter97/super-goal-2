@@ -1610,29 +1610,50 @@ body {
 .official-certificate {
   border: 10px double var(--saudi-green);
   outline: 4px solid var(--accent-gold);
-  padding: 2.5rem 2.5rem;
+  padding: 2.75rem 2.5rem;
   text-align: center;
   background: radial-gradient(circle at center, #ffffff 65%, #fef8f4 100%);
   position: relative;
   border-radius: 6px;
+  overflow: hidden;
+}
+
+.cert-watermark-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 360px;
+  background-image: url('assets/images/teacher_logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+  filter: grayscale(15%);
+}
+
+.official-certificate > *:not(.cert-watermark-bg) {
+  position: relative;
+  z-index: 1;
 }
 
 .cert-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid rgba(5, 150, 105, 0.25);
   padding-bottom: 1.15rem;
+  text-align: center;
 }
 
-.cert-logo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid var(--primary-coral);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+.cert-ministry-text {
+  text-align: center;
+  width: 100%;
 }
 
 .cert-ministry-text h4 {
@@ -1801,6 +1822,13 @@ body {
     visibility: visible;
   }
 
+  .cert-watermark-bg {
+    display: block !important;
+    opacity: 0.08 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   .official-certificate {
     position: fixed;
     left: 0;
@@ -1815,6 +1843,10 @@ body {
     background: #ffffff !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+  }
+
+  .floating-whatsapp-btn {
+    display: none !important;
   }
 
   @page {
@@ -2060,4 +2092,96 @@ body {
   font-weight: 800 !important;
   box-shadow: 0 0 14px rgba(217, 119, 6, 0.5) !important;
   transform: scale(1.08) !important;
+}
+
+/* Teacher Social & Contact Bar */
+.teacher-social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  line-height: 1.2;
+}
+
+.social-pill svg {
+  flex-shrink: 0;
+}
+
+.social-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.whatsapp-pill {
+  background: #25D366;
+  color: #ffffff;
+}
+.whatsapp-pill:hover {
+  background: #20ba5a;
+  color: #ffffff;
+}
+
+.youtube-pill {
+  background: #FF0000;
+  color: #ffffff;
+}
+.youtube-pill:hover {
+  background: #cc0000;
+  color: #ffffff;
+}
+
+.linkedin-pill {
+  background: #0A66C2;
+  color: #ffffff;
+}
+.linkedin-pill:hover {
+  background: #084e96;
+  color: #ffffff;
+}
+
+/* Floating WhatsApp Quick Action Button */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background: #25D366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.05rem 0.65rem 0.85rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 18px rgba(37, 211, 102, 0.4);
+  z-index: 9999;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 0.85rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.floating-whatsapp-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.55);
+  color: #ffffff;
+}
+
+@media print {
+  .floating-whatsapp-btn {
+    display: none !important;
+  }
 }

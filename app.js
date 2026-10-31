@@ -1923,8 +1923,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     overlay.innerHTML = `
       <div class="certificate-modal-box">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid var(--border-color);">
-          <strong style="color:var(--accent-slate-dark); font-size:1.15rem;">Official Academic Certificate Preview</strong>
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1.25rem; padding-bottom:1rem; border-bottom:1px solid var(--border-color);">
+          <div>
+            <strong style="color:var(--accent-slate-dark); font-size:1.15rem; display:block;">Official Academic Certificate Preview</strong>
+            <div class="teacher-social-links" style="margin-top:0.4rem;">
+              <a href="https://wa.me/966549724510?text=Hello%20Teacher%20Mahmoud%20Al-Saeed%2C%20I%20have%20an%20inquiry%20regarding%20my%20Certificate" target="_blank" rel="noopener noreferrer" class="social-pill whatsapp-pill" title="WhatsApp Chat with Teacher Mahmoud">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.693.078-2.027-.474-1.633-.675-2.678-2.339-2.76-2.449-.081-.11-1.39-1.85-1.39-3.528 0-1.678.878-2.504 1.189-2.846.312-.342.684-.428.913-.428.228 0 .456.002.656.012.211.011.493-.08.77.585.286.687.973 2.378 1.058 2.551.085.173.143.376.029.605-.114.228-.171.371-.342.572-.171.2-.36.446-.514.6-.171.171-.35.357-.151.7.2.342.888 1.464 1.905 2.371 1.309 1.168 2.413 1.53 2.755 1.701.342.171.543.143.743-.086.2-.228.857-.999 1.085-1.342.228-.342.456-.285.77-.171.314.114 1.989.938 2.332 1.109.342.171.571.257.656.4.086.143.086.828-.058 1.233zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.98-1.385C8.423 21.494 10.155 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+                <span>WhatsApp Inquiry</span>
+              </a>
+              <a href="https://www.youtube.com/@AwnEdu1" target="_blank" rel="noopener noreferrer" class="social-pill youtube-pill" title="YouTube Channel">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.376.55 9.376.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span>YouTube</span>
+              </a>
+              <a href="https://www.linkedin.com/in/mr-mahmoud-elsaed-1a341241b/" target="_blank" rel="noopener noreferrer" class="social-pill linkedin-pill" title="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.78v8.37H6.46V10.9M7.86 6.32a1.64 1.64 0 0 0-1.64 1.64c0 .91.74 1.64 1.64 1.64.9 0 1.64-.73 1.64-1.64 0-.9-.74-1.64-1.64-1.64z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
           <div style="display:flex; gap:0.75rem;">
             <button class="writing-evaluate-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
             <button class="theme-toggle-btn" onclick="closeCertModal()">✕ Close</button>
@@ -1932,13 +1948,12 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <div class="official-certificate">
+          <div class="cert-watermark-bg" aria-hidden="true"></div>
           <div class="cert-header">
-            <img src="assets/images/teacher_logo.jpg" alt="Teacher Logo" class="cert-logo">
             <div class="cert-ministry-text">
               <h4>Kingdom of Saudi Arabia • Ministry of Education</h4>
               <p>Intermediate Education • Super Goal 2 Curriculum Suite</p>
             </div>
-            <img src="assets/images/teacher_logo.jpg" alt="Teacher Logo" class="cert-logo">
           </div>
 
           <div class="cert-title">Certificate of Distinction</div>

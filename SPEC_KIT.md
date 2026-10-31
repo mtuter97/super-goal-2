@@ -35,7 +35,8 @@ When extending or maintaining this project in any session, adhere strictly to th
    - Saudi Cultural Accent: **Saudi Emerald Green** (`#059669`, `#047857`, `#ecfdf5`).
    - Academic Honor Accent: **Radiant Gold** (`#d97706`, `#f59e0b`).
    - Secondary Tech Accents: **Slate Charcoal** (`#2d3748`) and **Sky Blue** (`#0284c7`).
-   - The Teacher Logo must remain prominently visible in the header (with a verified badge), footer, and on the official certificate.
+   - The Teacher Logo must remain prominently visible in the header (with a verified badge), footer, and as an elegant transparent background watermark on the official certificate.
+   - Official Instructor Communication Channels (WhatsApp direct inquiry without raw digit display, YouTube channel, and LinkedIn profile) are accessible in the header, footer, and certificate preview modal.
 4. **Interactive Student Registration & Certification Gateway:**  
    - Top-level **Student Passport Bar** where students enter their English name and school.
    - Persistent `localStorage` tracking for student identity and gamified XP points.
