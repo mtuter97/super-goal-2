@@ -36,13 +36,17 @@ document.addEventListener('DOMContentLoaded', () => {
     examUserAnswers: {},
     examTimerInterval: null,
     examSecondsRemaining: 0,
+    examTotalDuration: 0,
+    examStreak: 0,
+    examBestStreak: 0,
+    examEncouragements: {},
     currentReadingStoryId: 'r1',
     currentWritingTaskId: 'w1',
     currentDiscussionId: 'd1',
     theme: localStorage.getItem('sg2_theme') || 'light'
   };
 
-  // Sound Synthesizer via Web Audio API (Chimes & UI Clicks)
+  // Sound Synthesizer via Web Audio API (Chimes, Clicks & Exam Feedback)
   function playSound(type) {
     try {
       const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -55,11 +59,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (type === 'correct') {
         osc.frequency.setValueAtTime(587.33, ctx.currentTime); // D5
-        osc.frequency.setValueAtTime(880, ctx.currentTime + 0.1); // A5
+        osc.frequency.setValueAtTime(880, ctx.currentTime + 0.09); // A5
         gain.gain.setValueAtTime(0.15, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.32);
         osc.start();
-        osc.stop(ctx.currentTime + 0.35);
+        osc.stop(ctx.currentTime + 0.32);
+      } else if (type === 'incorrect') {
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(261.63, ctx.currentTime); // C4
+        osc.frequency.setValueAtTime(196.00, ctx.currentTime + 0.11); // G3
+        gain.gain.setValueAtTime(0.13, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.32);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.32);
+      } else if (type === 'streak') {
+        osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
+        osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.08); // E5
+        osc.frequency.setValueAtTime(783.99, ctx.currentTime + 0.16); // G5
+        osc.frequency.setValueAtTime(1046.50, ctx.currentTime + 0.24); // C6
+        gain.gain.setValueAtTime(0.18, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.45);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.45);
       } else if (type === 'click') {
         osc.frequency.setValueAtTime(440, ctx.currentTime);
         gain.gain.setValueAtTime(0.08, ctx.currentTime);
@@ -1648,12 +1669,16 @@ document.addEventListener('DOMContentLoaded', () => {
     state.examMode = mode;
     state.examCurrentQuestionIndex = 0;
     state.examUserAnswers = {};
+    state.examEncouragements = {};
+    state.examStreak = 0;
+    state.examBestStreak = 0;
     state.examSecondsRemaining = exam.durationMinutes * 60;
+    state.examTotalDuration = exam.durationMinutes * 60;
 
     if (state.examTimerInterval) clearInterval(state.examTimerInterval);
 
-    if (mode === 'timed') {
-      state.examTimerInterval = setInterval(() => {
+    state.examTimerInterval = setInterval(() => {
+      if (state.examMode === 'timed') {
         state.examSecondsRemaining--;
         updateTimerDisplay();
         if (state.examSecondsRemaining <= 0) {
@@ -1661,8 +1686,11 @@ document.addEventListener('DOMContentLoaded', () => {
           alert('Time is up! Submitting your examination automatically.');
           finishExam();
         }
-      }, 1000);
-    }
+      } else {
+        state.examSecondsRemaining++;
+        updateTimerDisplay();
+      }
+    }, 1000);
 
     renderExamSuite();
   };
@@ -1670,9 +1698,33 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateTimerDisplay() {
     const timerElem = document.getElementById('activeExamTimer');
     if (!timerElem) return;
-    const m = Math.floor(state.examSecondsRemaining / 60);
-    const s = state.examSecondsRemaining % 60;
-    timerElem.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+    if (state.examMode === 'timed') {
+      const remaining = Math.max(0, state.examSecondsRemaining);
+      const m = Math.floor(remaining / 60);
+      const s = remaining % 60;
+      const formatted = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+      let urgencyClass = '';
+      let icon = '⏱️';
+      if (remaining <= 120) {
+        urgencyClass = 'timer-critical';
+        icon = '🚨';
+      } else if (remaining <= 300) {
+        urgencyClass = 'timer-warning';
+        icon = '⚠️';
+      }
+
+      timerElem.className = `exam-timer ${urgencyClass}`.trim();
+      timerElem.innerHTML = `<span class="timer-icon">${icon}</span> <span class="timer-digits">${formatted}</span>`;
+    } else {
+      const elapsed = state.examSecondsRemaining;
+      const m = Math.floor(elapsed / 60);
+      const s = elapsed % 60;
+      const formatted = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      timerElem.className = 'exam-timer';
+      timerElem.innerHTML = `<span class="timer-icon">⏱️</span> <span>Practice: ${formatted}</span>`;
+    }
   }
 
   function renderActiveExam() {
@@ -1688,19 +1740,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const isAnswered = state.examUserAnswers.hasOwnProperty(qIndex);
     const selectedOpt = isAnswered ? state.examUserAnswers[qIndex] : null;
 
+    // Score calculations
+    const answeredCount = Object.keys(state.examUserAnswers).length;
+    let liveScore = 0;
+    ex.questions.forEach((qu, i) => {
+      if (state.examUserAnswers[i] === qu.correctAnswer) {
+        liveScore++;
+      }
+    });
+
+    const enc = state.examEncouragements[qIndex];
+
     runner.innerHTML = `
       <div class="exam-runner">
         <div class="exam-runner-header">
           <div>
-            <span class="brand-badge">Exam in Progress • ${state.examMode === 'timed' ? 'Timed Mode' : 'Practice Mode'}</span>
+            <span class="brand-badge">Exam in Progress • ${state.examMode === 'timed' ? '⏱️ Timed Mode' : '🧪 Practice Mode'}</span>
             <h3 style="font-family:'Outfit',sans-serif; font-size:1.45rem; color:var(--accent-slate-dark); margin-top:0.35rem;">
               ${ex.title}
             </h3>
           </div>
-          <div style="display:flex; align-items:center; gap:1rem;">
-            ${state.examMode === 'timed' ? `<div class="exam-timer" id="activeExamTimer">--:--</div>` : `<span class="badge-diff moderate">Practice (Untimed)</span>`}
-            <button class="btn btn-secondary" onclick="exitExamConfirm()" style="background:var(--bg-alt); border:1px solid var(--border-color); padding:0.55rem 1rem; border-radius:var(--radius-sm); font-weight:800; cursor:pointer;">
-              ✕ Exit Exam
+          <div class="exam-runner-hud">
+            <div class="exam-score-pill" title="Live Score: Correct answers out of answered questions">
+              <span>⭐</span>
+              <span>Score: <strong>${liveScore}</strong> / ${answeredCount}</span>
+            </div>
+            ${state.examStreak > 0 ? `
+              <div class="exam-streak-pill ${state.examStreak >= 3 ? 'on-fire' : ''}" title="Consecutive Correct Answers">
+                <span>🔥</span>
+                <span>Streak: <strong>${state.examStreak}</strong></span>
+              </div>
+            ` : ''}
+            <div class="exam-timer" id="activeExamTimer">--:--</div>
+            <button class="btn btn-secondary" onclick="exitExamConfirm()" style="background:var(--bg-alt); border:1px solid var(--border-color); padding:0.5rem 0.95rem; border-radius:var(--radius-sm); font-weight:800; cursor:pointer;">
+              ✕ Exit
             </button>
           </div>
         </div>
@@ -1713,33 +1786,60 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="exam-progress-bar-fill" style="width:${progressPct}%;"></div>
         </div>
 
+        <!-- Dynamic Encouragement Cheer Banner -->
+        ${isAnswered && enc ? `
+          <div class="exam-encouragement-banner ${enc.type}">
+            <span style="font-size:1.75rem; line-height:1;">${enc.type === 'streak' ? '🔥' : (enc.type === 'correct' ? '🌟' : '💡')}</span>
+            <div>
+              <div class="encouragement-title">${enc.title}</div>
+              <div class="encouragement-msg">${enc.msg}</div>
+            </div>
+          </div>
+        ` : ''}
+
         <!-- Question Box -->
         <div class="exam-q-box">
-          ${q.visualClue ? `<span class="visual-clue-badge">${q.visualClue}</span>` : ''}
+          ${q.visualClue ? `<span class="visual-clue-badge" style="margin-bottom:0.6rem; display:inline-block;">${q.visualClue}</span>` : ''}
           <h4 class="exam-q-title">${qIndex + 1}. ${q.question}</h4>
           <div class="exam-options-list">
             ${q.options.map((opt, optIdx) => {
               const isSelected = selectedOpt === optIdx;
-              let extraClass = isSelected ? 'selected' : '';
-              if (state.examMode === 'practice' && isAnswered) {
-                if (optIdx === q.correctAnswer) extraClass = 'correct';
-                else if (isSelected && optIdx !== q.correctAnswer) extraClass = 'incorrect';
+              const isThisCorrect = optIdx === q.correctAnswer;
+              let extraClass = '';
+              let statusBadge = '';
+
+              if (isAnswered) {
+                if (isThisCorrect) {
+                  extraClass = 'correct';
+                  statusBadge = `<span class="exam-option-badge-status badge-correct">✓ Correct Answer</span>`;
+                } else if (isSelected) {
+                  extraClass = 'incorrect';
+                  statusBadge = `<span class="exam-option-badge-status badge-incorrect">✕ Your Selection</span>`;
+                } else {
+                  extraClass = 'dimmed';
+                }
               }
+
               return `
-                <div class="exam-option-item ${extraClass}" onclick="selectExamAnswer(${qIndex}, ${optIdx})">
-                  <div style="width:30px; height:30px; border-radius:50%; border:2px solid currentColor; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:0.88rem;">
+                <div class="exam-option-item ${extraClass}" onclick="${isAnswered ? '' : `selectExamAnswer(${qIndex}, ${optIdx})`}">
+                  <div style="width:30px; height:30px; border-radius:50%; border:2px solid currentColor; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:0.88rem; flex-shrink:0;">
                     ${String.fromCharCode(65 + optIdx)}
                   </div>
-                  <span>${opt}</span>
+                  <span style="flex:1;">${opt}</span>
+                  ${statusBadge}
                 </div>
               `;
             }).join('')}
           </div>
 
-          <!-- Instant Explanation in Practice Mode -->
-          ${state.examMode === 'practice' && isAnswered ? `
-            <div class="diag-explanation" style="display:block; margin-top:1.35rem;">
-              <strong>Academic Rationale:</strong> ${q.explanation}
+          <!-- Academic Rationale with Instant Feedback -->
+          ${isAnswered ? `
+            <div class="exam-academic-rationale">
+              <div class="rationale-header">
+                <span style="font-size:1.2rem;">📖</span>
+                <span>Academic Rule & Pedagogical Rationale:</span>
+              </div>
+              <p class="rationale-text">${q.explanation}</p>
             </div>
           ` : ''}
         </div>
@@ -1749,14 +1849,37 @@ document.addEventListener('DOMContentLoaded', () => {
           <button class="flashcard-nav-btn" style="background:var(--bg-alt); color:var(--text-main); border:1px solid var(--border-color);" onclick="navExamQ(${qIndex - 1})" ${qIndex === 0 ? 'disabled' : ''}>
             ◀ Previous
           </button>
-          <div style="display:flex; gap:0.35rem; flex-wrap:wrap; max-width:580px; justify-content:center;">
-            ${ex.questions.map((_, i) => `
-              <button onclick="navExamQ(${i})" style="width:34px; height:34px; border-radius:4px; font-weight:800; font-size:0.82rem; cursor:pointer; border:1px solid var(--border-color); background:${i === qIndex ? 'var(--primary-coral)' : (state.examUserAnswers.hasOwnProperty(i) ? 'var(--primary-coral-light)' : 'var(--bg-card)')}; color:${i === qIndex ? '#ffffff' : (state.examUserAnswers.hasOwnProperty(i) ? 'var(--primary-coral-deep)' : 'var(--text-muted)')};">
-                ${i + 1}
-              </button>
-            `).join('')}
+          <div style="display:flex; gap:0.4rem; flex-wrap:wrap; max-width:620px; justify-content:center;">
+            ${ex.questions.map((quest, i) => {
+              const isCur = i === qIndex;
+              const hasAns = state.examUserAnswers.hasOwnProperty(i);
+              const isAnsCorr = hasAns && state.examUserAnswers[i] === quest.correctAnswer;
+              let bg = 'var(--bg-card)';
+              let color = 'var(--text-muted)';
+              let border = '1px solid var(--border-color)';
+
+              if (hasAns) {
+                if (isAnsCorr) {
+                  bg = '#10b981';
+                  color = '#ffffff';
+                  border = '1px solid #059669';
+                } else {
+                  bg = '#ef4444';
+                  color = '#ffffff';
+                  border = '1px solid #dc2626';
+                }
+              }
+
+              const curRing = isCur ? 'box-shadow: 0 0 0 2.5px var(--accent-gold), 0 3px 8px rgba(0,0,0,0.18); transform:scale(1.12); font-weight:900;' : '';
+
+              return `
+                <button onclick="navExamQ(${i})" title="Question ${i + 1}${hasAns ? (isAnsCorr ? ' (Correct)' : ' (Incorrect)') : ''}" style="width:34px; height:34px; border-radius:6px; font-weight:800; font-size:0.82rem; cursor:pointer; transition:all 0.2s; background:${bg}; color:${color}; border:${border}; ${curRing}">
+                  ${i + 1}
+                </button>
+              `;
+            }).join('')}
           </div>
-          ${qIndex === totalQ - 1 ? `
+          ${qIndex === totalQ - 1 || answeredCount === totalQ ? `
             <button class="writing-evaluate-btn" onclick="finishExam()">
               🏁 Finish & View Report
             </button>
@@ -1773,8 +1896,80 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.selectExamAnswer = function(qIdx, optIdx) {
+    if (!state.activeExam) return;
+    const ex = state.activeExam;
+    const q = ex.questions[qIdx];
+    if (!q) return;
+
+    const isFirstAnswer = !state.examUserAnswers.hasOwnProperty(qIdx);
     state.examUserAnswers[qIdx] = optIdx;
-    playSound('click');
+
+    const isCorrect = (optIdx === q.correctAnswer);
+
+    if (isCorrect) {
+      if (isFirstAnswer) {
+        state.examStreak++;
+        if (state.examStreak > state.examBestStreak) {
+          state.examBestStreak = state.examStreak;
+        }
+      }
+
+      if (state.examStreak >= 3) {
+        playSound('streak');
+      } else {
+        playSound('correct');
+      }
+
+      if (state.examStreak >= 5) {
+        state.examEncouragements[qIdx] = {
+          type: 'streak',
+          title: `🔥 Champion Momentum! (${state.examStreak} In A Row!)`,
+          msg: `Phenomenal performance! You have mastered 5 or more questions consecutively with zero errors!`
+        };
+      } else if (state.examStreak >= 3) {
+        state.examEncouragements[qIdx] = {
+          type: 'streak',
+          title: `⚡ Hot Streak Activated! (${state.examStreak} In A Row!)`,
+          msg: `Incredible accuracy! 3 consecutive correct answers! Keep this lightning-fast pace!`
+        };
+      } else if (state.examStreak === 2) {
+        state.examEncouragements[qIdx] = {
+          type: 'correct',
+          title: '🌟 Outstanding! Two In A Row!',
+          msg: 'Superb grammatical precision! You are maintaining an exceptional standard of accuracy.'
+        };
+      } else {
+        const praises = [
+          '🌟 Outstanding! Spot on! Perfect grammatical choice!',
+          '✨ Excellent work! You identified the exact target structure!',
+          '🎯 Bullseye! Great academic precision and attention to detail!',
+          '👏 Well done! Demonstrating solid mastery of the lesson!'
+        ];
+        state.examEncouragements[qIdx] = {
+          type: 'correct',
+          title: '✨ Correct Answer!',
+          msg: praises[qIdx % praises.length]
+        };
+      }
+    } else {
+      if (isFirstAnswer) {
+        state.examStreak = 0;
+      }
+      playSound('incorrect');
+
+      const growthMindset = [
+        '💪 Great effort! Read the academic rationale below to solidify this concept.',
+        '💡 Good try! Analyzing errors is how language mastery is truly achieved.',
+        '🎯 Stay positive and focused! Check the explanation below and conquer the next question.',
+        '🌱 Learning in action! Review the key clue below and bounce back stronger.'
+      ];
+      state.examEncouragements[qIdx] = {
+        type: 'incorrect',
+        title: '💡 Academic Learning Moment',
+        msg: growthMindset[qIdx % growthMindset.length]
+      };
+    }
+
     renderActiveExam();
   };
 
@@ -1808,11 +2003,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pct = Math.round((score / totalQ) * 100);
     let gradeLetter = 'F';
-    if (pct >= 95) gradeLetter = 'A+ (Distinction)';
-    else if (pct >= 90) gradeLetter = 'A (Excellent)';
-    else if (pct >= 80) gradeLetter = 'B (Very Good)';
-    else if (pct >= 70) gradeLetter = 'C (Good)';
-    else if (pct >= 60) gradeLetter = 'D (Pass)';
+    let feedbackSummary = '';
+
+    if (pct >= 95) {
+      gradeLetter = 'A+ (Distinction)';
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed commends your flawless linguistic precision and outstanding mastery across all evaluated competencies!';
+    } else if (pct >= 90) {
+      gradeLetter = 'A (Excellent)';
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed congratulates your exceptional grammar fluency and lexical range. A truly distinguished performance!';
+    } else if (pct >= 80) {
+      gradeLetter = 'B (Very Good)';
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed notes your strong grasp of core structures. Review the few missed rationales to achieve full perfection!';
+    } else if (pct >= 70) {
+      gradeLetter = 'C (Good)';
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed recognizes your solid effort. Continued practice with the interactive flashcards will sharpen your skills further!';
+    } else if (pct >= 60) {
+      gradeLetter = 'D (Pass)';
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed acknowledges your passing mark. Reinforce your foundation using Practice Mode to climb to higher honors!';
+    } else {
+      feedbackSummary = 'Teacher Mahmoud Al-Saeed encourages you to revisit Units 1 to 6 in Practice Mode and retake the exam to achieve mastery!';
+    }
 
     addXP(score * 10);
     playSound('correct');
@@ -1830,7 +2040,7 @@ document.addEventListener('DOMContentLoaded', () => {
           Candidate: <strong>${state.studentName}</strong> (${state.studentSchool})
         </p>
         
-        <div style="display:inline-flex; align-items:center; gap:2.5rem; background:var(--primary-coral-subtle); border:2px solid var(--primary-coral); padding:1.35rem 3rem; border-radius:var(--radius-lg); margin:1.5rem 0;">
+        <div style="display:inline-flex; align-items:center; gap:2.5rem; background:var(--primary-coral-subtle); border:2px solid var(--primary-coral); padding:1.35rem 3rem; border-radius:var(--radius-lg); margin:1.5rem 0; flex-wrap:wrap; justify-content:center;">
           <div>
             <span style="font-size:0.8rem; text-transform:uppercase; color:var(--text-light); font-weight:800;">Score Achieved</span>
             <div style="font-family:'Outfit',sans-serif; font-size:3rem; font-weight:800; color:var(--primary-coral-deep);">
@@ -1851,6 +2061,24 @@ document.addEventListener('DOMContentLoaded', () => {
               ${gradeLetter}
             </div>
           </div>
+          ${state.examBestStreak > 1 ? `
+            <div style="width:1.5px; height:65px; background:var(--border-color);"></div>
+            <div>
+              <span style="font-size:0.8rem; text-transform:uppercase; color:var(--text-light); font-weight:800;">Best Streak</span>
+              <div style="font-family:'Outfit',sans-serif; font-size:2.2rem; font-weight:800; color:#ea580c;">
+                🔥 ${state.examBestStreak}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+
+        <div style="max-width:680px; margin:1rem auto 2rem; background:var(--bg-card); border:1.5px solid var(--border-color); border-radius:var(--radius-md); padding:1.25rem 1.5rem; text-align:left;">
+          <strong style="color:var(--accent-slate-dark); font-size:0.95rem; display:block; margin-bottom:0.35rem;">
+            👨‍🏫 Teacher Evaluation & Academic Endorsement:
+          </strong>
+          <p style="color:var(--text-main); font-size:0.92rem; line-height:1.5; margin:0;">
+            ${feedbackSummary}
+          </p>
         </div>
 
         <div style="background:#ffffff; border:2.5px solid var(--accent-gold); border-radius:var(--radius-md); padding:2rem; max-width:680px; margin:2.25rem auto; text-align:left; box-shadow:var(--shadow-md);">
@@ -1886,6 +2114,15 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
     `;
+  };
+
+  window.restartSameExam = function(examId) {
+    startExam(examId, state.examMode);
+  };
+
+  window.exitExamFinal = function() {
+    state.activeExam = null;
+    renderExamSuite();
   };
 
   window.generateCertificateFromInput = function(examTitle, pct, gradeLetter, examId) {

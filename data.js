@@ -6199,12 +6199,12 @@ window.APP_DATA = {
           "id": "e1_q1",
           "question": "'Are you here for the writers festival?' — 'No, ______ here on vacation.'",
           "options": [
-            "I'm",
-            "I are",
+            "they are",
             "he is",
-            "they are"
+            "I are",
+            "I'm"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The subject pronoun 'I' pairs with the first-person singular form of 'be', contracted as 'I'm'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6212,9 +6212,9 @@ window.APP_DATA = {
           "id": "e1_q2",
           "question": "Choose the grammatically correct affirmative short answer: 'Is your hotel room quiet?'",
           "options": [
-            "Yes, it's.",
-            "Yes, it is.",
             "Yes, is.",
+            "Yes, it is.",
+            "Yes, it's.",
             "Yes, it does."
           ],
           "correctAnswer": 1,
@@ -6225,10 +6225,10 @@ window.APP_DATA = {
           "id": "e1_q3",
           "question": "Faris and Ketan ______ participants at the international student forum.",
           "options": [
-            "is",
+            "be",
             "am",
             "are",
-            "be"
+            "is"
           ],
           "correctAnswer": 2,
           "explanation": "Two singular subjects connected by 'and' form a compound plural subject requiring 'are'.",
@@ -6238,12 +6238,12 @@ window.APP_DATA = {
           "id": "e1_q4",
           "question": "'Is Ahmed happy in his new job?' — 'No, ______.'",
           "options": [
-            "he not",
             "he isn't",
+            "he not",
             "he is",
             "he aren't"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "The negative short answer for a third-person singular masculine pronoun is 'No, he isn't'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6251,10 +6251,10 @@ window.APP_DATA = {
           "id": "e1_q5",
           "question": "'How do you spell your ______ name?' — 'G-H-A-Z-A-L-I.'",
           "options": [
-            "first",
-            "last",
             "age",
-            "address"
+            "last",
+            "address",
+            "first"
           ],
           "correctAnswer": 1,
           "explanation": "'Ghazali' is a family surname, which is referred to in English as the 'last name'.",
@@ -6278,11 +6278,11 @@ window.APP_DATA = {
           "question": "'______ are you from?' — 'I'm from Jeddah, Saudi Arabia.'",
           "options": [
             "Who",
-            "Where",
             "When",
-            "Why"
+            "Why",
+            "Where"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Where' is the interrogative pronoun used to ask about geographic origin or location.",
           "visualClue": "🇸🇦 Saudi Cultural Geography"
         },
@@ -6290,12 +6290,12 @@ window.APP_DATA = {
           "id": "e1_q8",
           "question": "My legal name is Francisco Ramirez, but everyone calls me by my ______ 'Pancho'.",
           "options": [
-            "last name",
-            "nickname",
+            "occupation",
             "form",
-            "occupation"
+            "last name",
+            "nickname"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "A familiar or affectionate informal name used by friends is a 'nickname'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6303,10 +6303,10 @@ window.APP_DATA = {
           "id": "e1_q9",
           "question": "What is the polite phrase said to a guest when giving them their hotel room key?",
           "options": [
-            "Take that.",
-            "Here you are.",
             "Go away.",
-            "What do you want?"
+            "Here you are.",
+            "What do you want?",
+            "Take that."
           ],
           "correctAnswer": 1,
           "explanation": "'Here you are' is the standard polite English formula used when handing something to someone.",
@@ -6316,12 +6316,12 @@ window.APP_DATA = {
           "id": "e1_q10",
           "question": "'______ is the annual festival?' — 'It takes place in February.'",
           "options": [
+            "How",
             "Where",
             "When",
-            "Who",
-            "How"
+            "Who"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'When' asks for time, date, or calendar season information.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6329,12 +6329,12 @@ window.APP_DATA = {
           "id": "e1_q11",
           "question": "Which of the following is an expression used for saying goodbye?",
           "options": [
+            "Nice to meet you.",
             "How are you?",
             "Excuse me.",
-            "Take care.",
-            "Nice to meet you."
+            "Take care."
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 3,
           "explanation": "'Take care' is a warm, customary expression used when parting or saying farewell.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6342,12 +6342,12 @@ window.APP_DATA = {
           "id": "e1_q12",
           "question": "'Can I help you, sir?' — 'Yes, please. I have a ______ under the name Fournier.'",
           "options": [
-            "reservation",
-            "spelling",
+            "passport",
             "elevator",
-            "passport"
+            "reservation",
+            "spelling"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "An advance booking for a room at an establishment is a 'reservation'.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -6357,8 +6357,8 @@ window.APP_DATA = {
           "options": [
             "Is it",
             "It is",
-            "It's",
-            "Is't"
+            "Is't",
+            "It's"
           ],
           "correctAnswer": 0,
           "explanation": "In a question with 'be', inversion is mandatory: Auxiliary 'Is' + Subject 'it' -> 'Is it'.",
@@ -6368,12 +6368,12 @@ window.APP_DATA = {
           "id": "e1_q14",
           "question": "When introducing a friend named Lee to Joe, the standard formal introduction is:",
           "options": [
-            "Joe, this man is Lee.",
-            "Lee, I'd like to introduce you to Joe.",
+            "Hey Joe, who is Lee?",
             "Joe, look at Lee now.",
-            "Hey Joe, who is Lee?"
+            "Lee, I'd like to introduce you to Joe.",
+            "Joe, this man is Lee."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'I'd like to introduce you to...' is the prescribed communicative introduction formula.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6381,12 +6381,12 @@ window.APP_DATA = {
           "id": "e1_q15",
           "question": "'Are Mr. and Mrs. Wilson staying on the fourth floor?' — 'Yes, ______.'",
           "options": [
-            "they're",
             "they are",
             "he is",
-            "we are"
+            "we are",
+            "they're"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'Mr. and Mrs. Wilson' is plural third-person ('they'); affirmative short answer requires full 'they are'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6394,12 +6394,12 @@ window.APP_DATA = {
           "id": "e1_q16",
           "question": "'What is your ______?' — 'I work as a professional software engineer.'",
           "options": [
+            "nickname",
             "address",
             "date of birth",
-            "occupation",
-            "nickname"
+            "occupation"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 3,
           "explanation": "'Occupation' refers to a person's profession, trade, or line of employment.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6408,11 +6408,11 @@ window.APP_DATA = {
           "question": "'______ are you studying English tonight?' — 'Because I have an exam tomorrow morning!'",
           "options": [
             "When",
-            "Where",
             "Why",
+            "Where",
             "Who"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "'Why' asks for reasons and motivations, elicited by the subordinate connector 'Because'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6420,12 +6420,12 @@ window.APP_DATA = {
           "id": "e1_q18",
           "question": "What is the appropriate polite response to: 'Thank you so much'?",
           "options": [
-            "You're welcome.",
-            "Excuse me.",
             "Fine, thanks.",
-            "Good night."
+            "You're welcome.",
+            "Good night.",
+            "Excuse me."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'You're welcome' is the standard polite acknowledgement for an expression of gratitude.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6433,12 +6433,12 @@ window.APP_DATA = {
           "id": "e1_q19",
           "question": "'Where ______ Colin and Jean?' — 'They are in the conference hall.'",
           "options": [
-            "is",
-            "am",
             "are",
+            "am",
+            "is",
             "be"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "The subject 'Colin and Jean' is compound plural, requiring the plural verb 'are'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6446,12 +6446,12 @@ window.APP_DATA = {
           "id": "e1_q20",
           "question": "Which field on a hotel registration form indicates the day, month, and year a person was born?",
           "options": [
-            "Arrival date",
             "Date of birth",
-            "Telephone number",
-            "Nationality"
+            "Nationality",
+            "Arrival date",
+            "Telephone number"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'Date of birth' indicates the precise date someone was born.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         }
@@ -6469,12 +6469,12 @@ window.APP_DATA = {
           "id": "e2_q1",
           "question": "The public library is situated ______ the school and the health club.",
           "options": [
-            "between",
             "next to",
-            "across from",
-            "on the corner of"
+            "between",
+            "on the corner of",
+            "across from"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Between' indicates a physical position located in the space separating two distinct landmarks.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6495,12 +6495,12 @@ window.APP_DATA = {
           "id": "e2_q3",
           "question": "Choose the most polite phrasing for making a hotel room reservation:",
           "options": [
-            "I want a room right now.",
-            "Give me a room for two days.",
+            "Why don't you give me a room?",
             "I would like to make a reservation, please.",
-            "Why don't you give me a room?"
+            "I want a room right now.",
+            "Give me a room for two days."
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "'I would like to...' is the polite modal equivalent of 'I want' in formal service encounters.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -6508,12 +6508,12 @@ window.APP_DATA = {
           "id": "e2_q4",
           "question": "The city bus stop is located ______ First Avenue and Main Street.",
           "options": [
-            "on the corner of",
+            "across",
             "between of",
             "next",
-            "across"
+            "on the corner of"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The fixed prepositional phrase for a street intersection is 'on the corner of [Street A] and [Street B]'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -6521,12 +6521,12 @@ window.APP_DATA = {
           "id": "e2_q5",
           "question": "'Is the international airport near the city center?' — 'No, it isn't. It is ______ the city.'",
           "options": [
-            "next to",
+            "on",
             "near to",
-            "far from",
-            "on"
+            "next to",
+            "far from"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 3,
           "explanation": "'Far from' describes a large physical distance, directly opposing 'near'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6534,12 +6534,12 @@ window.APP_DATA = {
           "id": "e2_q6",
           "question": "Which modal verb politely asks permission to inspect a guest's travel document?",
           "options": [
-            "May I see your passport, please?",
             "Give me your passport.",
+            "May I see your passport, please?",
             "Must you give me your passport?",
             "Do you have a passport or not?"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'May I see...' is the formal, courteous modal construction for requesting permission or documents.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6549,8 +6549,8 @@ window.APP_DATA = {
           "options": [
             "Go",
             "Going",
-            "To go",
-            "Goes"
+            "Goes",
+            "To go"
           ],
           "correctAnswer": 0,
           "explanation": "Giving directions requires base imperative verbs: 'Go straight ahead'.",
@@ -6560,12 +6560,12 @@ window.APP_DATA = {
           "id": "e2_q8",
           "question": "The central park is ______ the high school; you just need to cross the street to reach it.",
           "options": [
-            "across from",
             "between",
             "far from",
-            "under"
+            "under",
+            "across from"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Across from' means on the opposite side of a street or roadway.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -6573,8 +6573,8 @@ window.APP_DATA = {
           "id": "e2_q9",
           "question": "Choose the polite phrase to ask someone to repeat what they just said:",
           "options": [
-            "Say that again.",
             "What did you say?",
+            "Say that again.",
             "Could you repeat that, please?",
             "Speak louder."
           ],
@@ -6586,10 +6586,10 @@ window.APP_DATA = {
           "id": "e2_q10",
           "question": "What is the role of the hotel 'concierge'?",
           "options": [
-            "To clean the swimming pool.",
+            "To guard the main parking lot gate.",
             "To assist guests with city tour bookings, reservations, and directions.",
-            "To cook dinner in the kitchen.",
-            "To guard the main parking lot gate."
+            "To clean the swimming pool.",
+            "To cook dinner in the kitchen."
           ],
           "correctAnswer": 1,
           "explanation": "A concierge is a specialized hotel professional assisting guests with local tours, bookings, and directions.",
@@ -6599,12 +6599,12 @@ window.APP_DATA = {
           "id": "e2_q11",
           "question": "Which expression indicates that a traveler is visiting a country for work rather than tourism?",
           "options": [
-            "on vacation",
-            "on business",
+            "on break",
             "on holiday",
-            "on break"
+            "on business",
+            "on vacation"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'On business' means traveling for professional, corporate, or employment obligations.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6612,12 +6612,12 @@ window.APP_DATA = {
           "id": "e2_q12",
           "question": "'Could you ______ your last name?' — 'Certainly. It's A-T-K-I-N-S-O-N.'",
           "options": [
-            "speak",
-            "spell",
             "write",
-            "hear"
+            "speak",
+            "hear",
+            "spell"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Spell' means to name or write the individual letters of a word in sequence.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6625,12 +6625,12 @@ window.APP_DATA = {
           "id": "e2_q13",
           "question": "'Where can I find out about city tours?' — 'With the concierge. He's at the desk ______.'",
           "options": [
-            "to the right",
-            "on across",
             "between",
-            "next"
+            "next",
+            "to the right",
+            "on across"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'To the right' is an adverbial prepositional phrase indicating relative direction.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6638,12 +6638,12 @@ window.APP_DATA = {
           "id": "e2_q14",
           "question": "The hotel restaurant is located directly ______ the elevators on your right.",
           "options": [
-            "behind",
             "under",
             "away",
-            "between"
+            "between",
+            "behind"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Behind' indicates at the back or rear of the elevator shafts.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -6651,12 +6651,12 @@ window.APP_DATA = {
           "id": "e2_q15",
           "question": "What does S.A.Y.H.A. stand for in the context of Saudi youth accommodations?",
           "options": [
-            "Saudi Arabian Youth Hostels Association",
-            "Saudi Aviation Young Heroes Academy",
+            "Saudi Architectural Youth Heritage Association",
             "Southern Asian Youth Housing Agency",
-            "Saudi Architectural Youth Heritage Association"
+            "Saudi Arabian Youth Hostels Association",
+            "Saudi Aviation Young Heroes Academy"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "S.A.Y.H.A. is the official acronym for the Saudi Arabian Youth Hostels Association.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -6664,12 +6664,12 @@ window.APP_DATA = {
           "id": "e2_q16",
           "question": "Complete the instruction: '______ left at the next traffic light onto Park Street.'",
           "options": [
-            "Turning",
             "Turn",
             "Turns",
-            "To turn"
+            "To turn",
+            "Turning"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Imperative instructions in giving street directions use the bare infinitive verb: 'Turn left'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -6677,12 +6677,12 @@ window.APP_DATA = {
           "id": "e2_q17",
           "question": "If someone accidentally bumps into you at the hotel lobby and says 'I'm so sorry', you reply:",
           "options": [
-            "You're welcome.",
             "That's all right.",
+            "Here you are.",
             "Good night.",
-            "Here you are."
+            "You're welcome."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'That's all right' is the accepted conversational reassurance to an apology.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -6690,12 +6690,12 @@ window.APP_DATA = {
           "id": "e2_q18",
           "question": "'How long are you staying with us?' asks for the guest's:",
           "options": [
-            "Arrival date",
-            "Length of stay",
             "Credit card number",
-            "Nationality"
+            "Nationality",
+            "Length of stay",
+            "Arrival date"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'How long are you staying?' inquires specifically about the total duration (length of stay).",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -6703,12 +6703,12 @@ window.APP_DATA = {
           "id": "e2_q19",
           "question": "A key card in a modern hotel replaces which traditional object?",
           "options": [
-            "A telephone",
             "A metal door key",
             "A credit card",
+            "A telephone",
             "An identification passport"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "An electronic key card replaces the traditional metal key to open hotel doors.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -6716,10 +6716,10 @@ window.APP_DATA = {
           "id": "e2_q20",
           "question": "Which of the following phrases is the most polite request for a hotel receipt?",
           "options": [
-            "Give me the bill immediately.",
+            "You must give me the bill.",
             "May I have the receipt, please?",
-            "Where is my receipt?",
-            "You must give me the bill."
+            "Give me the bill immediately.",
+            "Where is my receipt?"
           ],
           "correctAnswer": 1,
           "explanation": "'May I have [noun], please?' is the most courteous and respectful formal customer request.",
@@ -6739,10 +6739,10 @@ window.APP_DATA = {
           "id": "e3_q1",
           "question": "What are you doing right now? — 'I ______ for my final exam.'",
           "options": [
-            "study",
-            "am studying",
             "is studying",
-            "are studying"
+            "am studying",
+            "are studying",
+            "study"
           ],
           "correctAnswer": 1,
           "explanation": "The first-person singular 'I' requires 'am' + present participle: 'am studying'.",
@@ -6752,12 +6752,12 @@ window.APP_DATA = {
           "id": "e3_q2",
           "question": "Look! The director ______ to Brad Novak, the lead actor.",
           "options": [
-            "talks",
             "is talking",
+            "talking",
             "are talking",
-            "talking"
+            "talks"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "The singular subject 'the director' takes auxiliary 'is' followed by the '-ing' participle for an action happening now.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -6765,12 +6765,12 @@ window.APP_DATA = {
           "id": "e3_q3",
           "question": "Which spelling of the '-ing' participle is correct for the verb 'make'?",
           "options": [
-            "makeing",
             "making",
-            "makking",
-            "maken"
+            "makeing",
+            "maken",
+            "makking"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Verbs ending in a silent '-e' drop the '-e' before suffixing '-ing' (make -> making).",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6778,12 +6778,12 @@ window.APP_DATA = {
           "id": "e3_q4",
           "question": "Why is 'The actor is runing away' grammatically incorrect?",
           "options": [
-            "Because 'run' cannot be used in the progressive.",
-            "Because one-syllable verbs ending in consonant-vowel-consonant must double the final consonant ('running').",
             "Because 'actor' requires 'are'.",
-            "Because 'away' is a noun."
+            "Because 'away' is a noun.",
+            "Because one-syllable verbs ending in consonant-vowel-consonant must double the final consonant ('running').",
+            "Because 'run' cannot be used in the progressive."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Run' has a CVC structure (r-u-n); therefore, the final consonant must be doubled: 'running'.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -6791,12 +6791,12 @@ window.APP_DATA = {
           "id": "e3_q5",
           "question": "'______ Brad and Adam rehearsing the scene?' — 'Yes, they are.'",
           "options": [
+            "Do",
             "Is",
-            "Are",
             "Am",
-            "Do"
+            "Are"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Brad and Adam' is a plural compound subject, requiring the auxiliary 'Are'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6806,8 +6806,8 @@ window.APP_DATA = {
           "options": [
             "I am wanting a bottle of cold water.",
             "I want a bottle of cold water.",
-            "I wanting a bottle of cold water.",
-            "I am want a bottle of cold water."
+            "I am want a bottle of cold water.",
+            "I wanting a bottle of cold water."
           ],
           "correctAnswer": 1,
           "explanation": "'Want' is a stative verb expressing desire; it is not used in the progressive tense.",
@@ -6817,12 +6817,12 @@ window.APP_DATA = {
           "id": "e3_q7",
           "question": "The fresh soup in the kitchen ______ delicious, but it ______ too hot to eat.",
           "options": [
-            "smells / is",
-            "is smelling / is",
             "smell / are",
-            "smelling / is"
+            "smelling / is",
+            "is smelling / is",
+            "smells / is"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Smell' describing a sensory quality is stative and takes the simple present singular ('smells').",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6830,12 +6830,12 @@ window.APP_DATA = {
           "id": "e3_q8",
           "question": "'Is the cameraman filming the interview?' — 'No, ______.'",
           "options": [
-            "he isn't",
-            "he aren't",
             "he not",
+            "he aren't",
+            "he isn't",
             "he doesn't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The negative short answer for a singular male subject in the progressive is 'No, he isn't'.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -6843,12 +6843,12 @@ window.APP_DATA = {
           "id": "e3_q9",
           "question": "'What are you doing tomorrow morning?' — 'We ______ a documentary about dolphins.'",
           "options": [
-            "filming",
             "are filming",
-            "films",
-            "filmed"
+            "filmed",
+            "filming",
+            "films"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "The present progressive can express definite future plans: 'We are filming'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6856,9 +6856,9 @@ window.APP_DATA = {
           "id": "e3_q10",
           "question": "Which of the following verbs is a stative verb of sensory perception that avoids '-ing'?",
           "options": [
-            "jump",
-            "hear",
             "run",
+            "hear",
+            "jump",
             "feed"
           ],
           "correctAnswer": 1,
@@ -6869,12 +6869,12 @@ window.APP_DATA = {
           "id": "e3_q11",
           "question": "'Help! The ladder is ______!'",
           "options": [
+            "breaks",
             "break",
-            "breaking",
             "broken",
-            "breaks"
+            "breaking"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "Progressive aspect describing an ongoing physical event requires auxiliary 'is' + 'breaking'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6882,12 +6882,12 @@ window.APP_DATA = {
           "id": "e3_q12",
           "question": "The director shouted: 'Chen, you're doing fine. ______!'",
           "options": [
-            "That's wrong",
             "That's great",
+            "That's wrong",
             "I'm sorry",
             "Go away"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'That's great' is the targeted expression of enthusiastic approval in Unit 2.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -6895,12 +6895,12 @@ window.APP_DATA = {
           "id": "e3_q13",
           "question": "'Kim and Wang, what are you doing? It ______ lunch time yet!'",
           "options": [
-            "is not",
+            "not",
             "are not",
             "am not",
-            "not"
+            "is not"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'It' is third-person singular neuter, requiring 'is not' (or 'isn't').",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6908,12 +6908,12 @@ window.APP_DATA = {
           "id": "e3_q14",
           "question": "Which verb doubles its final consonant when forming the present participle?",
           "options": [
-            "sleep",
-            "sit",
+            "jump",
             "read",
-            "jump"
+            "sleep",
+            "sit"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Sit' is a single syllable ending in CVC (s-i-t); hence, 'sitting' doubles the 't'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6934,12 +6934,12 @@ window.APP_DATA = {
           "id": "e3_q16",
           "question": "What is the primary function of a 'stuntman' in movie production?",
           "options": [
-            "To operate the sound equipment.",
-            "To perform dangerous or spectacular physical actions in place of an actor.",
+            "To sell tickets at the cinema.",
             "To write the dialogue script.",
-            "To sell tickets at the cinema."
+            "To perform dangerous or spectacular physical actions in place of an actor.",
+            "To operate the sound equipment."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "A stuntman is a trained performer who substitutes for actors during hazardous scenes.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -6947,10 +6947,10 @@ window.APP_DATA = {
           "id": "e3_q17",
           "question": "'The script isn't going well, so the writer ______ a new version right now.'",
           "options": [
-            "writes",
-            "is writing",
             "write",
-            "writing"
+            "is writing",
+            "writing",
+            "writes"
           ],
           "correctAnswer": 1,
           "explanation": "An ongoing activity happening 'right now' requires present progressive: 'is writing'.",
@@ -6960,12 +6960,12 @@ window.APP_DATA = {
           "id": "e3_q18",
           "question": "Choose the correct question form:",
           "options": [
+            "What doing the actors are?",
             "What the actors are doing?",
             "What are the actors doing?",
-            "What is doing the actors?",
-            "What doing the actors are?"
+            "What is doing the actors?"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Wh- question word order requires: Question word + Auxiliary (are) + Subject (the actors) + Verb-ing (doing).",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6973,12 +6973,12 @@ window.APP_DATA = {
           "id": "e3_q19",
           "question": "'I ______ martial arts movies; they are my absolute favorite.'",
           "options": [
+            "loves",
             "am loving",
             "love",
-            "loving",
-            "loves"
+            "loving"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Love' is a stative emotion verb and takes simple present: 'I love'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -6986,12 +6986,12 @@ window.APP_DATA = {
           "id": "e3_q20",
           "question": "Which phrase expresses disapproval when an actor makes a mistake on set?",
           "options": [
+            "No, that's wrong.",
             "Excellent.",
             "That's great.",
-            "No, that's wrong.",
             "You're doing fine."
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "'No, that's wrong' is the direct communicative phrase used to indicate disapproval or an error.",
           "visualClue": "🎬 Media Studio & Film Production"
         }
@@ -7009,12 +7009,12 @@ window.APP_DATA = {
           "id": "e4_q1",
           "question": "The director commanded the actor: '______ around! Keep your eyes locked on the camera.'",
           "options": [
-            "Don't look",
             "Not look",
-            "No look",
-            "Doesn't look"
+            "Don't look",
+            "Doesn't look",
+            "No look"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Negative imperatives are constructed with 'Don't' + base verb: 'Don't look'.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7023,11 +7023,11 @@ window.APP_DATA = {
           "question": "In this action sequence, the brave stuntman is jumping ______ the stone wall.",
           "options": [
             "under",
-            "over",
+            "away",
             "inside",
-            "away"
+            "over"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Over' describes motion across the top of an obstacle from one side to the other.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7035,9 +7035,9 @@ window.APP_DATA = {
           "id": "e4_q3",
           "question": "'Why are you running ______? Come back immediately!'",
           "options": [
-            "over",
-            "away",
             "under",
+            "away",
+            "over",
             "inside"
           ],
           "correctAnswer": 1,
@@ -7048,12 +7048,12 @@ window.APP_DATA = {
           "id": "e4_q4",
           "question": "The cameraman is filming the scene. He is standing ______ the camera.",
           "options": [
-            "behind",
             "away",
             "over",
-            "under"
+            "under",
+            "behind"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "A camera operator operates the device from 'behind' the equipment.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7061,12 +7061,12 @@ window.APP_DATA = {
           "id": "e4_q5",
           "question": "Choose the correct negative imperative to stop someone from feeding the fish:",
           "options": [
-            "Don't feed the fish!",
             "Not feeding the fish!",
-            "You don't feed the fish!",
-            "No feed fish!"
+            "Don't feed the fish!",
+            "No feed fish!",
+            "You don't feed the fish!"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Negative imperatives use 'Don't' + base verb: 'Don't feed the fish!'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7075,9 +7075,9 @@ window.APP_DATA = {
           "question": "The actors are ready to perform ______ the camera.",
           "options": [
             "in front of",
-            "away",
+            "over",
             "under",
-            "over"
+            "away"
           ],
           "correctAnswer": 0,
           "explanation": "Performers stand in the field of view, which is 'in front of' the camera lens.",
@@ -7087,12 +7087,12 @@ window.APP_DATA = {
           "id": "e4_q7",
           "question": "They are filming the historical adventure scenes ______ on location in the desert.",
           "options": [
-            "live",
             "stunt",
-            "crew",
-            "script"
+            "script",
+            "live",
+            "crew"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Live on location' is the standard media production terminology.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7101,11 +7101,11 @@ window.APP_DATA = {
           "question": "Which sentence provides polite advice using an affirmative imperative?",
           "options": [
             "You must eat the pizza.",
+            "Eating the pizza now.",
             "Try the pizza; it's excellent.",
-            "Why aren't you eating pizza?",
-            "Eating the pizza now."
+            "Why aren't you eating pizza?"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Imperatives beginning with the base verb ('Try the pizza') are routinely used to give advice.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7113,12 +7113,12 @@ window.APP_DATA = {
           "id": "e4_q9",
           "question": "The marine biology crew is making a documentary about coral reefs ______ water.",
           "options": [
-            "over",
             "under",
             "behind",
+            "over",
             "away"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "Submarine research takes place beneath the surface of the sea, which is 'under water'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7126,12 +7126,12 @@ window.APP_DATA = {
           "id": "e4_q10",
           "question": "'Chen, ______ the ladder before it falls!'",
           "options": [
-            "holds",
-            "hold",
             "holding",
-            "to hold"
+            "to hold",
+            "hold",
+            "holds"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "Affirmative imperative commands begin with the base infinitive form of the verb: 'Hold'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7140,9 +7140,9 @@ window.APP_DATA = {
           "question": "The thieves got ______ in a high-speed sports car before police arrived.",
           "options": [
             "away",
-            "over",
             "inside",
-            "under"
+            "under",
+            "over"
           ],
           "correctAnswer": 0,
           "explanation": "'Get away' is an idiom meaning to escape or make a quick exit.",
@@ -7152,10 +7152,10 @@ window.APP_DATA = {
           "id": "e4_q12",
           "question": "Which connector is best suited to introduce an example: 'Students use online resources, ______ dictionaries and encyclopedias.'",
           "options": [
-            "because",
+            "why",
             "such as",
-            "so",
-            "why"
+            "because",
+            "so"
           ],
           "correctAnswer": 1,
           "explanation": "'Such as' introduces specific categorical examples that support a preceding noun phrase.",
@@ -7166,9 +7166,9 @@ window.APP_DATA = {
           "question": "'Please ______ down on the chair quietly while we record audio.'",
           "options": [
             "sits",
-            "sitting",
+            "to sit",
             "sit",
-            "to sit"
+            "sitting"
           ],
           "correctAnswer": 2,
           "explanation": "Polite imperatives with 'Please' require the base form of the verb: 'Please sit'.",
@@ -7179,11 +7179,11 @@ window.APP_DATA = {
           "question": "What is the opposite preposition of 'inside'?",
           "options": [
             "behind",
-            "outside",
             "over",
-            "away"
+            "away",
+            "outside"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Outside' is the direct spatial antonym of 'inside'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7191,12 +7191,12 @@ window.APP_DATA = {
           "id": "e4_q15",
           "question": "'Did you complete that robotics project with a partner?' — 'No, I built it ______.'",
           "options": [
-            "all by myself",
             "not at all",
+            "all by myself",
             "so so",
             "excuse me"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'All by myself' is the Real Talk expression indicating completely unassisted solitary work.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7204,12 +7204,12 @@ window.APP_DATA = {
           "id": "e4_q16",
           "question": "Choose the connector that introduces a direct cause or explanation:",
           "options": [
-            "for example",
             "because",
-            "such as",
-            "like"
+            "for example",
+            "like",
+            "such as"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'Because' introduces a causal clause explaining the rationale or reason behind an action.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7218,9 +7218,9 @@ window.APP_DATA = {
           "question": "'Don't ______ that mushroom soup; it tastes awful!'",
           "options": [
             "have",
-            "having",
             "had",
-            "to have"
+            "to have",
+            "having"
           ],
           "correctAnswer": 0,
           "explanation": "Negative imperatives ('Don't') are followed strictly by the bare infinitive: 'Don't have'.",
@@ -7230,12 +7230,12 @@ window.APP_DATA = {
           "id": "e4_q18",
           "question": "The little mouse is safe ______ the box, away from the prowling cat.",
           "options": [
-            "inside",
-            "over",
             "away",
-            "under"
+            "under",
+            "inside",
+            "over"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Inside' specifies being located within the interior perimeter of the box.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -7244,11 +7244,11 @@ window.APP_DATA = {
           "question": "What is the written text containing dialogue and scene directions for a movie called?",
           "options": [
             "A documentary",
-            "A script",
             "A ladder",
-            "An episode"
+            "An episode",
+            "A script"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "A 'script' is the written screenplay or dramatic text used by actors and directors.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -7256,12 +7256,12 @@ window.APP_DATA = {
           "id": "e4_q20",
           "question": "In the sentence 'Many students watch videos, for instance, in science class', 'for instance' is synonymous with:",
           "options": [
-            "because",
-            "for example",
             "especially",
-            "instead"
+            "instead",
+            "because",
+            "for example"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'For instance' and 'for example' are interchangeable transitional markers introducing exemplary cases.",
           "visualClue": "💻 Digital Learning & Technology"
         }
@@ -7279,12 +7279,12 @@ window.APP_DATA = {
           "id": "e5_q1",
           "question": "Adam Scott usually ______ a smart detective, but in today's scene he ______ an explosion and runs.",
           "options": [
-            "is playing / is hearing",
             "plays / hears",
+            "is playing / is hearing",
             "play / hear",
             "is playing / hears"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'Usually' triggers simple present ('plays'). 'Hear' is a stative perception verb that must remain in simple present ('hears').",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7293,11 +7293,11 @@ window.APP_DATA = {
           "question": "Which of the following questions demonstrates faultless grammatical syntax?",
           "options": [
             "Why you are standing outside the studio?",
-            "Why are you standing outside the studio?",
+            "Why you stand outside the studio?",
             "Why are you stand outside the studio?",
-            "Why you stand outside the studio?"
+            "Why are you standing outside the studio?"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "Standard Wh- progressive question syntax requires: Wh-word + Auxiliary (are) + Subject (you) + Verb-ing (standing).",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7305,12 +7305,12 @@ window.APP_DATA = {
           "id": "e5_q3",
           "question": "'Are you and your brother staying at the youth hostel?' — 'Yes, ______.'",
           "options": [
-            "we're",
             "we are",
+            "we're",
             "they are",
             "I am"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "'You and your brother' is second-person plural, answered in the first-person plural 'we'. Affirmative short answers cannot be contracted.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7318,12 +7318,12 @@ window.APP_DATA = {
           "id": "e5_q4",
           "question": "Identify the sentence that contains a serious grammatical error:",
           "options": [
-            "I love watching science documentaries online.",
-            "The chef is making soup in the studio kitchen.",
             "The student is wanting to connect his webcam.",
-            "The stuntman is jumping over the brick wall."
+            "The chef is making soup in the studio kitchen.",
+            "The stuntman is jumping over the brick wall.",
+            "I love watching science documentaries online."
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "'Want' is a stative verb of desire and cannot take the progressive aspect: 'The student wants to connect...' is correct.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7331,12 +7331,12 @@ window.APP_DATA = {
           "id": "e5_q5",
           "question": "'Where ______ the museum?' — 'It is on the corner of Second Street, ______ the library and the post office.'",
           "options": [
-            "is / between",
-            "are / next to",
             "is / across from",
-            "are / between"
+            "is / between",
+            "are / between",
+            "are / next to"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Singular 'museum' takes 'is'. Being positioned between two landmarks requires 'between'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -7344,12 +7344,12 @@ window.APP_DATA = {
           "id": "e5_q6",
           "question": "'Look! The thieves ______ away in a black SUV!'",
           "options": [
-            "run",
             "are running",
+            "running",
             "is running",
-            "running"
+            "run"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "An ongoing action witnessed at the moment ('Look!') with a plural subject ('the thieves') requires 'are running'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7357,12 +7357,12 @@ window.APP_DATA = {
           "id": "e5_q7",
           "question": "Why is the short answer 'Yes, it's' ungrammatical in English?",
           "options": [
+            "Because questions with 'is' must be answered with 'does'.",
             "Because 'it' cannot be used for inanimate objects.",
-            "Because monosyllabic affirmative short answers require full stress on the auxiliary verb and cannot be reduced into a contraction.",
             "Because 'it's' only means 'it has'.",
-            "Because questions with 'is' must be answered with 'does'."
+            "Because monosyllabic affirmative short answers require full stress on the auxiliary verb and cannot be reduced into a contraction."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "In English phonology, the verb in an affirmative short answer carries nuclear sentence stress and cannot be phonologically reduced to a contraction.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7383,12 +7383,12 @@ window.APP_DATA = {
           "id": "e5_q9",
           "question": "'What ______ tomorrow evening?' — 'I am meeting my cousin at the hotel.'",
           "options": [
-            "do you do",
-            "are you doing",
             "did you do",
-            "have you done"
+            "have you done",
+            "are you doing",
+            "do you do"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "The present progressive is the natural grammatical choice to ask about pre-arranged personal future plans.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -7396,12 +7396,12 @@ window.APP_DATA = {
           "id": "e5_q10",
           "question": "Which of the following word pairs are antonyms (opposites) in spatial meaning?",
           "options": [
+            "inside / within",
             "near / far from",
-            "between / across from",
             "next to / beside",
-            "inside / within"
+            "between / across from"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Near' (close in proximity) and 'far from' (distant in proximity) are exact antonyms.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7409,12 +7409,12 @@ window.APP_DATA = {
           "id": "e5_q11",
           "question": "Select the correct spelling of the progressive form for the verb 'die' (as in 'the engine is...'):",
           "options": [
-            "dieing",
-            "dying",
             "dyeing",
-            "diing"
+            "dieing",
+            "diing",
+            "dying"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "Verbs ending in '-ie' change '-ie' to '-y' before adding '-ing' (die -> dying, tie -> tying).",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7424,8 +7424,8 @@ window.APP_DATA = {
           "options": [
             "Why",
             "Where",
-            "Who",
-            "When"
+            "When",
+            "Who"
           ],
           "correctAnswer": 0,
           "explanation": "'Why' asks for purpose or reason, eliciting an infinitive of purpose ('To attend...').",
@@ -7435,12 +7435,12 @@ window.APP_DATA = {
           "id": "e5_q13",
           "question": "The sentence 'The camera operator is standing behind of the tripod' is incorrect because:",
           "options": [
-            "'behind' is already a complete preposition and does not take 'of'.",
-            "'cameraman' is the only accepted word.",
             "'tripod' must come first.",
+            "'cameraman' is the only accepted word.",
+            "'behind' is already a complete preposition and does not take 'of'.",
             "'standing' should be 'stood'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Prepositions like 'behind', 'inside', and 'over' do not take 'of'. 'Behind the tripod' is correct.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7448,12 +7448,12 @@ window.APP_DATA = {
           "id": "e5_q14",
           "question": "Which sentence correctly uses 'would like' as a polite request?",
           "options": [
-            "I would like making a reservation.",
-            "I would like to make a reservation.",
             "I would liking to make a reservation.",
-            "I would like make a reservation."
+            "I would like making a reservation.",
+            "I would like make a reservation.",
+            "I would like to make a reservation."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Would like' is followed by a to-infinitive: 'would like to make'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7461,10 +7461,10 @@ window.APP_DATA = {
           "id": "e5_q15",
           "question": "Which verb forms a regular '-ing' participle WITHOUT doubling its final consonant?",
           "options": [
-            "run",
+            "sit",
             "swim",
             "sleep",
-            "sit"
+            "run"
           ],
           "correctAnswer": 2,
           "explanation": "'Sleep' contains a double vowel ('ee'); hence, it does not fit the CVC rule and simply takes '-ing': 'sleeping'.",
@@ -7474,12 +7474,12 @@ window.APP_DATA = {
           "id": "e5_q16",
           "question": "'______ me. Could you please tell me where the reception desk is?'",
           "options": [
-            "Excuse",
             "Pardon",
-            "Forgive",
-            "Apologize"
+            "Excuse",
+            "Apologize",
+            "Forgive"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Excuse me' is the customary formula used to initiate a polite inquiry with a stranger.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7487,12 +7487,12 @@ window.APP_DATA = {
           "id": "e5_q17",
           "question": "'Chen, don't look around! ______ your lines to the camera.'",
           "options": [
-            "Speaking",
-            "Speak",
             "To speak",
-            "Speaks"
+            "Speaks",
+            "Speaking",
+            "Speak"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "Affirmative imperative directives take the bare infinitive: 'Speak your lines'.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7500,12 +7500,12 @@ window.APP_DATA = {
           "id": "e5_q18",
           "question": "Which sentence correctly expresses sensory impression without grammatical error?",
           "options": [
+            "The fresh bread is smell fantastic.",
             "The fresh bread is smelling fantastic.",
             "The fresh bread smells fantastic.",
-            "The fresh bread smelling fantastic.",
-            "The fresh bread is smell fantastic."
+            "The fresh bread smelling fantastic."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Smell' as a linking verb expressing an olfactory quality is stative: 'The bread smells fantastic'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7513,12 +7513,12 @@ window.APP_DATA = {
           "id": "e5_q19",
           "question": "'Are the new students from Saudi Arabia?' — 'Yes, ______.'",
           "options": [
+            "we are",
             "they are",
             "they're",
-            "we are",
             "he is"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'The new students' is plural ('they'); affirmative short answers must use the full form 'they are'.",
           "visualClue": "🇸🇦 Saudi Cultural Geography"
         },
@@ -7526,12 +7526,12 @@ window.APP_DATA = {
           "id": "e5_q20",
           "question": "Choose the sentence that correctly uses prepositions of motion and position:",
           "options": [
-            "The cat jumped under over the table.",
-            "The stuntman jumped over the barrier and ran away.",
             "The actors are performing away the camera.",
-            "The director is sitting behind to the monitor."
+            "The director is sitting behind to the monitor.",
+            "The stuntman jumped over the barrier and ran away.",
+            "The cat jumped under over the table."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Jumped over the barrier and ran away' correctly employs 'over' for dynamic clearance and 'away' for departure.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         }
@@ -7549,12 +7549,12 @@ window.APP_DATA = {
           "id": "e6_q1",
           "question": "A traveler who travels cheaply, carrying their belongings in a large backpack and staying in hostels, is called a:",
           "options": [
+            "stuntman",
             "backpacker",
             "bellhop",
-            "concierge",
-            "stuntman"
+            "concierge"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A 'backpacker' is a low-budget independent traveler who carries their luggage in a backpack.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7563,11 +7563,11 @@ window.APP_DATA = {
           "question": "Which word refers to an electronic plastic card used to unlock hotel room doors?",
           "options": [
             "Credit card",
-            "Key card",
             "Identity card",
-            "Postcard"
+            "Postcard",
+            "Key card"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "A 'key card' contains encoded electronic data designed to open modern hotel doors.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -7575,12 +7575,12 @@ window.APP_DATA = {
           "id": "e6_q3",
           "question": "What is the collective noun for the group of technicians and operators working on a film production?",
           "options": [
+            "Host",
             "Crew",
             "Audience",
-            "Cast",
-            "Host"
+            "Cast"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Crew' is the specialized collective term for technical personnel on a film or television set.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -7588,12 +7588,12 @@ window.APP_DATA = {
           "id": "e6_q4",
           "question": "Which term describes learning conducted via electronic media and the Internet?",
           "options": [
-            "E-learning",
-            "Location",
             "Episode",
-            "Script"
+            "Script",
+            "Location",
+            "E-learning"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'E-learning' refers specifically to web-based, computer-supported education and digital courses.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7601,12 +7601,12 @@ window.APP_DATA = {
           "id": "e6_q5",
           "question": "A person taking part in an event, meeting, or conference is officially termed a:",
           "options": [
-            "participant",
-            "director",
             "stuntman",
-            "concierge"
+            "participant",
+            "concierge",
+            "director"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A 'participant' is someone who attends and actively participates in an organized gathering.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7614,12 +7614,12 @@ window.APP_DATA = {
           "id": "e6_q6",
           "question": "Which verb means to supply food to an animal, pet, or human?",
           "options": [
-            "Film",
-            "Feed",
             "Feel",
-            "Fit"
+            "Fit",
+            "Film",
+            "Feed"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "'Feed' means to give food to nourish animals or people.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7627,12 +7627,12 @@ window.APP_DATA = {
           "id": "e6_q7",
           "question": "Sports of combat and physical self-defense, such as judo, karate, or kung fu, are termed:",
           "options": [
-            "martial arts",
-            "documentaries",
             "hostels",
+            "documentaries",
+            "martial arts",
             "episodes"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Martial arts' is the comprehensive term for traditional fighting and defense disciplines.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7641,9 +7641,9 @@ window.APP_DATA = {
           "question": "What is the room in a youth hostel equipped with washing machines and dryers called?",
           "options": [
             "Laundry room",
-            "Reception desk",
+            "Elevator",
             "Studio",
-            "Elevator"
+            "Reception desk"
           ],
           "correctAnswer": 0,
           "explanation": "A 'laundry room' is a designated space for washing and drying clothing.",
@@ -7653,12 +7653,12 @@ window.APP_DATA = {
           "id": "e6_q9",
           "question": "A television program telling a dramatic story across multiple weekly installments is a:",
           "options": [
-            "TV series",
-            "documentary",
             "webcam",
-            "script"
+            "script",
+            "TV series",
+            "documentary"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A 'TV series' consists of multiple episodes telling an ongoing narrative.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -7667,9 +7667,9 @@ window.APP_DATA = {
           "question": "What is a single broadcast episode of a television drama called?",
           "options": [
             "An episode",
-            "A script",
+            "A stunt",
             "A location",
-            "A stunt"
+            "A script"
           ],
           "correctAnswer": 0,
           "explanation": "An 'episode' is an individual broadcast part of a serialized show.",
@@ -7679,12 +7679,12 @@ window.APP_DATA = {
           "id": "e6_q11",
           "question": "Which adjective describes items or lodging that do not cost a lot of money?",
           "options": [
-            "Inexpensive",
-            "Luxury",
+            "Stative",
             "Dangerous",
-            "Stative"
+            "Inexpensive",
+            "Luxury"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Inexpensive' is an exact synonym for affordable or budget-friendly.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7693,8 +7693,8 @@ window.APP_DATA = {
           "question": "What device allows online language students to see and speak with their teachers in real time?",
           "options": [
             "A webcam",
-            "A ladder",
             "A key card",
+            "A ladder",
             "A reservation"
           ],
           "correctAnswer": 0,
@@ -7705,12 +7705,12 @@ window.APP_DATA = {
           "id": "e6_q13",
           "question": "Which expression means you completed an entire task completely alone without help?",
           "options": [
-            "All by myself",
             "Here you are",
             "Not at all",
-            "Have a nice stay"
+            "Have a nice stay",
+            "All by myself"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'All by myself' denotes doing an action with complete autonomy, without assistance.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7718,12 +7718,12 @@ window.APP_DATA = {
           "id": "e6_q14",
           "question": "To give money in exchange for hotel rooms or merchandise is to:",
           "options": [
-            "pay for",
-            "fill in",
             "check into",
-            "look around"
+            "look around",
+            "pay for",
+            "fill in"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Pay for' means to transfer financial funds in exchange for goods or services.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -7732,9 +7732,9 @@ window.APP_DATA = {
           "question": "The person in charge of guiding the dramatic performance of actors on a film set is the:",
           "options": [
             "director",
-            "cameraman",
             "stuntman",
-            "bellhop"
+            "bellhop",
+            "cameraman"
           ],
           "correctAnswer": 0,
           "explanation": "The 'director' is the artistic leader who instructs actors and shapes the film.",
@@ -7744,12 +7744,12 @@ window.APP_DATA = {
           "id": "e6_q16",
           "question": "An investigator whose professional job is to solve mysterious crimes is a:",
           "options": [
-            "detective",
             "participant",
             "concierge",
+            "detective",
             "tourist"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A 'detective' is an investigator specializing in criminal cases.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7757,12 +7757,12 @@ window.APP_DATA = {
           "id": "e6_q17",
           "question": "To mix socially and make friends with people from diverse backgrounds is to:",
           "options": [
+            "shoot",
             "socialize",
-            "spell",
             "rehearse",
-            "shoot"
+            "spell"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Socialize' means to engage in friendly interpersonal contact and communication.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7770,12 +7770,12 @@ window.APP_DATA = {
           "id": "e6_q18",
           "question": "Which expression conveys warm, enthusiastic approval of someone's correct effort?",
           "options": [
+            "Take care.",
             "That's great!",
-            "No, that's wrong.",
             "Excuse me.",
-            "Take care."
+            "No, that's wrong."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'That's great!' communicates positive feedback and validation.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -7784,9 +7784,9 @@ window.APP_DATA = {
           "question": "A place outside the studio where a movie is filmed in real-world environments is called a:",
           "options": [
             "location",
+            "festival",
             "form",
-            "ladder",
-            "festival"
+            "ladder"
           ],
           "correctAnswer": 0,
           "explanation": "In media production, filming 'on location' means shooting outside in natural or urban settings.",
@@ -7796,12 +7796,12 @@ window.APP_DATA = {
           "id": "e6_q20",
           "question": "The legal country where a person holds formal national citizenship is their:",
           "options": [
-            "nationality",
             "occupation",
+            "address",
             "nickname",
-            "address"
+            "nationality"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Nationality' specifies the nation of which a person is a legal citizen.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         }
@@ -7819,12 +7819,12 @@ window.APP_DATA = {
           "id": "e7_q1",
           "question": "Why are youth hostels considered the perfect solution for backpackers and student travelers?",
           "options": [
-            "Because regular hotels are often too expensive for their limited budgets.",
             "Because hostels are always located directly inside major airports.",
+            "Because staying in hostels is legally required for students.",
             "Because travelers are given free plane tickets.",
-            "Because staying in hostels is legally required for students."
+            "Because regular hotels are often too expensive for their limited budgets."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text states that backpackers and students on low budgets cannot afford regular hotels, making hostels the ideal budget solution.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7833,9 +7833,9 @@ window.APP_DATA = {
           "question": "How many youth hostels exist worldwide, and in how many countries?",
           "options": [
             "Over 4,000 hostels in more than 80 countries.",
+            "Over 400 hostels in 40 countries.",
             "Exactly 21 hostels in 80 countries.",
-            "Over 80 hostels in 21 countries.",
-            "Over 400 hostels in 40 countries."
+            "Over 80 hostels in 21 countries."
           ],
           "correctAnswer": 0,
           "explanation": "The text states: 'Today there are more than 4,000 hostels in over 80 countries'.",
@@ -7846,9 +7846,9 @@ window.APP_DATA = {
           "question": "In how many Saudi cities does S.A.Y.H.A. provide hostel accommodations?",
           "options": [
             "21 cities",
+            "12 cities",
             "80 cities",
-            "4,000 cities",
-            "12 cities"
+            "4,000 cities"
           ],
           "correctAnswer": 0,
           "explanation": "S.A.Y.H.A. provides hostel accommodations across 21 cities throughout the Kingdom of Saudi Arabia.",
@@ -7858,10 +7858,10 @@ window.APP_DATA = {
           "id": "e7_q4",
           "question": "What is one architectural feature that makes some international hostels uniquely interesting?",
           "options": [
-            "They are built entirely of plastic.",
+            "They are constructed solely underground.",
             "Some are located inside historic buildings, castles, or even on boats.",
             "They do not have doors or windows.",
-            "They are constructed solely underground."
+            "They are built entirely of plastic."
           ],
           "correctAnswer": 1,
           "explanation": "The text highlights that 'Some hostels are even inside old historic buildings, castles, and on boats.'",
@@ -7871,12 +7871,12 @@ window.APP_DATA = {
           "id": "e7_q5",
           "question": "Why do guests in youth hostels have an easier time making friends compared to luxury hotels?",
           "options": [
-            "Because guests share communal spaces, rooms, and organized activities.",
-            "Because luxury hotels forbid speaking to anyone.",
+            "Because everyone in a hostel speaks only one language.",
             "Because hostel guests are required to sign friendship contracts.",
-            "Because everyone in a hostel speaks only one language."
+            "Because guests share communal spaces, rooms, and organized activities.",
+            "Because luxury hotels forbid speaking to anyone."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Sharing rooms, kitchens, and participating in organized tours and competitions creates rich socializing opportunities.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -7884,12 +7884,12 @@ window.APP_DATA = {
           "id": "e7_q6",
           "question": "What types of competitions does S.A.Y.H.A. organize for young hostel visitors?",
           "options": [
-            "Sports and painting competitions with community project awards.",
-            "Car racing and extreme martial arts fights.",
             "Computer hacking tournaments.",
-            "Culinary baking contests for professional chefs."
+            "Culinary baking contests for professional chefs.",
+            "Car racing and extreme martial arts fights.",
+            "Sports and painting competitions with community project awards."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The reading passage explicitly mentions S.A.Y.H.A. sports and painting competitions and prizes for community projects.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7897,12 +7897,12 @@ window.APP_DATA = {
           "id": "e7_q7",
           "question": "According to 'E-Learning Is Easy!', how do modern teachers use web videos in class?",
           "options": [
-            "To help students understand difficult subjects like geography and science visually.",
             "To replace all homework and grading completely.",
+            "To teach students how to become cinema camera operators.",
             "To test whether the internet connection works.",
-            "To teach students how to become cinema camera operators."
+            "To help students understand difficult subjects like geography and science visually."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Web videos allow students to visualize active volcanoes, technology, and global warming to understand science and geography.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -7910,12 +7910,12 @@ window.APP_DATA = {
           "id": "e7_q8",
           "question": "What is the Khan Academy praised for in the reading passage?",
           "options": [
+            "Selling textbooks and calculators to schools.",
             "Providing over 3,000 video lessons in various subjects completely free of charge.",
             "Being the most expensive private online university in the world.",
-            "Selling textbooks and calculators to schools.",
             "Producing action movies for cinemas."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Khan Academy is highlighted for offering over 3,000 video lessons in math, science, economics, and history for free.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -7936,12 +7936,12 @@ window.APP_DATA = {
           "id": "e7_q10",
           "question": "Which practical, non-academic skills does the passage mention you can learn from free online videos?",
           "options": [
-            "Baking a cheesecake or playing golf.",
             "Piloting a commercial passenger jetliner.",
+            "Baking a cheesecake or playing golf.",
             "Performing surgery in a hospital.",
             "Designing a skyscraper building."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The text asks: 'Do you want to know how to make a cheesecake or learn how to play golf? Free how-to videos online can teach you.'",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -7949,12 +7949,12 @@ window.APP_DATA = {
           "id": "e7_q11",
           "question": "Based on the hostel passage, can guests cook their own meals in all hostels?",
           "options": [
-            "Yes, every hostel in the world has a personal kitchen in every bedroom.",
-            "No, but some hostels offer cooking facilities like a shared kitchen with pots and dishes.",
+            "Yes, but only if they are professional certified chefs.",
             "No, cooking is strictly illegal in all youth hostels.",
-            "Yes, but only if they are professional certified chefs."
+            "No, but some hostels offer cooking facilities like a shared kitchen with pots and dishes.",
+            "Yes, every hostel in the world has a personal kitchen in every bedroom."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "The text states: 'Some hostels also offer cooking facilities', meaning it is available in some, but not all hostels.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7962,12 +7962,12 @@ window.APP_DATA = {
           "id": "e7_q12",
           "question": "What is the primary conclusion of the article 'E-Learning Is Easy!'?",
           "options": [
-            "E-learning is accessible to anyone and makes learning simple and flexible.",
-            "Traditional schools will close completely next year.",
             "Only computer experts can understand internet lessons.",
-            "Online videos should only be used for entertainment."
+            "Online videos should only be used for entertainment.",
+            "E-learning is accessible to anyone and makes learning simple and flexible.",
+            "Traditional schools will close completely next year."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The final sentence affirms: 'Anyone can e-learn, and it's easy!'.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -7975,12 +7975,12 @@ window.APP_DATA = {
           "id": "e7_q13",
           "question": "True or False: Most young backpackers traveling the world are extremely wealthy.",
           "options": [
-            "False; they are usually students traveling on a low budget.",
+            "False; backpackers never travel outside their home towns.",
             "True; they only stay in five-star luxury suites.",
             "True; they travel in private helicopters.",
-            "False; backpackers never travel outside their home towns."
+            "False; they are usually students traveling on a low budget."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The passage clearly establishes that backpackers are on a low budget and cannot afford luxury hotels.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -7988,12 +7988,12 @@ window.APP_DATA = {
           "id": "e7_q14",
           "question": "What shared amenities are typically found in a standard youth hostel?",
           "options": [
-            "Shared bedrooms, bathrooms, a laundry room, internet, and a dining area.",
             "Private helicopters, gold keys, and personal butlers.",
+            "Shared bedrooms, bathrooms, a laundry room, internet, and a dining area.",
             "A private cinema theater in every guest room.",
             "Only an outdoor tent with no internet or telephone."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Hostels feature shared dormitories, communal bathrooms, laundry rooms, internet, and restaurants.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -8001,12 +8001,12 @@ window.APP_DATA = {
           "id": "e7_q15",
           "question": "In the sentence 'Khan Academy has over 3,000 video lessons... and it's absolutely free', what does 'absolutely free' mean?",
           "options": [
-            "It costs zero dollars; no payment is needed.",
             "You must pay after the first week.",
-            "It is free only for teachers, not students.",
-            "You must pay in gold coins."
+            "You must pay in gold coins.",
+            "It costs zero dollars; no payment is needed.",
+            "It is free only for teachers, not students."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Absolutely free' means requiring no financial expenditure whatsoever.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -8014,12 +8014,12 @@ window.APP_DATA = {
           "id": "e7_q16",
           "question": "What geological phenomenon is cited as an example of exciting web video science content?",
           "options": [
+            "Underground caverns",
             "Active erupting volcanoes",
             "Meteorite collisions",
-            "Desert snowstorms",
-            "Underground caverns"
+            "Desert snowstorms"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The text specifically mentions: 'you can see active volcanoes, the latest developments in technology...'.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -8027,12 +8027,12 @@ window.APP_DATA = {
           "id": "e7_q17",
           "question": "Why is the Web described metaphorically as a 'classroom'?",
           "options": [
-            "Because desks and chalkboards are sold online.",
             "Because students can study full lessons and connect with instructors directly through it.",
-            "Because all schools are now physical websites.",
-            "Because students must sit inside a computer."
+            "Because students must sit inside a computer.",
+            "Because desks and chalkboards are sold online.",
+            "Because all schools are now physical websites."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "It serves as a classroom because lessons, lectures, and teacher interactions occur within digital web platforms.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8040,12 +8040,12 @@ window.APP_DATA = {
           "id": "e7_q18",
           "question": "What is a major advantage of youth hostels over regular hotels for young people interested in local culture?",
           "options": [
-            "They are often situated in historic locations near monuments where cultural exchange is encouraged.",
-            "They forbid guests from ever leaving the building.",
             "They give guests free cars.",
-            "They have louder televisions."
+            "They forbid guests from ever leaving the building.",
+            "They have louder televisions.",
+            "They are often situated in historic locations near monuments where cultural exchange is encouraged."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Hostels are situated in historic, cultural locations where young people learn about local monuments.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -8055,8 +8055,8 @@ window.APP_DATA = {
           "options": [
             "Learn autonomously on websites or interact with instructors via webcams.",
             "Only memorize dictionaries without ever speaking.",
-            "Take tests without studying.",
-            "Watch silent cartoons."
+            "Watch silent cartoons.",
+            "Take tests without studying."
           ],
           "correctAnswer": 0,
           "explanation": "Language learners can study independently on dedicated websites or converse with tutors via webcam.",
@@ -8066,12 +8066,12 @@ window.APP_DATA = {
           "id": "e7_q20",
           "question": "Both reading passages share a common underlying theme of:",
           "options": [
-            "Modern, accessible ways for young people to explore the world and acquire knowledge on a budget.",
-            "The history of cinema cameras in Hollywood.",
             "Why people should never leave their home country.",
+            "The history of cinema cameras in Hollywood.",
+            "Modern, accessible ways for young people to explore the world and acquire knowledge on a budget.",
             "The economic construction of luxury hotels."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Both texts champion accessible, budget-conscious modern opportunities for youth empowerment: travel and e-learning.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         }
@@ -8089,12 +8089,12 @@ window.APP_DATA = {
           "id": "e8_q1",
           "question": "Identify the error in: 'I am wanting a new cell phone to connect with my online tutor.'",
           "options": [
-            "'cell phone' should be 'mobile'.",
-            "'am wanting' is incorrect; 'want' is a stative verb and must be 'want'.",
+            "'connect' should be 'connecting'.",
             "'online' should be 'on line'.",
-            "'connect' should be 'connecting'."
+            "'am wanting' is incorrect; 'want' is a stative verb and must be 'want'.",
+            "'cell phone' should be 'mobile'."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Want' is a stative verb of mental volition and cannot appear in the progressive aspect.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -8102,12 +8102,12 @@ window.APP_DATA = {
           "id": "e8_q2",
           "question": "Correct the mistake: 'Are you here on business?' — 'Yes, I'm.'",
           "options": [
-            "Yes, I am.",
-            "Yes, I do.",
             "Yes, I be.",
-            "Yes, it is."
+            "Yes, it is.",
+            "Yes, I do.",
+            "Yes, I am."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Affirmative short answers must use the uncontracted verb form: 'Yes, I am'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8117,8 +8117,8 @@ window.APP_DATA = {
           "options": [
             "Missing preposition 'to' after 'talking': 'talking to Brad Novak'.",
             "'is' should be 'are'.",
-            "'talking' should be 'talks'.",
-            "'actor' should be 'action'."
+            "'actor' should be 'action'.",
+            "'talking' should be 'talks'."
           ],
           "correctAnswer": 0,
           "explanation": "The verb 'talk' requires the preposition 'to' when indicating the conversational recipient: 'talking to Brad'.",
@@ -8129,9 +8129,9 @@ window.APP_DATA = {
           "question": "What is wrong with: 'Don't looking around, Yao! Keep your eyes on the wall.'?",
           "options": [
             "Negative imperatives take the base infinitive verb: 'Don't look around'.",
-            "'Don't' should be 'Not'.",
+            "'eyes' should be 'eye'.",
             "'Keep' should be 'Keeping'.",
-            "'eyes' should be 'eye'."
+            "'Don't' should be 'Not'."
           ],
           "correctAnswer": 0,
           "explanation": "Imperatives following 'Don't' strictly require the bare infinitive: 'Don't look'.",
@@ -8141,12 +8141,12 @@ window.APP_DATA = {
           "id": "e8_q5",
           "question": "Correct the prepositional error: 'The pharmacy is located between the central park.'",
           "options": [
-            "'between' requires two separate objects; it should be 'across from the park' or 'next to the park'.",
             "'pharmacy' should be 'chemist'.",
-            "'is' should be 'are'.",
-            "'located' is ungrammatical."
+            "'located' is ungrammatical.",
+            "'between' requires two separate objects; it should be 'across from the park' or 'next to the park'.",
+            "'is' should be 'are'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Between' requires two reference entities joined by 'and'. For a single reference point, use 'across from' or 'next to'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8154,12 +8154,12 @@ window.APP_DATA = {
           "id": "e8_q6",
           "question": "Identify the flawed sentence violating progressive spelling rules:",
           "options": [
+            "The stuntman is running away.",
             "The boys are swimming in the pool.",
             "The actor is writeing a new script.",
-            "The stuntman is running away.",
             "The teacher is showing a video."
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "'Write' ends in silent '-e'; the '-e' must be dropped before suffixing '-ing': 'writing' (not 'writeing').",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8167,12 +8167,12 @@ window.APP_DATA = {
           "id": "e8_q7",
           "question": "Correct the sensory stative error: 'This soup is tasting terrible, but it is smelling like garlic.'",
           "options": [
-            "This soup tastes terrible, but it smells like garlic.",
             "This soup taste terrible, but it smell like garlic.",
+            "This soup tastes terrible, but it smells like garlic.",
             "This soup is taste terrible, but it is smell like garlic.",
             "This soup tasting terrible, but it smelling like garlic."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Sensory linking verbs ('taste', 'smell') describe inherent qualities and must be in simple present: 'tastes / smells'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8180,12 +8180,12 @@ window.APP_DATA = {
           "id": "e8_q8",
           "question": "Find the error in: 'Where you are going for your vacation?'",
           "options": [
+            "'Where' should be 'Who'.",
             "Inversion error: it must be 'Where are you going...?'",
-            "'vacation' should be 'work'.",
             "'going' should be 'go'.",
-            "'Where' should be 'Who'."
+            "'vacation' should be 'work'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "English question formation mandates auxiliary inversion before the subject: 'Where are you going?'",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8194,9 +8194,9 @@ window.APP_DATA = {
           "question": "Choose the corrected version of: 'Give me your credit card, receptionist said.'",
           "options": [
             "'May I have your credit card, please?' the receptionist asked politely.",
-            "'You must give me credit card.'",
+            "'Take credit card away.'",
             "'Why is your credit card?'",
-            "'Take credit card away.'"
+            "'You must give me credit card.'"
           ],
           "correctAnswer": 0,
           "explanation": "'May I have your credit card, please?' transforms a blunt command into formal, polite hospitality register.",
@@ -8206,12 +8206,12 @@ window.APP_DATA = {
           "id": "e8_q10",
           "question": "What is ungrammatical in: 'The bank is on the corner from Park Street'?",
           "options": [
+            "'Street' should be 'Avenue'.",
             "The correct prepositional phrase is 'on the corner of'.",
             "'bank' must be capitalized.",
-            "'Street' should be 'Avenue'.",
             "'from' should be 'to'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The fixed spatial collocation is 'on the corner of [Street Name]'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8219,12 +8219,12 @@ window.APP_DATA = {
           "id": "e8_q11",
           "question": "Correct the subject-verb agreement: 'Mr. and Mrs. Fournier is arriving at the hotel tonight.'",
           "options": [
-            "Mr. and Mrs. Fournier are arriving at the hotel tonight.",
             "Mr. and Mrs. Fournier am arriving at the hotel tonight.",
-            "Mr. and Mrs. Fournier arrives at the hotel tonight.",
-            "Mr. and Mrs. Fournier be arriving at the hotel tonight."
+            "Mr. and Mrs. Fournier are arriving at the hotel tonight.",
+            "Mr. and Mrs. Fournier be arriving at the hotel tonight.",
+            "Mr. and Mrs. Fournier arrives at the hotel tonight."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Compound subjects connected by 'and' are grammatically plural, requiring auxiliary 'are arriving'.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -8245,12 +8245,12 @@ window.APP_DATA = {
           "id": "e8_q13",
           "question": "Find the error in: 'The cat is running under over the wall.'",
           "options": [
-            "Double conflicting prepositions; it should be 'jumping over the wall'.",
-            "'cat' should be 'dog'.",
             "'running' should be 'run'.",
+            "'cat' should be 'dog'.",
+            "Double conflicting prepositions; it should be 'jumping over the wall'.",
             "'wall' should be 'tree'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Combining mutually exclusive prepositions ('under over') is a semantic and syntactic error.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8259,9 +8259,9 @@ window.APP_DATA = {
           "question": "Correct the command: 'You not look around during the scene!'",
           "options": [
             "Don't look around during the scene!",
-            "Not to look around during the scene!",
+            "Doesn't look around during the scene!",
             "You no look around during the scene!",
-            "Doesn't look around during the scene!"
+            "Not to look around during the scene!"
           ],
           "correctAnswer": 0,
           "explanation": "Negative imperatives are formed with 'Don't' + base verb, omitting the explicit subject pronoun 'you'.",
@@ -8271,12 +8271,12 @@ window.APP_DATA = {
           "id": "e8_q15",
           "question": "Why is 'I am raised in New Delhi' ungrammatical when describing where someone grew up?",
           "options": [
-            "It must be in the past tense: 'I was raised in New Delhi'.",
+            "'am' should be 'have'.",
             "'raised' should be 'born'.",
             "'New Delhi' should be 'India'.",
-            "'am' should be 'have'."
+            "It must be in the past tense: 'I was raised in New Delhi'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Childhood upbringing occurred in completed past time, requiring the past passive: 'I was raised in...'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8284,12 +8284,12 @@ window.APP_DATA = {
           "id": "e8_q16",
           "question": "Correct the connector usage: 'Students like online lessons such as they are fast and easy.'",
           "options": [
-            "Students like online lessons because they are fast and easy.",
-            "Students like online lessons for example they are fast and easy.",
             "Students like online lessons like they are fast and easy.",
-            "Students like online lessons especially they are fast and easy."
+            "Students like online lessons because they are fast and easy.",
+            "Students like online lessons especially they are fast and easy.",
+            "Students like online lessons for example they are fast and easy."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Because' is the appropriate subordinating conjunction introducing a causal explanation clause.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -8297,12 +8297,12 @@ window.APP_DATA = {
           "id": "e8_q17",
           "question": "Identify the punctuation or capitalization error: 'my name is robert atkinson, but everyone calls me bob.'",
           "options": [
-            "Proper nouns and sentence starts must be capitalized: 'My name is Robert Atkinson... Bob'.",
-            "There should be no comma before 'but'.",
             "'everyone' must be plural.",
-            "'calls' should be 'call'."
+            "'calls' should be 'call'.",
+            "There should be no comma before 'but'.",
+            "Proper nouns and sentence starts must be capitalized: 'My name is Robert Atkinson... Bob'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Sentence initials ('My') and proper personal names ('Robert', 'Atkinson', 'Bob') must always be capitalized.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8312,8 +8312,8 @@ window.APP_DATA = {
           "options": [
             "You're welcome.",
             "Excuse me.",
-            "No problem not.",
-            "Take care yes."
+            "Take care yes.",
+            "No problem not."
           ],
           "correctAnswer": 0,
           "explanation": "'You're welcome' is the correct conversational acknowledgement of gratitude; 'That's wrong' is a pragmatic error.",
@@ -8323,12 +8323,12 @@ window.APP_DATA = {
           "id": "e8_q19",
           "question": "What is wrong with: 'In this scene, the detective is hearing a loud explosion and goes outside'?",
           "options": [
-            "'hearing' should be 'hears' because 'hear' is a stative verb of involuntary perception.",
-            "'goes' should be 'went'.",
+            "'explosion' is spelled wrong.",
             "'detective' should be 'policeman'.",
-            "'explosion' is spelled wrong."
+            "'goes' should be 'went'.",
+            "'hearing' should be 'hears' because 'hear' is a stative verb of involuntary perception."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "As emphasized in Unit 2, 'hear' resists progressive aspect and should be 'hears'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8336,12 +8336,12 @@ window.APP_DATA = {
           "id": "e8_q20",
           "question": "Correct the question: 'How you spell your last name?'",
           "options": [
-            "How do you spell your last name?",
             "How are you spell your last name?",
+            "How does you spell your last name?",
             "How you are spelling your last name?",
-            "How does you spell your last name?"
+            "How do you spell your last name?"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Simple present information questions with dynamic action verbs require auxiliary 'do': 'How do you spell...?'",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         }
@@ -8359,12 +8359,12 @@ window.APP_DATA = {
           "id": "e9_q1",
           "question": "'Are you here for the conference?' — 'No, I ______ on vacation with my family.'",
           "options": [
-            "am",
             "is",
+            "be",
             "are",
-            "be"
+            "am"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Subject 'I' takes verb 'am'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8386,11 +8386,11 @@ window.APP_DATA = {
           "question": "Look! The lead actor ______ his dramatic costume in the dressing room.",
           "options": [
             "wears",
-            "is wearing",
             "wear",
-            "wearing"
+            "wearing",
+            "is wearing"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "Present progressive 'is wearing' indicates an activity taking place at the current moment.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -8399,9 +8399,9 @@ window.APP_DATA = {
           "question": "Which of the following is an expression of enthusiastic approval?",
           "options": [
             "You're doing fine. That's great!",
-            "No, that's wrong.",
             "Excuse me.",
-            "Take care."
+            "Take care.",
+            "No, that's wrong."
           ],
           "correctAnswer": 0,
           "explanation": "'You're doing fine. That's great!' expresses approval and encouragement.",
@@ -8411,12 +8411,12 @@ window.APP_DATA = {
           "id": "e9_q5",
           "question": "'May I have your credit card, please?' — '______.'",
           "options": [
-            "Here you are.",
             "You're welcome.",
-            "Good night.",
-            "Not at all."
+            "Here you are.",
+            "Not at all.",
+            "Good night."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Here you are' is spoken when handing something to another person.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8424,12 +8424,12 @@ window.APP_DATA = {
           "id": "e9_q6",
           "question": "I would like ______ an appointment with the hotel manager.",
           "options": [
+            "made",
             "to make",
-            "make",
             "making",
-            "made"
+            "make"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Would like' is followed by a to-infinitive: 'to make'.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -8437,12 +8437,12 @@ window.APP_DATA = {
           "id": "e9_q7",
           "question": "What is the primary role of a 'cameraman'?",
           "options": [
-            "To operate the film camera and shoot scenes.",
             "To act out dangerous fight scenes.",
-            "To write the movie script.",
-            "To book hotel rooms for the crew."
+            "To book hotel rooms for the crew.",
+            "To operate the film camera and shoot scenes.",
+            "To write the movie script."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A cameraman's job is operating cameras to capture visual footage.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -8450,12 +8450,12 @@ window.APP_DATA = {
           "id": "e9_q8",
           "question": "The fresh chocolate cake in the oven ______ wonderful.",
           "options": [
-            "smells",
+            "smelling",
             "is smelling",
             "smell",
-            "smelling"
+            "smells"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Smell' as a linking verb expressing sensory quality is stative: 'smells'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8476,12 +8476,12 @@ window.APP_DATA = {
           "id": "e9_q10",
           "question": "In giving directions, which sentence is correct?",
           "options": [
-            "Turn right onto Park Avenue.",
             "Turning right on Park Avenue.",
             "You to turn right on Park Avenue.",
-            "Turn to right onto Park Avenue."
+            "Turn to right onto Park Avenue.",
+            "Turn right onto Park Avenue."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Imperative directions begin directly with the base verb: 'Turn right onto...'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8502,12 +8502,12 @@ window.APP_DATA = {
           "id": "e9_q12",
           "question": "Which sentence correctly uses a connector of exemplification?",
           "options": [
+            "Students use references, instead online dictionaries.",
             "Students use references, such as online dictionaries.",
-            "Students use references, because online dictionaries.",
             "Students use references, so online dictionaries.",
-            "Students use references, instead online dictionaries."
+            "Students use references, because online dictionaries."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Such as' introduces exemplary items.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8516,9 +8516,9 @@ window.APP_DATA = {
           "question": "The stuntman jumped ______ the fence and ran into the forest.",
           "options": [
             "over",
-            "under",
+            "behind",
             "inside",
-            "behind"
+            "under"
           ],
           "correctAnswer": 0,
           "explanation": "'Over' indicates clearing the top of the fence.",
@@ -8528,12 +8528,12 @@ window.APP_DATA = {
           "id": "e9_q14",
           "question": "'Are Mr. Fournier and Mr. Wilson from France?' — 'No, ______.'",
           "options": [
-            "they aren't",
-            "they're not",
             "they not",
-            "he isn't"
+            "he isn't",
+            "they aren't",
+            "they're not"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'They aren't' is the standard negative short answer.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -8541,12 +8541,12 @@ window.APP_DATA = {
           "id": "e9_q15",
           "question": "Which verb doubles its consonant in the progressive form?",
           "options": [
-            "run -> running",
+            "look -> looking",
             "read -> reading",
-            "feed -> feeding",
-            "look -> looking"
+            "run -> running",
+            "feed -> feeding"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Run' is a CVC monosyllabic verb, doubling to 'running'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8554,12 +8554,12 @@ window.APP_DATA = {
           "id": "e9_q16",
           "question": "'What is your ______?' — 'I was born on July 24, 2011.'",
           "options": [
+            "telephone number",
             "date of birth",
-            "occupation",
             "last name",
-            "telephone number"
+            "occupation"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The date someone was born is their 'date of birth'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         },
@@ -8567,12 +8567,12 @@ window.APP_DATA = {
           "id": "e9_q17",
           "question": "Which free educational website is praised for over 3,000 video lessons?",
           "options": [
-            "Khan Academy",
-            "Hollywood Studio",
             "S.A.Y.H.A.",
+            "Hollywood Studio",
+            "Khan Academy",
             "Beach Resort"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Khan Academy offers thousands of free lessons in mathematics and science.",
           "visualClue": "💻 Digital Learning & Technology"
         },
@@ -8580,12 +8580,12 @@ window.APP_DATA = {
           "id": "e9_q18",
           "question": "'Kim, ______ around during the filming take!'",
           "options": [
-            "don't look",
             "not look",
+            "doesn't look",
             "no look",
-            "doesn't look"
+            "don't look"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Negative imperatives require 'Don't' + base verb: 'Don't look'.",
           "visualClue": "🎬 Media Studio & Film Production"
         },
@@ -8593,12 +8593,12 @@ window.APP_DATA = {
           "id": "e9_q19",
           "question": "A hotel employee who carries guests' luggage is a:",
           "options": [
-            "bellhop",
             "concierge",
-            "stuntman",
-            "cameraman"
+            "bellhop",
+            "cameraman",
+            "stuntman"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A 'bellhop' assists guests by transporting their luggage.",
           "visualClue": "🏨 Hotel & Hospitality Encounter"
         },
@@ -8606,12 +8606,12 @@ window.APP_DATA = {
           "id": "e9_q20",
           "question": "Which phrase is used to bid farewell before going to sleep at night?",
           "options": [
-            "Good night.",
             "Good morning.",
             "Excuse me.",
+            "Good night.",
             "Here you are."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Good night' is spoken upon parting in the evening or prior to sleeping.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 1)"
         }
@@ -8629,12 +8629,12 @@ window.APP_DATA = {
           "id": "e10_q1",
           "question": "Examine the dialogue:\nA: 'Where's the restaurant?'\nB: 'Behind the elevators, on your right.'\nWhich phonological intonation pattern characterizes Speaker A's question?",
           "options": [
-            "Falling pitch contour (↘) because it is a Wh- information question.",
             "Rising pitch contour (↗) because all questions in English must rise.",
+            "Whispered intonation with silent consonants.",
             "Monotone flat pitch with zero variation.",
-            "Whispered intonation with silent consonants."
+            "Falling pitch contour (↘) because it is a Wh- information question."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Wh- information questions systematically exhibit falling intonation (↘) toward the terminal boundary.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8642,12 +8642,12 @@ window.APP_DATA = {
           "id": "e10_q2",
           "question": "Which of the following pairs contains words with contrasting vowel phonemes /i/ (long tense) and /ɪ/ (short lax)?",
           "options": [
+            "film (/ɪ/) and in (/ɪ/)",
             "scene (/i/) and script (/ɪ/)",
             "meet (/i/) and feed (/i/)",
-            "film (/ɪ/) and in (/ɪ/)",
             "live (/ɪ/) and sit (/ɪ/)"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Scene' features the high tense vowel /i/, whereas 'script' contains the near-high lax vowel /ɪ/.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8655,12 +8655,12 @@ window.APP_DATA = {
           "id": "e10_q3",
           "question": "Why does English allow 'He is smelling the flowers' but rejects 'The soup is smelling delicious'?",
           "options": [
-            "In 'smelling the flowers', smell is a deliberate voluntary action; in 'smells delicious', it is a stative linking verb describing an inherent olfactory property.",
-            "Because soup is an inanimate liquid.",
             "Because 'flowers' is plural and 'soup' is singular.",
-            "There is no difference; both are equally incorrect."
+            "In 'smelling the flowers', smell is a deliberate voluntary action; in 'smells delicious', it is a stative linking verb describing an inherent olfactory property.",
+            "There is no difference; both are equally incorrect.",
+            "Because soup is an inanimate liquid."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Polysemous sensory verbs can function dynamically when denoting deliberate physical action, but remain strictly stative when functioning as copular linking verbs.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8668,12 +8668,12 @@ window.APP_DATA = {
           "id": "e10_q4",
           "question": "Consider the sentence: 'The Saudi Arabian Youth Hostels Association offers accommodations in 21 cities across the Kingdom.' Which grammatical category does 'accommodations' belong to?",
           "options": [
-            "Plural countable noun denoting lodging or places to stay.",
+            "Modal auxiliary verb.",
             "Transitive action verb.",
-            "Descriptive adverb of place.",
-            "Modal auxiliary verb."
+            "Plural countable noun denoting lodging or places to stay.",
+            "Descriptive adverb of place."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Accommodations' is a noun designating lodgings, rooms, and living facilities.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8681,12 +8681,12 @@ window.APP_DATA = {
           "id": "e10_q5",
           "question": "Transform the direct statement into the most formally polite request: 'Give me your passport right now.'",
           "options": [
-            "May I see your passport, please?",
             "You will give me your passport.",
             "Where have you put your passport?",
-            "Do you have a passport to give me?"
+            "Do you have a passport to give me?",
+            "May I see your passport, please?"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'May I see your passport, please?' represents the pinnacle of pragmatic politeness in institutional hospitality discourse.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8694,12 +8694,12 @@ window.APP_DATA = {
           "id": "e10_q6",
           "question": "In the sentence 'Students do not have to spend hours in a library because they have an electronic database at home', the word 'because' functions as a:",
           "options": [
-            "Subordinating conjunction introducing a clause of cause and effect.",
-            "Coordinating conjunction joining two nouns.",
+            "Demonstrative pronoun.",
             "Preposition of spatial direction.",
-            "Demonstrative pronoun."
+            "Coordinating conjunction joining two nouns.",
+            "Subordinating conjunction introducing a clause of cause and effect."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Because' is a subordinating conjunction introducing an adverbial clause of reason.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8720,12 +8720,12 @@ window.APP_DATA = {
           "id": "e10_q8",
           "question": "Which sentence illustrates the present progressive functioning to convey a definite planned arrangement in future time?",
           "options": [
-            "We are flying to Abha tomorrow morning for the flower festival.",
-            "The water is boiling in the kettle right now.",
             "Listen! The baby is crying in the bedroom.",
-            "The cameraman is filming the scene at this moment."
+            "We are flying to Abha tomorrow morning for the flower festival.",
+            "The cameraman is filming the scene at this moment.",
+            "The water is boiling in the kettle right now."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'We are flying to Abha tomorrow morning' utilizes present progressive aspect with a future time adverbial to express a pre-arranged schedule.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8733,12 +8733,12 @@ window.APP_DATA = {
           "id": "e10_q9",
           "question": "Which of the following demonstrates the correct use of prepositions of place and movement?",
           "options": [
-            "The actor jumped over the barrier and ran away from the danger.",
             "The actor jumped under the barrier and ran inside from the danger.",
-            "The actor jumped behind the barrier and ran over from the danger.",
-            "The actor jumped away the barrier and ran into from the danger."
+            "The actor jumped away the barrier and ran into from the danger.",
+            "The actor jumped over the barrier and ran away from the danger.",
+            "The actor jumped behind the barrier and ran over from the danger."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Jumped over' correctly denotes clearance, while 'ran away from' denotes directional departure.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8746,12 +8746,12 @@ window.APP_DATA = {
           "id": "e10_q10",
           "question": "Identify the underlying semantic reason why youth hostels can afford to provide exceptionally cheap accommodations:",
           "options": [
-            "The cooperative model distributes fixed space and utility costs across shared rooms and communal facilities.",
-            "They receive free municipal funding without paying taxes.",
+            "Hostels only open three days per year.",
             "They do not provide mattresses or running water.",
-            "Hostels only open three days per year."
+            "They receive free municipal funding without paying taxes.",
+            "The cooperative model distributes fixed space and utility costs across shared rooms and communal facilities."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Resource-sharing (dormitories, communal bathrooms, self-catering kitchens) reduces per-guest operational costs.",
           "visualClue": "🎒 S.A.Y.H.A. Youth Travel in Saudi Arabia"
         },
@@ -8759,12 +8759,12 @@ window.APP_DATA = {
           "id": "e10_q11",
           "question": "Which of the following minimal pairs highlights the difference between /i/ and /ɪ/?",
           "options": [
-            "feed / fit",
-            "food / foot",
             "cat / cut",
+            "food / foot",
+            "feed / fit",
             "car / core"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Feed' (/fiːd/) has the tense vowel /i/, whereas 'fit' (/fɪt/) contains the lax vowel /ɪ/.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8773,8 +8773,8 @@ window.APP_DATA = {
           "question": "Analyze the discourse function of 'Have a nice stay':",
           "options": [
             "A conventionalized hospitality closing formula wishing a guest an enjoyable duration.",
-            "A literal command requiring someone to sleep immediately.",
             "An apology for bad service.",
+            "A literal command requiring someone to sleep immediately.",
             "An inquiry asking for a customer's credit card number."
           ],
           "correctAnswer": 0,
@@ -8785,12 +8785,12 @@ window.APP_DATA = {
           "id": "e10_q13",
           "question": "Which sentence demonstrates proper grammatical parallelism in giving directional instructions?",
           "options": [
-            "Go straight ahead for two blocks, turn right onto Main Street, and look for the bank on your left.",
             "Go straight ahead, turning right, and you look for the bank.",
             "Going straight ahead, you turn right, and to look for the bank.",
+            "Go straight ahead for two blocks, turn right onto Main Street, and look for the bank on your left.",
             "Go straight, to turn right, and looking for the bank."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Parallel imperatives maintain identical base verb forms: 'Go... turn... and look'.",
           "visualClue": "🗺️ Street Map & Navigation"
         },
@@ -8798,12 +8798,12 @@ window.APP_DATA = {
           "id": "e10_q14",
           "question": "Why is 'I am knowing him very well' strictly rejected in standard English?",
           "options": [
-            "'Know' expresses a cognitive mental state of familiarity, which is permanent/stative and incompatible with progressive aspect.",
             "Because 'him' is an object pronoun.",
+            "'Know' expresses a cognitive mental state of familiarity, which is permanent/stative and incompatible with progressive aspect.",
             "Because 'knowing' is an adjective only.",
             "Because 'very well' must precede the verb."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Know' is a stative cognitive verb that does not admit progressive aspect; 'I know him' is required.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8811,12 +8811,12 @@ window.APP_DATA = {
           "id": "e10_q15",
           "question": "In the phrase 'an electronic database of information', 'database' signifies:",
           "options": [
-            "A structured, systematically organized collection of digital data accessible electronically.",
+            "A printer cable.",
             "A television transmitter tower.",
-            "A metal filing cabinet located in a basement.",
-            "A printer cable."
+            "A structured, systematically organized collection of digital data accessible electronically.",
+            "A metal filing cabinet located in a basement."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A database is an organized digital repository of information designed for rapid search and retrieval.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8837,12 +8837,12 @@ window.APP_DATA = {
           "id": "e10_q17",
           "question": "Which of the following verbs requires a change of spelling from '-ie' to '-y' before adding '-ing'?",
           "options": [
-            "lie -> lying",
             "see -> seeing",
+            "free -> freeing",
             "be -> being",
-            "free -> freeing"
+            "lie -> lying"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Verbs ending in '-ie' (lie, die, tie) replace '-ie' with '-y' before '-ing': 'lying'.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8850,12 +8850,12 @@ window.APP_DATA = {
           "id": "e10_q18",
           "question": "In academic writing, which connective phrase is best suited to introduce a clarifying illustration?",
           "options": [
+            "In contrast,",
             "For instance,",
-            "Because of,",
             "So that,",
-            "In contrast,"
+            "Because of,"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'For instance' explicitly signals that an illustrative example is being provided.",
           "visualClue": "📐 Super Goal 2 Standard (Unit 2)"
         },
@@ -8864,9 +8864,9 @@ window.APP_DATA = {
           "question": "Determine which sentence is completely free of morphological, syntactic, and punctuation errors:",
           "options": [
             "Although the historic youth hostel is inexpensive, it offers a laundry room, free internet, and a welcoming atmosphere.",
-            "Although the historic youth hostel are inexpensive it offer a laundry room free internet and welcoming atmosphere.",
             "Although the historic youth hostel is inexpense, it offering a laundry room, free internet, and welcoming atmosphere.",
-            "Although the historic youth hostel is inexpensively, it offer laundry room, free internet, and welcoming atmosphere."
+            "Although the historic youth hostel is inexpensively, it offer laundry room, free internet, and welcoming atmosphere.",
+            "Although the historic youth hostel are inexpensive it offer a laundry room free internet and welcoming atmosphere."
           ],
           "correctAnswer": 0,
           "explanation": "Option A features flawless subordinate clause punctuation, subject-verb agreement, and parallel noun coordination.",
@@ -8877,8 +8877,8 @@ window.APP_DATA = {
           "question": "What educational philosophy underlies providing an immediate explanatory breakdown for every question in a diagnostic learning platform?",
           "options": [
             "Formative feedback transforms assessment into an active learning opportunity by illuminating reasoning and dismantling misconceptions.",
-            "It ensures students spend more time looking at colors.",
             "It allows students to guess answers randomly without thinking.",
+            "It ensures students spend more time looking at colors.",
             "It is legally mandated by computer manufacturers."
           ],
           "correctAnswer": 0,
@@ -8901,8 +8901,8 @@ window.APP_DATA = {
           "options": [
             "airline pilot",
             "architect",
-            "author",
-            "accountant"
+            "accountant",
+            "author"
           ],
           "correctAnswer": 0,
           "explanation": "An airline pilot is specifically trained and licensed to navigate commercial aircraft.",
@@ -8912,12 +8912,12 @@ window.APP_DATA = {
           "id": "e11_q02",
           "question": "Fadwa is a teacher. She ______ mathematics in an elementary school.",
           "options": [
-            "teaches",
-            "teach",
             "is teach",
-            "teaching"
+            "teaches",
+            "teaching",
+            "teach"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "With a third-person singular subject ('she'), regular verbs ending in 'ch' take the suffix '-es' ('teaches') in the Simple Present.",
           "visualClue": "🏫 Elementary School Instruction"
         },
@@ -8925,12 +8925,12 @@ window.APP_DATA = {
           "id": "e11_q03",
           "question": "Where does a graphic designer usually work?",
           "options": [
-            "In an advertising firm",
+            "In a city bus terminal",
             "In a surgical operating theater",
-            "On a cargo freighter",
-            "In a city bus terminal"
+            "In an advertising firm",
+            "On a cargo freighter"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "As highlighted in the textbook, graphic designers typically work in advertising firms creating promotional graphics.",
           "visualClue": "🎨 Advertising Studio Workplace"
         },
@@ -8938,12 +8938,12 @@ window.APP_DATA = {
           "id": "e11_q04",
           "question": "Omar and Ali are civil engineers. They ______ for a large infrastructure construction company.",
           "options": [
-            "work",
-            "works",
+            "working",
             "is working",
-            "working"
+            "works",
+            "work"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The plural compound subject ('Omar and Ali' = 'they') takes the base form of the verb ('work') in the Simple Present.",
           "visualClue": "🏗️ Civil Construction Enterprise"
         },
@@ -8951,12 +8951,12 @@ window.APP_DATA = {
           "id": "e11_q05",
           "question": "Which healthcare worker administers medications and takes care of sick people in a hospital?",
           "options": [
-            "A nurse",
-            "A carpenter",
             "A travel agent",
-            "A mechanic"
+            "A mechanic",
+            "A nurse",
+            "A carpenter"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A nurse is professionally trained to care for patients and assist attending physicians.",
           "visualClue": "🏥 Clinical Healthcare Ward"
         },
@@ -8964,12 +8964,12 @@ window.APP_DATA = {
           "id": "e11_q06",
           "question": "Mr. Perez arranges flight bookings, hotel rooms, and guided tours. He is a ______.",
           "options": [
-            "travel agent",
-            "salesperson",
+            "chef",
             "bus driver",
-            "chef"
+            "travel agent",
+            "salesperson"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A travel agent coordinates travel arrangements, flight itineraries, and holiday packages.",
           "visualClue": "🧳 Tourism Agency Desk"
         },
@@ -8978,8 +8978,8 @@ window.APP_DATA = {
           "question": "'What ______ your brother do?' — 'He's a marine engineer.'",
           "options": [
             "does",
-            "do",
             "is",
+            "do",
             "are"
           ],
           "correctAnswer": 0,
@@ -8990,12 +8990,12 @@ window.APP_DATA = {
           "id": "e11_q08",
           "question": "Guy is a skilled carpenter. He ______ in crafting handcrafted dining tables.",
           "options": [
-            "specializes",
-            "specialize",
             "specializing",
-            "is specialized"
+            "specialize",
+            "is specialized",
+            "specializes"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The singular subject 'Guy' takes the third-person singular inflection 'specializes'.",
           "visualClue": "🪚 Artisan Woodcraft Workshop"
         },
@@ -9003,12 +9003,12 @@ window.APP_DATA = {
           "id": "e11_q09",
           "question": "Adnan drives a city transit bus on scheduled downtown routes. His job is a ______.",
           "options": [
-            "bus driver",
-            "pilot",
             "marine captain",
-            "mechanic"
+            "bus driver",
+            "mechanic",
+            "pilot"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A bus driver navigates passenger transit buses along municipal streets.",
           "visualClue": "🚌 Municipal Transit Route"
         },
@@ -9016,12 +9016,12 @@ window.APP_DATA = {
           "id": "e11_q10",
           "question": "Hameed is an investigative journalist. He writes articles for the city ______.",
           "options": [
-            "newspaper",
             "hospital",
+            "newspaper",
             "kitchen",
             "laboratory"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Journalists research and write articles for newspapers and media agencies.",
           "visualClue": "📰 Newspaper Editorial Desk"
         },
@@ -9029,12 +9029,12 @@ window.APP_DATA = {
           "id": "e11_q11",
           "question": "A doctor examines patients in a ______.",
           "options": [
-            "clinic or hospital",
             "carpentry workshop",
+            "bus terminal",
             "travel agency",
-            "bus terminal"
+            "clinic or hospital"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Physicians conduct clinical diagnoses in hospitals and outpatient medical clinics.",
           "visualClue": "🩺 Medical Outpatient Clinic"
         },
@@ -9042,12 +9042,12 @@ window.APP_DATA = {
           "id": "e11_q12",
           "question": "Fahd sells laptops and smartphones in a department store. He is a ______.",
           "options": [
-            "salesperson",
             "lawyer",
             "dentist",
+            "salesperson",
             "reporter"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A salesperson assists retail customers and processes commercial sales of merchandise.",
           "visualClue": "🏬 Retail Department Store"
         },
@@ -9055,12 +9055,12 @@ window.APP_DATA = {
           "id": "e11_q13",
           "question": "Scientists conduct empirical experiments and research in a specialized ______.",
           "options": [
-            "laboratory",
-            "restaurant",
             "airport terminal",
-            "construction site"
+            "construction site",
+            "restaurant",
+            "laboratory"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Laboratories are scientific facilities equipped for controlled testing and experiments.",
           "visualClue": "🔬 Scientific Research Facility"
         },
@@ -9069,9 +9069,9 @@ window.APP_DATA = {
           "question": "A chef ______ delicious meals in a restaurant kitchen.",
           "options": [
             "cooks",
+            "cooking",
             "cook",
-            "is cook",
-            "cooking"
+            "is cook"
           ],
           "correctAnswer": 0,
           "explanation": "The singular subject 'a chef' takes the Simple Present verb form ending in -s ('cooks').",
@@ -9082,9 +9082,9 @@ window.APP_DATA = {
           "question": "What does the idiomatic expression 'What do you do?' mean?",
           "options": [
             "What is your occupation or job?",
+            "How do you spell your surname?",
             "What are you eating right now?",
-            "Where are you traveling today?",
-            "How do you spell your surname?"
+            "Where are you traveling today?"
           ],
           "correctAnswer": 0,
           "explanation": "'What do you do?' is the standard conversational question used to ask about someone's profession or employment.",
@@ -9094,12 +9094,12 @@ window.APP_DATA = {
           "id": "e11_q16",
           "question": "The legal professional who advises clients and represents them in court is a ______.",
           "options": [
-            "lawyer",
-            "waiter",
+            "carpenter",
             "mechanic",
-            "carpenter"
+            "waiter",
+            "lawyer"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "A lawyer is qualified to practice law, represent litigants, and interpret statutes.",
           "visualClue": "⚖️ Judicial Legal Practice"
         },
@@ -9107,12 +9107,12 @@ window.APP_DATA = {
           "id": "e11_q17",
           "question": "'Do your uncles work in a hospital?' — 'No, they ______. They are researchers in a university lab.'",
           "options": [
+            "not",
             "don't",
-            "doesn't",
             "aren't",
-            "not"
+            "doesn't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "In short negative answers with the auxiliary 'do' and subject 'they', the correct contraction is 'don't'.",
           "visualClue": "🔬 Scientific Auxiliary Syntax"
         },
@@ -9120,12 +9120,12 @@ window.APP_DATA = {
           "id": "e11_q18",
           "question": "A translator converts written text from one language into another. He ______ multiple languages.",
           "options": [
-            "speaks",
             "speak",
             "is speak",
+            "speaks",
             "speaking"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Subject 'he' requires the singular inflected verb 'speaks'.",
           "visualClue": "🌐 Multilingual Translation"
         },
@@ -9134,9 +9134,9 @@ window.APP_DATA = {
           "question": "An architect is someone who designs ______.",
           "options": [
             "buildings and houses",
+            "hospital bandages",
             "airline flight menus",
-            "bus schedules",
-            "hospital bandages"
+            "bus schedules"
           ],
           "correctAnswer": 0,
           "explanation": "Architects plan and design architectural blueprints for buildings, homes, and skyscrapers.",
@@ -9146,12 +9146,12 @@ window.APP_DATA = {
           "id": "e11_q20",
           "question": "Mr. Clark brings food and drinks to diners at their tables. He works as a ______.",
           "options": [
+            "scientist",
             "waiter",
             "pilot",
-            "scientist",
             "engineer"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A waiter serves food and beverages to restaurant patrons.",
           "visualClue": "🍽️ Restaurant Dining Room"
         }
@@ -9169,12 +9169,12 @@ window.APP_DATA = {
           "id": "e12_q01",
           "question": "A civil engineer is someone ______ designs roads, bridges, and municipal infrastructure.",
           "options": [
-            "who",
+            "whose",
             "which",
             "where",
-            "whose"
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Civil engineer' is a human person, requiring the relative pronoun 'who'.",
           "visualClue": "🌉 Bridge Engineering Standard"
         },
@@ -9182,12 +9182,12 @@ window.APP_DATA = {
           "id": "e12_q02",
           "question": "A stethoscope is a diagnostic instrument ______ doctors use to listen to patients' heartbeats.",
           "options": [
-            "which",
-            "who",
             "whom",
-            "whoever"
+            "whoever",
+            "which",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Stethoscope' is an inanimate medical tool, requiring 'which' or 'that'.",
           "visualClue": "🩺 Medical Diagnostic Tool"
         },
@@ -9195,12 +9195,12 @@ window.APP_DATA = {
           "id": "e12_q03",
           "question": "I ______ to be an aeronautical engineer because space exploration inspires me.",
           "options": [
-            "want",
-            "wants",
+            "wanted to be",
             "am wanting",
-            "wanted to be"
+            "wants",
+            "want"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Subject pronoun 'I' combines with the base verb 'want' to express an aspiration ('I want to be...').",
           "visualClue": "🚀 Aerospace Career Ambition"
         },
@@ -9234,12 +9234,12 @@ window.APP_DATA = {
           "id": "e12_q06",
           "question": "A radar system is a high-tech apparatus ______ detects incoming aircraft in low visibility.",
           "options": [
-            "that",
-            "who",
             "whom",
-            "whoever"
+            "whoever",
+            "who",
+            "that"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Radar system' is a mechanical device, demanding 'that' or 'which'.",
           "visualClue": "📡 Navigational Radar Station"
         },
@@ -9247,12 +9247,12 @@ window.APP_DATA = {
           "id": "e12_q07",
           "question": "Young Saudi programmers know ______ code machine learning algorithms for smart cities.",
           "options": [
-            "how to",
             "to",
+            "how to",
             "how",
             "what to"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The standard English construction expressing learned technical ability is 'know how to + base verb'.",
           "visualClue": "💻 Artificial Intelligence Coding"
         },
@@ -9260,12 +9260,12 @@ window.APP_DATA = {
           "id": "e12_q08",
           "question": "Which sentence correctly combines two clauses without ungrammatical pronoun redundancy?",
           "options": [
-            "The surgeon who operated on the patient was highly skilled.",
             "The surgeon who he operated on the patient was highly skilled.",
             "The surgeon which operated on the patient was highly skilled.",
-            "The surgeon whose operated on the patient was highly skilled."
+            "The surgeon whose operated on the patient was highly skilled.",
+            "The surgeon who operated on the patient was highly skilled."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Who' functions as the subject of the relative clause; repeating 'he' creates redundant double subject error.",
           "visualClue": "⚠️ Relative Syntax Accuracy"
         },
@@ -9274,9 +9274,9 @@ window.APP_DATA = {
           "question": "The modern software firm ______ develops cloud applications is situated in Riyadh.",
           "options": [
             "which",
-            "who",
+            "whose",
             "whom",
-            "whose"
+            "who"
           ],
           "correctAnswer": 0,
           "explanation": "An enterprise or corporation ('software firm') is an entity, taking 'which' or 'that'.",
@@ -9286,12 +9286,12 @@ window.APP_DATA = {
           "id": "e12_q10",
           "question": "'Do you want to be a doctor?' — In natural conversational speech, 'want to' is frequently reduced to ______.",
           "options": [
-            "wanna",
             "gonna",
             "gotta",
-            "hafta"
+            "hafta",
+            "wanna"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "In fluent American connected speech, 'want to' assimilates phonetically to '/ˈwɑːnə/' (wanna).",
           "visualClue": "🗣️ Phonological Reduction Lab"
         },
@@ -9299,12 +9299,12 @@ window.APP_DATA = {
           "id": "e12_q11",
           "question": "Judy Simpson loves helping children, so she ______ to become a child psychologist.",
           "options": [
+            "wanting",
             "wants",
-            "want",
             "is want",
-            "wanting"
+            "want"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Subject 'she' takes the singular form 'wants'.",
           "visualClue": "🧸 Child Psychology Specialization"
         },
@@ -9312,12 +9312,12 @@ window.APP_DATA = {
           "id": "e12_q12",
           "question": "A wrench is a mechanical tool ______ mechanics use to tighten nuts and bolts.",
           "options": [
-            "that",
-            "who",
+            "whoever",
             "whom",
-            "whoever"
+            "that",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Wrench' is a physical hand tool, requiring the relative pronoun 'that' or 'which'.",
           "visualClue": "🔧 Mechanical Workshop Tools"
         },
@@ -9325,12 +9325,12 @@ window.APP_DATA = {
           "id": "e12_q13",
           "question": "The police officer ______ rescued the lost hiker received a medal of bravery.",
           "options": [
-            "who",
-            "which",
             "where",
+            "which",
+            "who",
             "what"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Police officer' is a person, taking 'who'.",
           "visualClue": "👮 Law Enforcement Citation"
         },
@@ -9338,12 +9338,12 @@ window.APP_DATA = {
           "id": "e12_q14",
           "question": "Adnan is learning auto mechanics, but he ______ know how to rebuild a transmission yet.",
           "options": [
+            "isn't",
             "doesn't",
             "don't",
-            "isn't",
             "aren't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Third-person singular 'he' takes the negative auxiliary 'doesn't' in Simple Present.",
           "visualClue": "⚙️ Automotive Diagnostic Lab"
         },
@@ -9351,12 +9351,12 @@ window.APP_DATA = {
           "id": "e12_q15",
           "question": "In the sentence 'Martin likes working on ships, ______ he doesn't like working on weekends', the best connector is ______.",
           "options": [
-            "but",
             "and",
             "or",
+            "but",
             "so"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'But' connects contrasting clauses where one clause expresses a positive like and the other an aversion.",
           "visualClue": "🔗 Contrastive Conjunction Rule"
         },
@@ -9364,12 +9364,12 @@ window.APP_DATA = {
           "id": "e12_q16",
           "question": "A solar panel is a renewable energy device ______ converts sunlight directly into clean electricity.",
           "options": [
+            "whom",
             "which",
             "who",
-            "whom",
             "whoever"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Solar panel' is an inanimate technological apparatus, requiring 'which'.",
           "visualClue": "☀️ Clean Solar Energy"
         },
@@ -9379,8 +9379,8 @@ window.APP_DATA = {
           "options": [
             "who",
             "which",
-            "where",
-            "whose"
+            "whose",
+            "where"
           ],
           "correctAnswer": 0,
           "explanation": "Professors are scholars (people), requiring 'who'.",
@@ -9391,9 +9391,9 @@ window.APP_DATA = {
           "question": "Select the sentence with correct relative pronoun usage:",
           "options": [
             "A chef is someone who prepares gourmet meals.",
-            "A chef is someone which prepares gourmet meals.",
+            "A chef is someone what prepares gourmet meals.",
             "A chef is someone where prepares gourmet meals.",
-            "A chef is someone what prepares gourmet meals."
+            "A chef is someone which prepares gourmet meals."
           ],
           "correctAnswer": 0,
           "explanation": "'Who' is the strictly correct relative pronoun referring to persons.",
@@ -9403,12 +9403,12 @@ window.APP_DATA = {
           "id": "e12_q19",
           "question": "Sultan wants to become a graphic designer, but he ______ know how to use digital vector software yet.",
           "options": [
+            "isn't",
             "doesn't",
             "don't",
-            "not",
-            "isn't"
+            "not"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Subject 'he' takes 'doesn't know'.",
           "visualClue": "💻 Design Skills Competence"
         },
@@ -9416,12 +9416,12 @@ window.APP_DATA = {
           "id": "e12_q20",
           "question": "An operating room is a sanitized chamber ______ surgeons perform life-saving operations.",
           "options": [
-            "where",
             "who",
-            "whom",
-            "which he"
+            "which he",
+            "where",
+            "whom"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Where' is the relative adverb denoting a specific physical location where actions take place.",
           "visualClue": "🏥 Hospital Surgical Theater"
         }
@@ -9439,12 +9439,12 @@ window.APP_DATA = {
           "id": "e13_q01",
           "question": "An enjoyable leisure activity or hobby pursued during one's free time is a ______.",
           "options": [
-            "pastime",
-            "deadline",
             "penalty",
-            "prescription"
+            "prescription",
+            "pastime",
+            "deadline"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A pastime is a pleasant activity practiced for recreation during discretionary leisure hours.",
           "visualClue": "🎯 Leisure Activity Definition"
         },
@@ -9452,12 +9452,12 @@ window.APP_DATA = {
           "id": "e13_q02",
           "question": "'______ do you work out at the fitness gym?' — 'I work out three times a week.'",
           "options": [
-            "How often",
             "How much",
+            "How often",
             "How long",
             "How many"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'How often' is the specific question phrase used to ask about frequency of recurrence.",
           "visualClue": "⏱️ Frequency Interrogative Rule"
         },
@@ -9465,12 +9465,12 @@ window.APP_DATA = {
           "id": "e13_q03",
           "question": "Ali goes to the fitness gym on Mondays, Wednesdays, and Thursdays. He works out ______ a week.",
           "options": [
-            "three times",
-            "once",
             "twice",
-            "never"
+            "never",
+            "three times",
+            "once"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Three distinct days equal 'three times a week'.",
           "visualClue": "🏋️ Weekly Fitness Schedule"
         },
@@ -9478,12 +9478,12 @@ window.APP_DATA = {
           "id": "e13_q04",
           "question": "Which adverb denotes that an action occurs on 100% of occasions without exception?",
           "options": [
+            "never",
             "always",
-            "sometimes",
             "seldom",
-            "never"
+            "sometimes"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Always' represents absolute 100% frequency.",
           "visualClue": "💯 Absolute Frequency Spectrum"
         },
@@ -9491,12 +9491,12 @@ window.APP_DATA = {
           "id": "e13_q05",
           "question": "Ibrahim recites verses from the Holy Qur'an every single day. He ______ recites the Holy Qur'an.",
           "options": [
-            "always",
             "seldom",
             "never",
-            "rarely"
+            "rarely",
+            "always"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Every day' equates to 100% frequency, represented by the adverb 'always'.",
           "visualClue": "📖 Daily Devotional Habit"
         },
@@ -9504,12 +9504,12 @@ window.APP_DATA = {
           "id": "e13_q06",
           "question": "Teens often hang out with friends and eat pizza in the shopping mall ______.",
           "options": [
+            "post office",
             "food court",
             "airport runway",
-            "hospital ward",
-            "post office"
+            "hospital ward"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A food court is a dining area within a mall with multiple dining counters.",
           "visualClue": "🍕 Mall Food Court Dining"
         },
@@ -9517,12 +9517,12 @@ window.APP_DATA = {
           "id": "e13_q07",
           "question": "Qassim scales artificial climbing walls fitted with colored handholds. His hobby is ______.",
           "options": [
-            "indoor climbing",
             "ice-skating",
             "cooking",
-            "stamp collecting"
+            "stamp collecting",
+            "indoor climbing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Indoor climbing involves scaling specialized vertical climbing walls equipped with safety holds.",
           "visualClue": "🧗 Indoor Bouldering Sport"
         },
@@ -9530,12 +9530,12 @@ window.APP_DATA = {
           "id": "e13_q08",
           "question": "Which adverb expresses that an event happens with 0% frequency (not at any time)?",
           "options": [
-            "never",
-            "usually",
+            "sometimes",
             "often",
-            "sometimes"
+            "usually",
+            "never"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Never' denotes zero percent frequency.",
           "visualClue": "🚫 Zero Frequency Spectrum"
         },
@@ -9543,12 +9543,12 @@ window.APP_DATA = {
           "id": "e13_q09",
           "question": "Josh wears bladed boots and glides smoothly across the indoor frozen rink. He knows how to ______.",
           "options": [
+            "paint walls",
             "ice-skate",
-            "climb trees",
             "drive a bus",
-            "paint walls"
+            "climb trees"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Gliding across an ice rink on bladed boots is 'ice-skating'.",
           "visualClue": "⛸️ Indoor Ice Rink"
         },
@@ -9569,12 +9569,12 @@ window.APP_DATA = {
           "id": "e13_q11",
           "question": "What is the craft and hobby of designing and flying scale model aircraft called?",
           "options": [
-            "Aeromodelling",
             "Sculpting",
-            "Carpentry",
-            "Journalism"
+            "Journalism",
+            "Aeromodelling",
+            "Carpentry"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Aeromodelling is the internationally recognized name for building and flying model airplanes.",
           "visualClue": "✈️ Scale Aeromodelling Hobby"
         },
@@ -9582,12 +9582,12 @@ window.APP_DATA = {
           "id": "e13_q12",
           "question": "'Do you send text messages to your classmates?' — 'Yes, I do it ______ because we study together.'",
           "options": [
-            "all the time",
             "never time",
             "seldom days",
-            "once hour"
+            "once hour",
+            "all the time"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'All the time' is the natural idiomatic expression meaning continuously or very frequently.",
           "visualClue": "📱 Instant Study Messaging"
         },
@@ -9597,8 +9597,8 @@ window.APP_DATA = {
           "options": [
             "Every day",
             "Once a month",
-            "Seldom",
-            "Never"
+            "Never",
+            "Seldom"
           ],
           "correctAnswer": 0,
           "explanation": "'Every morning' is equivalent to 'every day'.",
@@ -9610,8 +9610,8 @@ window.APP_DATA = {
           "options": [
             "board games",
             "video games",
-            "aerobatics",
-            "athletics"
+            "athletics",
+            "aerobatics"
           ],
           "correctAnswer": 0,
           "explanation": "Tabletop games played with counters on marked surfaces are classified as board games.",
@@ -9621,12 +9621,12 @@ window.APP_DATA = {
           "id": "e13_q15",
           "question": "An unmanned aircraft controlled remotely through transmitted wireless signals is a ______.",
           "options": [
-            "drone",
-            "glider kite",
             "hot air balloon",
-            "submarine"
+            "submarine",
+            "drone",
+            "glider kite"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "A drone (or UAV) is an aircraft navigated remotely via wireless signals.",
           "visualClue": "🚁 Remote Drone Telemetry"
         },
@@ -9634,12 +9634,12 @@ window.APP_DATA = {
           "id": "e13_q16",
           "question": "Where do adverbs of frequency appear in relation to the verb 'be' (am/is/are)?",
           "options": [
+            "At the very end of the paragraph",
             "AFTER the verb 'be'",
             "BEFORE the verb 'be'",
-            "At the very end of the paragraph",
             "Before the capital letter"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Adverbs of frequency follow the verb 'be' (e.g., 'He is always punctual').",
           "visualClue": "📐 Verb 'Be' Adverb Placement"
         },
@@ -9647,12 +9647,12 @@ window.APP_DATA = {
           "id": "e13_q17",
           "question": "Where do adverbs of frequency appear in relation to main action verbs (like play, work, study)?",
           "options": [
-            "BEFORE the main action verb",
-            "After the object noun",
+            "After the period",
             "At the start of every clause",
-            "After the period"
+            "BEFORE the main action verb",
+            "After the object noun"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Adverbs of frequency precede main action verbs (e.g., 'They usually play football').",
           "visualClue": "📐 Action Verb Word Order"
         },
@@ -9660,12 +9660,12 @@ window.APP_DATA = {
           "id": "e13_q18",
           "question": "Noura loves water coloring. Painting is a creative and ______ hobby for her.",
           "options": [
-            "relaxing",
-            "dangerous",
             "exhausting",
-            "boring"
+            "boring",
+            "dangerous",
+            "relaxing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text describes painting as an enjoyable, 'relaxing and creative pastime'.",
           "visualClue": "🎨 Watercolor Landscape Painting"
         },
@@ -9674,9 +9674,9 @@ window.APP_DATA = {
           "question": "Spectacular aerial stunts such as loops and rolls performed by airplanes are called ______.",
           "options": [
             "aerobatics",
+            "logistics",
             "mechanics",
-            "acoustics",
-            "logistics"
+            "acoustics"
           ],
           "correctAnswer": 0,
           "explanation": "Aerobatics refers specifically to aerial acrobatics and stunt maneuvers.",
@@ -9687,9 +9687,9 @@ window.APP_DATA = {
           "question": "Teens who practice sports and eat wholesome meals maintain good health and are ______ sick.",
           "options": [
             "seldom",
+            "all the time",
             "always",
-            "every day",
-            "all the time"
+            "every day"
           ],
           "correctAnswer": 0,
           "explanation": "'Seldom' (rarely) accurately describes the low frequency of illness for healthy youths.",
@@ -9709,12 +9709,12 @@ window.APP_DATA = {
           "id": "e14_q01",
           "question": "Select the sentence with strictly correct adverb of frequency word order:",
           "options": [
-            "Ali always does his homework before dinner.",
             "Ali does always his homework before dinner.",
-            "Ali does his homework always before dinner.",
-            "Always Ali does his homework before dinner."
+            "Ali always does his homework before dinner.",
+            "Always Ali does his homework before dinner.",
+            "Ali does his homework always before dinner."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The adverb 'always' correctly precedes the main lexical verb 'does'.",
           "visualClue": "📐 Syntactic Adverb Placement"
         },
@@ -9722,12 +9722,12 @@ window.APP_DATA = {
           "id": "e14_q02",
           "question": "Fahd is a punctual student. He ______ late for his morning classes.",
           "options": [
-            "is never",
-            "never is",
             "never isn't",
+            "never is",
+            "is never",
             "is not never"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "With the verb 'be', the adverb must follow: 'is never'.",
           "visualClue": "⏰ Punctuality Standard"
         },
@@ -9735,12 +9735,12 @@ window.APP_DATA = {
           "id": "e14_q03",
           "question": "My classmates and I enjoy ______ multiplayer video games together on weekend evenings.",
           "options": [
-            "playing",
-            "to play",
             "play",
-            "played"
+            "to play",
+            "played",
+            "playing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The verb 'enjoy' strictly requires a gerund complement ('playing').",
           "visualClue": "🎮 Gerund Complementation Rule"
         },
@@ -9749,9 +9749,9 @@ window.APP_DATA = {
           "question": "We hope ______ the national aeromodelling championship trophy next month.",
           "options": [
             "to win",
+            "won",
             "winning",
-            "win",
-            "won"
+            "win"
           ],
           "correctAnswer": 0,
           "explanation": "The verb 'hope' requires an infinitive complement ('to win').",
@@ -9761,12 +9761,12 @@ window.APP_DATA = {
           "id": "e14_q05",
           "question": "______ radio-controlled model planes requires patience, technical skill, and steady hands.",
           "options": [
-            "Flying",
-            "Fly",
+            "Flown",
             "Flew",
-            "Flown"
+            "Fly",
+            "Flying"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "A gerund ('Flying') functions as the grammatical subject of the clause.",
           "visualClue": "✈️ Gerund Subject Agreement"
         },
@@ -9787,12 +9787,12 @@ window.APP_DATA = {
           "id": "e14_q07",
           "question": "My teammates love winning matches, but they can't stand ______.",
           "options": [
-            "losing",
             "to lose",
-            "lose",
-            "lost"
+            "lost",
+            "losing",
+            "lose"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The idiomatic preference expression 'can't stand' is followed by a gerund ('losing').",
           "visualClue": "⚽ Competitive Match Mentality"
         },
@@ -9800,12 +9800,12 @@ window.APP_DATA = {
           "id": "e14_q08",
           "question": "Which of the following adverbs can optionally be placed at the very beginning of a sentence?",
           "options": [
-            "Sometimes",
+            "Seldom",
             "Never",
-            "Always",
-            "Seldom"
+            "Sometimes",
+            "Always"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "As stated in the Super Goal 2 grammar rules, 'Sometimes' can begin a sentence ('Sometimes I go out').",
           "visualClue": "🔄 Flexible Fronting Rule"
         },
@@ -9814,9 +9814,9 @@ window.APP_DATA = {
           "question": "Adnan spends three hours every Saturday ______ his scale drone's telemetry system.",
           "options": [
             "calibrating",
+            "calibrated",
             "to calibrate",
-            "calibrate",
-            "calibrated"
+            "calibrate"
           ],
           "correctAnswer": 0,
           "explanation": "The construction 'spend time' is strictly followed by a gerund ('calibrating').",
@@ -9826,12 +9826,12 @@ window.APP_DATA = {
           "id": "e14_q10",
           "question": "______ football is an exciting way to build cardiovascular endurance and teamwork.",
           "options": [
-            "Playing",
-            "Play",
             "To playing",
-            "Played"
+            "Playing",
+            "Played",
+            "Play"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Playing' is the gerund subject of the sentence, taking the singular verb 'is'.",
           "visualClue": "⚽ Subject Gerund Identification"
         },
@@ -9839,12 +9839,12 @@ window.APP_DATA = {
           "id": "e14_q11",
           "question": "Identify the sentence that contains an ungrammatical double negative:",
           "options": [
-            "I don't never fly drones in high winds.",
-            "I never fly drones in high winds.",
             "I don't fly drones in high winds.",
-            "I seldom fly drones in high winds."
+            "I don't never fly drones in high winds.",
+            "I seldom fly drones in high winds.",
+            "I never fly drones in high winds."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Combining 'don't' with 'never' constitutes an ungrammatical double negative.",
           "visualClue": "⚠️ Double Negative Detection"
         },
@@ -9852,12 +9852,12 @@ window.APP_DATA = {
           "id": "e14_q12",
           "question": "Sabah wants ______ a culinary chef in a luxury hospitality resort.",
           "options": [
-            "to be",
-            "being",
             "be",
-            "been"
+            "been",
+            "being",
+            "to be"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Want' is followed by the infinitive 'to be'.",
           "visualClue": "👩‍🍳 Career Infinitive Complementation"
         },
@@ -9865,12 +9865,12 @@ window.APP_DATA = {
           "id": "e14_q13",
           "question": "In the sentence 'Painting is my hobby', the word 'Painting' is a ______.",
           "options": [
-            "gerund functioning as a subject",
             "present progressive verb",
             "past participle adjective",
-            "conjunction"
+            "conjunction",
+            "gerund functioning as a subject"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Painting' is an -ing form functioning as a noun subject, which defines a gerund.",
           "visualClue": "🎨 Grammatical Categorization"
         },
@@ -9879,8 +9879,8 @@ window.APP_DATA = {
           "question": "They ______ eat out on weekdays because their mother prepares delicious homemade dinners.",
           "options": [
             "rarely",
-            "always",
             "every day",
+            "always",
             "all the time"
           ],
           "correctAnswer": 0,
@@ -9891,12 +9891,12 @@ window.APP_DATA = {
           "id": "e14_q15",
           "question": "I would like ______ the Prince Sultan Aviation Academy after completing secondary school.",
           "options": [
+            "join",
             "to join",
             "joining",
-            "join",
             "joined"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Would like' takes an infinitive with 'to' ('to join').",
           "visualClue": "✈️ Aviation Academy Enrollment"
         },
@@ -9904,12 +9904,12 @@ window.APP_DATA = {
           "id": "e14_q16",
           "question": "Rick normally ______ aerobatic maneuvers with his plane on Saturdays.",
           "options": [
-            "performs",
-            "perform",
+            "performed",
             "is performing",
-            "performed"
+            "performs",
+            "perform"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Normally' triggers the Simple Present; singular subject 'Rick' takes 'performs'.",
           "visualClue": "🛩️ Habitual Aerobatics Performance"
         },
@@ -9917,12 +9917,12 @@ window.APP_DATA = {
           "id": "e14_q17",
           "question": "Which verb can be followed by BOTH a gerund and an infinitive with virtually the same meaning?",
           "options": [
-            "like",
+            "hope",
             "enjoy",
-            "recommend",
-            "hope"
+            "like",
+            "recommend"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Like' can be followed by either a gerund ('I like cooking') or an infinitive ('I like to cook').",
           "visualClue": "🔄 Dual Complementation Verbs"
         },
@@ -9930,12 +9930,12 @@ window.APP_DATA = {
           "id": "e14_q18",
           "question": "Teens in Saudi Arabia ______ browse digital news websites to read about national developments.",
           "options": [
+            "once times",
             "often",
             "never not",
-            "once times",
             "every days"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Often' is the grammatically accurate adverb of frequency placed before the verb 'browse'.",
           "visualClue": "📰 Digital News Literacy"
         },
@@ -9944,9 +9944,9 @@ window.APP_DATA = {
           "question": "He decided ______ a new carbon-fiber propeller for his scale stunt plane.",
           "options": [
             "to buy",
-            "buying",
+            "bought",
             "buy",
-            "bought"
+            "buying"
           ],
           "correctAnswer": 0,
           "explanation": "'Decide' is followed by an infinitive with 'to' ('to buy').",
@@ -9956,12 +9956,12 @@ window.APP_DATA = {
           "id": "e14_q20",
           "question": "Which of the following sentences is grammatically INCORRECT?",
           "options": [
-            "I enjoy to play tennis on Saturday afternoons.",
-            "I enjoy playing tennis on Saturday afternoons.",
             "I like to play tennis on Saturday afternoons.",
-            "Playing tennis is my favorite sport."
+            "Playing tennis is my favorite sport.",
+            "I enjoy playing tennis on Saturday afternoons.",
+            "I enjoy to play tennis on Saturday afternoons."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Enjoy' cannot take an infinitive ('to play'); it must take a gerund ('playing').",
           "visualClue": "⚠️ Verb Form Error Analysis"
         }
@@ -9979,12 +9979,12 @@ window.APP_DATA = {
           "id": "e15_q01",
           "question": "Capt. Al-Otaibi is an airline pilot who ______ for Saudia. Right now, he ______ his flight plan in the briefing room.",
           "options": [
-            "flies / is reviewing",
             "is flying / reviews",
             "fly / review",
-            "flying / is reviewed"
+            "flying / is reviewed",
+            "flies / is reviewing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Permanent career routines take the Simple Present ('flies'), while momentary current events require the Present Progressive ('is reviewing').",
           "visualClue": "✈️ Multi-Tense Career Contrast"
         },
@@ -9992,12 +9992,12 @@ window.APP_DATA = {
           "id": "e15_q02",
           "question": "The software engineers ______ design cybersecurity defenses for the ministry ______ working late tonight on a special update.",
           "options": [
-            "who / are",
-            "which / is",
             "where / are",
-            "whom / is being"
+            "whom / is being",
+            "who / are",
+            "which / is"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Engineers' are people, requiring 'who', and the plural subject takes the plural auxiliary 'are'.",
           "visualClue": "🔒 Cybersecurity Team Syntax"
         },
@@ -10005,12 +10005,12 @@ window.APP_DATA = {
           "id": "e15_q03",
           "question": "Ali ______ indoor climbing twice a week, and he ______ hopes to become a certified instructor.",
           "options": [
-            "practices / sincerely",
-            "is practicing / never",
             "practice / seldom",
-            "practiced / not"
+            "is practicing / never",
+            "practiced / not",
+            "practices / sincerely"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Singular subject 'Ali' takes the Simple Present 'practices', paired logically with his genuine career hope.",
           "visualClue": "🧗 Athletic Mastery Concord"
         },
@@ -10018,12 +10018,12 @@ window.APP_DATA = {
           "id": "e15_q04",
           "question": "A wind tunnel is a specialized aerodynamic testing chamber ______ engineers use to evaluate scale model planes.",
           "options": [
-            "which",
-            "who",
             "whom",
-            "whoever"
+            "which",
+            "whoever",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Wind tunnel' is an engineering facility/apparatus, requiring the inanimate relative pronoun 'which'.",
           "visualClue": "💨 Aerodynamic Wind Tunnel"
         },
@@ -10033,8 +10033,8 @@ window.APP_DATA = {
           "options": [
             "painting / to enter",
             "to paint / entering",
-            "paint / enter",
-            "painted / for enter"
+            "painted / for enter",
+            "paint / enter"
           ],
           "correctAnswer": 0,
           "explanation": "'Enjoy' requires a gerund ('painting'), while 'prepare' takes an infinitive ('to enter').",
@@ -10045,9 +10045,9 @@ window.APP_DATA = {
           "question": "'How often do jet models require maintenance?' — 'Technicians ______ inspect them after every flight.'",
           "options": [
             "always",
+            "rarely",
             "never",
-            "seldom",
-            "rarely"
+            "seldom"
           ],
           "correctAnswer": 0,
           "explanation": "Flight safety regulations require that aircraft are inspected on 100% of occasions ('always').",
@@ -10057,12 +10057,12 @@ window.APP_DATA = {
           "id": "e15_q07",
           "question": "The medical doctor ______ treated the conjoined twins at King Abdulaziz Medical City ______ worldwide recognition.",
           "options": [
-            "who / received",
+            "whose / receive",
             "which / receives",
-            "whom / receiving",
-            "whose / receive"
+            "who / received",
+            "whom / receiving"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Doctor' takes 'who', followed by the past tense achievement 'received'.",
           "visualClue": "🇸🇦 Pioneering Saudi Medicine"
         },
@@ -10070,12 +10070,12 @@ window.APP_DATA = {
           "id": "e15_q08",
           "question": "______ scale model airplanes ______ an exciting pastime that teaches physics and aerodynamics.",
           "options": [
-            "Building / is",
+            "Building / are",
             "Build / are",
-            "To building / are",
-            "Building / are"
+            "Building / is",
+            "To building / are"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The gerund phrase 'Building scale model airplanes' acts as a singular conceptual subject, requiring the singular verb 'is'.",
           "visualClue": "✈️ Gerund Subject Concord"
         },
@@ -10085,8 +10085,8 @@ window.APP_DATA = {
           "options": [
             "seldom / always",
             "always / never",
-            "never / seldom",
-            "usually / rarely"
+            "usually / rarely",
+            "never / seldom"
           ],
           "correctAnswer": 0,
           "explanation": "Distance makes in-person visits infrequent ('seldom'), while 'every Friday' indicates 100% regularity ('always').",
@@ -10096,12 +10096,12 @@ window.APP_DATA = {
           "id": "e15_q10",
           "question": "An unmanned drone is an aircraft ______ has no human pilot on board and ______ navigated by radio signals.",
           "options": [
-            "that / is",
-            "who / are",
+            "which / were",
             "whom / was",
-            "which / were"
+            "that / is",
+            "who / are"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Aircraft' is inanimate ('that'), and singular takes 'is navigated'.",
           "visualClue": "🛰️ Autonomous Drone Avionics"
         },
@@ -10109,12 +10109,12 @@ window.APP_DATA = {
           "id": "e15_q11",
           "question": "The apprentice carpenter ______ how to operate high-precision table saws safely under supervision.",
           "options": [
-            "knows",
             "know",
+            "knows",
             "is knowing",
             "knowing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Singular subject 'apprentice carpenter' takes 'knows how to'.",
           "visualClue": "🪚 Carpenter Workshop Precision"
         },
@@ -10123,9 +10123,9 @@ window.APP_DATA = {
           "question": "Which of the following sentences exhibits completely flawless grammatical agreement and syntax?",
           "options": [
             "The architect who designed the cultural center always incorporates sustainable energy principles.",
-            "The architect which designed the cultural center always incorporate sustainable energy principles.",
             "The architect who he designed the cultural center is always incorporating principles.",
-            "The architect whose designed the cultural center incorporates always principles."
+            "The architect whose designed the cultural center incorporates always principles.",
+            "The architect which designed the cultural center always incorporate sustainable energy principles."
           ],
           "correctAnswer": 0,
           "explanation": "Option A accurately pairs human 'who', 3rd-person singular 'incorporates', and correctly places the frequency adverb 'always'.",
@@ -10135,12 +10135,12 @@ window.APP_DATA = {
           "id": "e15_q13",
           "question": "Teens who practice athletics ______ complain about feeling lethargic because exercise energizes them.",
           "options": [
-            "rarely",
-            "always",
+            "all the time",
             "every day",
-            "all the time"
+            "always",
+            "rarely"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Rarely' matches the positive effect of regular exercise on stamina.",
           "visualClue": "🏃 Physical Conditioning Impact"
         },
@@ -10148,12 +10148,12 @@ window.APP_DATA = {
           "id": "e15_q14",
           "question": "A digital drawing tablet is a peripheral tool ______ graphic designers use to sketch concepts.",
           "options": [
-            "that",
-            "who",
             "whom",
-            "whoever"
+            "that",
+            "whoever",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A drawing tablet is a hardware device, taking 'that' or 'which'.",
           "visualClue": "🎨 Graphic Tablet Hardware"
         },
@@ -10161,12 +10161,12 @@ window.APP_DATA = {
           "id": "e15_q15",
           "question": "I can't stand ______ in heavy traffic, so I prefer ______ the new Riyadh Metro.",
           "options": [
-            "driving / taking",
-            "to drive / take",
             "drive / to taking",
-            "drove / took"
+            "to drive / take",
+            "drove / took",
+            "driving / taking"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Can't stand' takes a gerund ('driving'), and 'prefer' takes a gerund ('taking').",
           "visualClue": "🚇 Modern Urban Transit"
         },
@@ -10174,12 +10174,12 @@ window.APP_DATA = {
           "id": "e15_q16",
           "question": "The marine biologist ______ researches Red Sea coral reefs ______ a paper at the international marine symposium.",
           "options": [
-            "who / is presenting",
-            "which / presents",
+            "whom / present",
             "where / are presenting",
-            "whom / present"
+            "which / presents",
+            "who / is presenting"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Biologist' takes 'who', and the active presentation takes the progressive 'is presenting'.",
           "visualClue": "🪸 Marine Ecological Research"
         },
@@ -10187,12 +10187,12 @@ window.APP_DATA = {
           "id": "e15_q17",
           "question": "Students ______ want to succeed in technological careers must know how ______ algorithmic thinking.",
           "options": [
-            "who / to apply",
-            "which / applying",
             "where / apply",
-            "whose / to applying"
+            "who / to apply",
+            "whose / to applying",
+            "which / applying"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Plural persons take 'who', and 'know how' takes an infinitive with 'to apply'.",
           "visualClue": "💻 Algorithmic Problem Solving"
         },
@@ -10201,9 +10201,9 @@ window.APP_DATA = {
           "question": "Our robotics instructor ______ reminds us to wear safety goggles before turning on high-speed motors.",
           "options": [
             "always",
-            "never",
+            "rarely",
             "seldom",
-            "rarely"
+            "never"
           ],
           "correctAnswer": 0,
           "explanation": "Lab safety protocols are enforced on every occasion ('always').",
@@ -10213,12 +10213,12 @@ window.APP_DATA = {
           "id": "e15_q19",
           "question": "What is the grammatical error in: 'A flight simulator is an apparatus who helps pilots train safely'?",
           "options": [
-            "The relative pronoun 'who' cannot refer to an inanimate apparatus; it should be 'which' or 'that'.",
             "The verb 'helps' should be plural 'help'.",
-            "The noun 'pilots' should be singular 'pilot'.",
-            "The adverb 'safely' should be an adjective."
+            "The adverb 'safely' should be an adjective.",
+            "The relative pronoun 'who' cannot refer to an inanimate apparatus; it should be 'which' or 'that'.",
+            "The noun 'pilots' should be singular 'pilot'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Who' is restricted to human referents. Inanimate devices like a flight simulator require 'which' or 'that'.",
           "visualClue": "⚠️ Error Autopsy Protocol"
         },
@@ -10226,12 +10226,12 @@ window.APP_DATA = {
           "id": "e15_q20",
           "question": "______ desert sand dunes in four-wheel-drive vehicles ______ a thrilling Saudi pastime.",
           "options": [
+            "To traversing / is",
             "Traversing / is",
             "Traverse / are",
-            "Traversed / are",
-            "To traversing / is"
+            "Traversed / are"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The gerund 'Traversing' serves as the singular grammatical head of the subject clause.",
           "visualClue": "🚙 Desert Dune Off-Roading"
         }
@@ -10249,12 +10249,12 @@ window.APP_DATA = {
           "id": "e16_q01",
           "question": "The maximum transverse distance measured across an aircraft from wingtip to wingtip is termed its ______.",
           "options": [
-            "wingspan",
             "cockpit",
+            "telemetry",
             "propulsion",
-            "telemetry"
+            "wingspan"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Wingspan is the precise aeronautical term denoting the distance between the tips of an aircraft's wings.",
           "visualClue": "✈️ Aeronautical Measurement"
         },
@@ -10262,12 +10262,12 @@ window.APP_DATA = {
           "id": "e16_q02",
           "question": "The economic term denoting valuable resources, strengths, or human capital that empower a nation is ______.",
           "options": [
-            "assets",
             "tariffs",
             "penalties",
-            "deficits"
+            "deficits",
+            "assets"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Assets represent strengths and valuable capital, as highlighted in the Vision 2030 reading passage.",
           "visualClue": "💼 Economic Terminology"
         },
@@ -10275,12 +10275,12 @@ window.APP_DATA = {
           "id": "e16_q03",
           "question": "A miniature internal engine that produces high-velocity jet thrust by burning aviation fuel is a ______.",
           "options": [
-            "jet turbine",
-            "rubber cable",
             "windup spring",
+            "rubber cable",
+            "jet turbine",
             "manual pump"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Miniature jet turbines power high-performance scale aeromodels up to 380 km/h.",
           "visualClue": "🔥 Jet Turbine Propulsion"
         },
@@ -10288,12 +10288,12 @@ window.APP_DATA = {
           "id": "e16_q04",
           "question": "The statistical percentage of jobseekers actively looking for employment who do not yet have a job is the ______ rate.",
           "options": [
-            "unemployment",
             "inflation",
-            "interest",
-            "literacy"
+            "unemployment",
+            "literacy",
+            "interest"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The unemployment rate measures the proportion of the workforce seeking employment.",
           "visualClue": "📊 Labor Market Economics"
         },
@@ -10303,8 +10303,8 @@ window.APP_DATA = {
           "options": [
             "surgeon",
             "salesperson",
-            "carpenter",
-            "reporter"
+            "reporter",
+            "carpenter"
           ],
           "correctAnswer": 0,
           "explanation": "A surgeon is a specialized physician trained to execute operative procedures.",
@@ -10314,12 +10314,12 @@ window.APP_DATA = {
           "id": "e16_q06",
           "question": "The mechanical driving force that moves an aircraft forward through the air is called ______.",
           "options": [
+            "friction",
             "propulsion",
-            "navigation",
             "aerobatics",
-            "friction"
+            "navigation"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Propulsion is the aerodynamic driving force that pushes an aircraft forward.",
           "visualClue": "⚙️ Aerodynamic Propulsion"
         },
@@ -10328,9 +10328,9 @@ window.APP_DATA = {
           "question": "Which professional produces visual layouts, motion graphics, and corporate branding for commercial clients?",
           "options": [
             "Graphic designer",
-            "Bus driver",
             "Marine engineer",
-            "Dentist"
+            "Dentist",
+            "Bus driver"
           ],
           "correctAnswer": 0,
           "explanation": "A graphic designer conceptualizes visual media and branding.",
@@ -10340,12 +10340,12 @@ window.APP_DATA = {
           "id": "e16_q08",
           "question": "The collective body of employable citizens available for national economic productivity is the ______.",
           "options": [
-            "workforce",
             "aeromodelling club",
-            "tourist registry",
-            "sports committee"
+            "workforce",
+            "sports committee",
+            "tourist registry"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The workforce comprises all people engaged in or available for productive employment.",
           "visualClue": "👥 National Workforce Analytics"
         },
@@ -10353,12 +10353,12 @@ window.APP_DATA = {
           "id": "e16_q09",
           "question": "What does the informal conversational phrase 'stuff like that' mean?",
           "options": [
-            "Similar items, activities, or related things of the same category.",
-            "Damaged aviation equipment that must be discarded.",
             "Strict legal regulations enforced by judges.",
-            "A medical diagnosis requiring surgery."
+            "Damaged aviation equipment that must be discarded.",
+            "A medical diagnosis requiring surgery.",
+            "Similar items, activities, or related things of the same category."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Stuff like that' is an informal English expression used to refer to similar activities without naming all.",
           "visualClue": "💬 Conversational Idiom"
         },
@@ -10366,12 +10366,12 @@ window.APP_DATA = {
           "id": "e16_q10",
           "question": "A specialized agency that plans, produces, and broadcasts marketing advertisements is an ______.",
           "options": [
+            "orthopedic ward",
             "advertising firm",
             "airline cockpit",
-            "orthopedic ward",
             "elementary school"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "An advertising firm creates promotional campaigns for corporate clients.",
           "visualClue": "🏢 Creative Advertising Firm"
         },
@@ -10379,12 +10379,12 @@ window.APP_DATA = {
           "id": "e16_q11",
           "question": "The sport of executing precision aerobatic stunts and maneuvers in aircraft is termed ______.",
           "options": [
-            "aerobatics",
-            "mechanics",
             "robotics",
-            "athletics"
+            "aerobatics",
+            "athletics",
+            "mechanics"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Aerobatics refers to stunt maneuvers including barrel rolls, loops, and dives.",
           "visualClue": "🛩️ Aerobatic Stunt Flight"
         },
@@ -10392,12 +10392,12 @@ window.APP_DATA = {
           "id": "e16_q12",
           "question": "A skilled technician who inspects, services, and repairs automobile combustion engines is an auto ______.",
           "options": [
-            "mechanic",
             "carpenter",
-            "architect",
-            "author"
+            "author",
+            "mechanic",
+            "architect"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Mechanics repair and maintain motorized vehicular machinery.",
           "visualClue": "🔧 Automotive Mechanics"
         },
@@ -10406,8 +10406,8 @@ window.APP_DATA = {
           "question": "A recreational facility where patrons scale vertical walls equipped with artificial grips is an ______ center.",
           "options": [
             "indoor climbing",
-            "aeromodelling",
             "ice-skating",
+            "aeromodelling",
             "archery"
           ],
           "correctAnswer": 0,
@@ -10431,12 +10431,12 @@ window.APP_DATA = {
           "id": "e16_q15",
           "question": "An aircraft guided and maneuvered wirelessly through transmitted electromagnetic waves is ______.",
           "options": [
-            "radio-controlled",
             "elastic-propelled",
-            "cable-tethered",
-            "foot-pedaled"
+            "foot-pedaled",
+            "radio-controlled",
+            "cable-tethered"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Radio-controlled models are directed wirelessly via radio frequency telemetry.",
           "visualClue": "📻 Wireless Radio Telemetry"
         },
@@ -10445,9 +10445,9 @@ window.APP_DATA = {
           "question": "Which adjective best describes an experience that calms the nerves, eases tension, and induces peace?",
           "options": [
             "relaxing",
+            "propulsion",
             "dangerous",
-            "unemployment",
-            "propulsion"
+            "unemployment"
           ],
           "correctAnswer": 0,
           "explanation": "'Relaxing' describes activities that promote physical and mental calm.",
@@ -10457,12 +10457,12 @@ window.APP_DATA = {
           "id": "e16_q17",
           "question": "A clinical professional specialized in preventative oral hygiene and tooth care is a ______.",
           "options": [
-            "dentist",
-            "pilot",
             "marine engineer",
-            "translator"
+            "translator",
+            "dentist",
+            "pilot"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Dentists diagnose and treat oral conditions and maintain dental hygiene.",
           "visualClue": "🦷 Dental Clinical Hygiene"
         },
@@ -10470,12 +10470,12 @@ window.APP_DATA = {
           "id": "e16_q18",
           "question": "What term designates an exhibition where university students meet diverse corporate employers to explore careers?",
           "options": [
-            "Career exhibit",
-            "Film festival",
+            "Flight deck",
             "Food court",
-            "Flight deck"
+            "Film festival",
+            "Career exhibit"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "A career exhibit connects jobseekers and students with prospective employers.",
           "visualClue": "💼 Career Exhibit Convention"
         },
@@ -10483,12 +10483,12 @@ window.APP_DATA = {
           "id": "e16_q19",
           "question": "An engineer who inspects and maintains the propulsion turbines and hull machinery of ships is a ______.",
           "options": [
-            "marine engineer",
+            "flight attendant",
             "civil engineer",
-            "child psychologist",
-            "flight attendant"
+            "marine engineer",
+            "child psychologist"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Marine engineers operate and service machinery on maritime vessels.",
           "visualClue": "⚓ Marine Propulsion Machinery"
         },
@@ -10496,12 +10496,12 @@ window.APP_DATA = {
           "id": "e16_q20",
           "question": "Which word denotes that an activity is uncommon, extraordinary, or rare?",
           "options": [
-            "unusual",
             "usual",
+            "every day",
             "always",
-            "every day"
+            "unusual"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Unusual' describes things that deviate from the ordinary or typical.",
           "visualClue": "✨ Extraordinary Pastimes"
         }
@@ -10519,12 +10519,12 @@ window.APP_DATA = {
           "id": "e17_q01",
           "question": "According to the reading passage, what proportion of the Saudi Arabian population is under 25 years old?",
           "options": [
+            "Approximately 80% of the population.",
             "Exactly half (50%) of the population.",
             "Less than 10% of the population.",
-            "Approximately 80% of the population.",
             "Only 5% of the population."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The text states explicitly: 'Half of the people in Saudi Arabia are under the age of 25.'",
           "visualClue": "🇸🇦 Youth Demographic Fact"
         },
@@ -10534,8 +10534,8 @@ window.APP_DATA = {
           "options": [
             "Because young citizens possess energy, ambition, and determination to drive the future economy.",
             "Because youth do not require any formal education.",
-            "Because young people only pursue seasonal vacation travel.",
-            "Because young citizens refuse to use digital technology."
+            "Because young citizens refuse to use digital technology.",
+            "Because young people only pursue seasonal vacation travel."
           ],
           "correctAnswer": 0,
           "explanation": "Young people bring innovation, determination, and dynamic capacity to build a diversified economy.",
@@ -10545,12 +10545,12 @@ window.APP_DATA = {
           "id": "e17_q03",
           "question": "What target does Saudi Vision 2030 establish for women's workforce participation?",
           "options": [
-            "To increase participation from 22% to 30%.",
             "To reduce participation to 10%.",
-            "To keep participation frozen at 22%.",
-            "To eliminate women from technical professions."
+            "To increase participation from 22% to 30%.",
+            "To eliminate women from technical professions.",
+            "To keep participation frozen at 22%."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Under Vision 2030 employment goals: 'To increase women's participation in the workforce from 22% to 30%.'",
           "visualClue": "📈 Gender Inclusion Metric"
         },
@@ -10558,12 +10558,12 @@ window.APP_DATA = {
           "id": "e17_q04",
           "question": "How does the 'Job Creation Team' assist national employment?",
           "options": [
-            "By helping citizens find jobs and assisting new businesses that provide jobs and training.",
-            "By closing down private technology firms.",
             "By forcing all students to become bus drivers.",
-            "By prohibiting vocational internships."
+            "By prohibiting vocational internships.",
+            "By helping citizens find jobs and assisting new businesses that provide jobs and training.",
+            "By closing down private technology firms."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The Job Creation Team actively matches jobseekers and supports new enterprise training.",
           "visualClue": "💼 Job Creation Policy"
         },
@@ -10584,12 +10584,12 @@ window.APP_DATA = {
           "id": "e17_q06",
           "question": "Why did model aviation enthusiasts abandon older cable-tethered airplanes?",
           "options": [
-            "Because modern radio-controlled planes fly freely like real aircraft and can execute aerobatics.",
             "Because cable-tethered planes were too fast for radar.",
             "Because cables were strictly outlawed internationally.",
-            "Because model planes are no longer manufactured."
+            "Because model planes are no longer manufactured.",
+            "Because modern radio-controlled planes fly freely like real aircraft and can execute aerobatics."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Radio control allows unrestricted realistic flight and aerial acrobatics without physical cable tethering.",
           "visualClue": "📻 RC Aviation Evolution"
         },
@@ -10597,12 +10597,12 @@ window.APP_DATA = {
           "id": "e17_q07",
           "question": "What is the top speed recorded for sophisticated jet-turbine aeromodels in the reading text?",
           "options": [
-            "236 miles (380 kilometers) per hour.",
-            "50 miles (80 kilometers) per hour.",
+            "The speed of a bicycle.",
             "100 miles (160 kilometers) per hour.",
-            "The speed of a bicycle."
+            "50 miles (80 kilometers) per hour.",
+            "236 miles (380 kilometers) per hour."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text specifies: 'These jet models can travel at speeds of 236 miles (380 kilometers) per hour.'",
           "visualClue": "🏎️ High-Speed Aerodynamics"
         },
@@ -10610,12 +10610,12 @@ window.APP_DATA = {
           "id": "e17_q08",
           "question": "How does the speed of a jet-powered model compare to automotive racing speeds?",
           "options": [
-            "It exceeds the top speed of a Formula 1 race car.",
             "It is slower than a golf cart.",
+            "It exceeds the top speed of a Formula 1 race car.",
             "It travels at exactly the speed of a delivery van.",
             "It cannot fly as fast as an ordinary pedestrian runs."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The passage states: 'that's more than the top speed of a Formula 1 race car.'",
           "visualClue": "⚡ Velocity Comparison"
         },
@@ -10623,12 +10623,12 @@ window.APP_DATA = {
           "id": "e17_q09",
           "question": "What is the size range of radio-controlled aircraft detailed in the passage?",
           "options": [
-            "From a 9-inch mini flyer to a huge jet model with a 29.5-foot wingspan.",
-            "All planes are exactly 50 centimeters wide.",
             "From 100 meters to 1 kilometer wingspan.",
+            "All planes are exactly 50 centimeters wide.",
+            "From a 9-inch mini flyer to a huge jet model with a 29.5-foot wingspan.",
             "They have no wings."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The text notes dimensions from 9 inches (23 cm) up to 29.5 feet (9 meters).",
           "visualClue": "📐 Scale Range Analysis"
         },
@@ -10636,12 +10636,12 @@ window.APP_DATA = {
           "id": "e17_q10",
           "question": "What actions do fliers demonstrate during aeromodelling tournaments?",
           "options": [
-            "Launchings, landings, and complex aerial maneuvers.",
-            "Serving meals to passengers.",
+            "Writing legal contracts for pilots.",
             "Painting airport runways with asphalt.",
-            "Writing legal contracts for pilots."
+            "Launchings, landings, and complex aerial maneuvers.",
+            "Serving meals to passengers."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Competitions judge precision launchings, controlled landings, and acrobatic maneuvers.",
           "visualClue": "🏆 Competition Judging Criteria"
         },
@@ -10649,12 +10649,12 @@ window.APP_DATA = {
           "id": "e17_q11",
           "question": "What three national pillars underpin Saudi Arabia's Vision 2030 blueprint?",
           "options": [
-            "A good society, a strong economy, and a determined nation.",
             "High taxes, manual agriculture, and isolated borders.",
             "Heavy manufacturing, coal mining, and foreign imports.",
-            "Temporary jobs, seasonal sports, and short vacations."
+            "Temporary jobs, seasonal sports, and short vacations.",
+            "A good society, a strong economy, and a determined nation."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The vision is structured around: 'A good society, a strong economy and a determined nation.'",
           "visualClue": "🇸🇦 Vision 2030 Pillars"
         },
@@ -10662,12 +10662,12 @@ window.APP_DATA = {
           "id": "e17_q12",
           "question": "What price range for model airplanes is cited in the reading passage?",
           "options": [
-            "From $30 to several thousand dollars.",
             "Every airplane costs exactly $10.",
+            "They are always distributed free of charge.",
             "Planes cost millions of dollars each.",
-            "They are always distributed free of charge."
+            "From $30 to several thousand dollars."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text states: 'The price of the airplanes varies from $30 to several thousand dollars.'",
           "visualClue": "💵 Model Aviation Economics"
         },
@@ -10688,12 +10688,12 @@ window.APP_DATA = {
           "id": "e17_q14",
           "question": "Which organization in the United States unites over 170,000 aeromodellers across 250 clubs?",
           "options": [
-            "The Academy of Model Aeronautics.",
-            "The National Football League.",
             "The Association of Commercial Pilots.",
-            "The Global Culinary Institute."
+            "The Global Culinary Institute.",
+            "The National Football League.",
+            "The Academy of Model Aeronautics."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The passage explicitly names 'the Academy of Model Aeronautics'.",
           "visualClue": "✈️ International Model Aeronautics"
         },
@@ -10701,12 +10701,12 @@ window.APP_DATA = {
           "id": "e17_q15",
           "question": "What is one inference you can draw regarding the economic impact of Vision 2030's job goals?",
           "options": [
-            "Diversified private industries will create sustainable, rewarding careers for young citizens.",
-            "All jobs will be replaced by manual agricultural labor.",
+            "Technology will no longer be taught in schools.",
             "Citizens will only be allowed to work in retail stores.",
-            "Technology will no longer be taught in schools."
+            "Diversified private industries will create sustainable, rewarding careers for young citizens.",
+            "All jobs will be replaced by manual agricultural labor."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Lowering unemployment and expanding training fosters rewarding private sector careers.",
           "visualClue": "📈 Economic Inference Analysis"
         },
@@ -10715,9 +10715,9 @@ window.APP_DATA = {
           "question": "Why do aeromodelling competitions attract massive spectator crowds?",
           "options": [
             "Because high-speed miniature jets performing aerobatic stunts create a thrilling visual spectacle.",
-            "Because crowds receive free airplane engines.",
+            "Because spectators are required to pilot the planes.",
             "Because the planes only fly at night when it is dark.",
-            "Because spectators are required to pilot the planes."
+            "Because crowds receive free airplane engines."
           ],
           "correctAnswer": 0,
           "explanation": "The speed, realistic roaring jet sound, and aerobatic stunts captivate audiences.",
@@ -10727,12 +10727,12 @@ window.APP_DATA = {
           "id": "e17_q17",
           "question": "What role does digital technology play in supporting businesses under Saudi Vision 2030?",
           "options": [
+            "It shuts down digital commerce channels.",
             "It improves efficiency and systems to help new enterprises grow and hire talent.",
             "It restricts companies from hiring young workers.",
-            "It shuts down digital commerce channels.",
             "It prevents entrepreneurs from accessing banking."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The text explains: 'We improve technology and digital systems to support businesses.'",
           "visualClue": "💻 Digital Enterprise Systems"
         },
@@ -10741,8 +10741,8 @@ window.APP_DATA = {
           "question": "How do fliers control the delicate movements of radio-controlled planes?",
           "options": [
             "Through handheld radio transmitters sending wireless frequency signals.",
-            "By pulling on physical ropes tied to the wings.",
             "By shouting instructions into the wind.",
+            "By pulling on physical ropes tied to the wings.",
             "By riding inside the miniature cockpit."
           ],
           "correctAnswer": 0,
@@ -10753,12 +10753,12 @@ window.APP_DATA = {
           "id": "e17_q19",
           "question": "What culture is Saudi Arabia building among its youth according to the employment text?",
           "options": [
-            "A culture of determination and achieving ambitious goals.",
             "A culture of passivity and avoiding responsibility.",
             "A culture of spending free time exclusively indoors.",
+            "A culture of determination and achieving ambitious goals.",
             "A culture of rejecting scientific knowledge."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The text concludes: 'We build and support a culture of determination and achieving goals.'",
           "visualClue": "🎯 Culture of Determination"
         },
@@ -10766,12 +10766,12 @@ window.APP_DATA = {
           "id": "e17_q20",
           "question": "What common passion unifies aeromodellers of all ages and backgrounds?",
           "options": [
-            "The shared love of flying small-sized airplanes.",
             "The desire to become commercial bus drivers.",
+            "The shared love of flying small-sized airplanes.",
             "A requirement to paint dining room furniture.",
             "A dislike of outdoor athletics."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The passage notes: 'They all have one common interest — the love of flying small-sized airplanes.'",
           "visualClue": "✈️ Universal Aeromodelling Passion"
         }
@@ -10789,12 +10789,12 @@ window.APP_DATA = {
           "id": "e18_q01",
           "question": "Diagnose the error in: 'Capt. Al-Otaibi is a commercial pilot which flies international routes for Saudia.'",
           "options": [
-            "The relative pronoun 'which' cannot refer to a person; it must be corrected to 'who' or 'that'.",
-            "The verb 'flies' should be in the past tense 'flew'.",
             "The noun 'routes' must be singular 'route'.",
-            "The preposition 'for' should be replaced with 'against'."
+            "The preposition 'for' should be replaced with 'against'.",
+            "The relative pronoun 'which' cannot refer to a person; it must be corrected to 'who' or 'that'.",
+            "The verb 'flies' should be in the past tense 'flew'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Which' is restricted to non-human referents. Persons require 'who' or 'that'.",
           "visualClue": "⚠️ Relative Pronoun Constraint"
         },
@@ -10803,9 +10803,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'Ali works out often at the neighborhood fitness gym on Mondays.'",
           "options": [
             "The adverb of frequency 'often' must precede the main lexical verb: 'Ali often works out'.",
-            "The subject 'Ali' requires the base verb 'work'.",
+            "The noun 'gym' cannot be singular.",
             "The preposition 'at' should be changed to 'between'.",
-            "The noun 'gym' cannot be singular."
+            "The subject 'Ali' requires the base verb 'work'."
           ],
           "correctAnswer": 0,
           "explanation": "Adverbs of frequency must precede main action verbs in standard English syntax.",
@@ -10815,12 +10815,12 @@ window.APP_DATA = {
           "id": "e18_q03",
           "question": "Diagnose the error in: 'I enjoy to fly radio-controlled jet models in open airfields.'",
           "options": [
-            "The verb 'enjoy' must be followed by a gerund ('flying'), never an infinitive with 'to'.",
-            "The verb 'fly' should be plural.",
             "The word 'airfields' must be capitalized.",
-            "The subject 'I' should be 'me'."
+            "The subject 'I' should be 'me'.",
+            "The verb 'enjoy' must be followed by a gerund ('flying'), never an infinitive with 'to'.",
+            "The verb 'fly' should be plural."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Enjoy' strictly commands gerund complementation: 'I enjoy flying...'",
           "visualClue": "⚠️ Gerund Complementation Constraint"
         },
@@ -10829,9 +10829,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'He never is late for morning assembly.'",
           "options": [
             "With the verb 'be', the frequency adverb must follow: 'He is never late'.",
-            "The adverb 'never' should be replaced with 'always'.",
             "The adjective 'late' should be an adverb 'lately'.",
-            "The pronoun 'he' should be deleted."
+            "The pronoun 'he' should be deleted.",
+            "The adverb 'never' should be replaced with 'always'."
           ],
           "correctAnswer": 0,
           "explanation": "Adverbs of frequency follow the auxiliary/copular verb 'be' ('is never late').",
@@ -10842,9 +10842,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'The graphic designer who he works for the agency designed the corporate logo.'",
           "options": [
             "The pronoun 'he' is redundant because the relative pronoun 'who' already serves as the subject.",
-            "The verb 'designed' should be 'designs'.",
             "The noun 'agency' should be plural.",
-            "The relative pronoun should be 'whom'."
+            "The relative pronoun should be 'whom'.",
+            "The verb 'designed' should be 'designs'."
           ],
           "correctAnswer": 0,
           "explanation": "Repeating 'he' after 'who' creates an ungrammatical double subject error.",
@@ -10854,12 +10854,12 @@ window.APP_DATA = {
           "id": "e18_q06",
           "question": "Diagnose the error in: 'Building scale model airplanes are a relaxing and educational hobby.'",
           "options": [
-            "The gerund subject 'Building' is grammatically singular and requires the singular verb 'is'.",
             "The word 'Building' should be 'To builded'.",
             "The noun 'hobby' should be plural 'hobbies'.",
-            "The conjunction 'and' should be 'nor'."
+            "The conjunction 'and' should be 'nor'.",
+            "The gerund subject 'Building' is grammatically singular and requires the singular verb 'is'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Gerund phrases functioning as subjects take singular verbs ('Building... is...').",
           "visualClue": "⚠️ Gerund Subject Agreement"
         },
@@ -10880,12 +10880,12 @@ window.APP_DATA = {
           "id": "e18_q08",
           "question": "Diagnose the error in: 'A stethoscope is an instrument who doctors use to listen to heartbeats.'",
           "options": [
+            "The word 'stethoscope' must be capitalized.",
             "'Who' cannot refer to an inanimate medical instrument; it should be 'which' or 'that'.",
             "The verb 'use' should be 'uses'.",
-            "The noun 'doctors' should be singular.",
-            "The word 'stethoscope' must be capitalized."
+            "The noun 'doctors' should be singular."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Inanimate tools take 'which' or 'that', not the human relative pronoun 'who'.",
           "visualClue": "⚠️ Non-Human Relative Pronoun"
         },
@@ -10893,12 +10893,12 @@ window.APP_DATA = {
           "id": "e18_q09",
           "question": "Diagnose the error in: 'Adnan spends three hours every Saturday to clean his workshop.'",
           "options": [
-            "The construction 'spend time' requires a gerund: 'spends three hours cleaning his workshop'.",
             "The verb 'spends' should be 'spend'.",
-            "The noun 'Saturday' should not be capitalized.",
-            "The word 'workshop' should be 'work place'."
+            "The word 'workshop' should be 'work place'.",
+            "The construction 'spend time' requires a gerund: 'spends three hours cleaning his workshop'.",
+            "The noun 'Saturday' should not be capitalized."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Spend time' is followed by a gerund (-ing form), not an infinitive with 'to'.",
           "visualClue": "⚠️ 'Spend Time' Pattern"
         },
@@ -10906,12 +10906,12 @@ window.APP_DATA = {
           "id": "e18_q10",
           "question": "Diagnose the error in: 'Right now, the civil engineer designs a bridge for the new metro.'",
           "options": [
+            "The adjective 'civil' should be 'civic'.",
             "Actions taking place 'right now' require the Present Progressive: 'is designing a bridge'.",
             "The word 'metro' should be 'train'.",
-            "The noun 'bridge' must be plural.",
-            "The adjective 'civil' should be 'civic'."
+            "The noun 'bridge' must be plural."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Right now' indicates an ongoing present action demanding the progressive 'is designing'.",
           "visualClue": "⚠️ Progressive Aspect Concord"
         },
@@ -10919,12 +10919,12 @@ window.APP_DATA = {
           "id": "e18_q11",
           "question": "Select the sentence that is completely FREE of grammatical flaws:",
           "options": [
-            "Our school team always trains twice a week on the football pitch.",
+            "Our school team doesn't never train twice a week on the pitch.",
             "Our school team trains always twice a week on the football pitch.",
-            "Our school team always is training twice a week on the pitch.",
-            "Our school team doesn't never train twice a week on the pitch."
+            "Our school team always trains twice a week on the football pitch.",
+            "Our school team always is training twice a week on the pitch."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Option A flawlessly places 'always' before the main verb 'trains' and uses correct frequency phrasing.",
           "visualClue": "✅ Flawless Sentence Concord"
         },
@@ -10932,12 +10932,12 @@ window.APP_DATA = {
           "id": "e18_q12",
           "question": "Diagnose the error in: 'He knows how fly an airplane through stormy weather.'",
           "options": [
-            "The ability phrase requires the preposition 'to': 'He knows how to fly an airplane'.",
-            "The verb 'knows' should be 'know'.",
             "The noun 'weather' must be plural.",
-            "The word 'airplane' should be 'plane car'."
+            "The verb 'knows' should be 'know'.",
+            "The word 'airplane' should be 'plane car'.",
+            "The ability phrase requires the preposition 'to': 'He knows how to fly an airplane'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The idiomatic structure expressing learned ability is 'know how TO + verb'.",
           "visualClue": "⚠️ 'Know How To' Construction"
         },
@@ -10945,12 +10945,12 @@ window.APP_DATA = {
           "id": "e18_q13",
           "question": "Diagnose the error in: 'My teammates love winning, but they can't stand to lose.'",
           "options": [
-            "The preference phrase 'can't stand' is strictly followed by a gerund: 'can't stand losing'.",
             "The word 'teammates' should be singular.",
+            "The verb 'love' must take an infinitive.",
             "The connector 'but' should be 'and'.",
-            "The verb 'love' must take an infinitive."
+            "The preference phrase 'can't stand' is strictly followed by a gerund: 'can't stand losing'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Can't stand' requires gerund complementation: 'can't stand losing'.",
           "visualClue": "⚠️ 'Can't Stand' Complementation"
         },
@@ -10958,12 +10958,12 @@ window.APP_DATA = {
           "id": "e18_q14",
           "question": "Diagnose the error in: 'The pilot who he flies the Boeing 787 is highly experienced.'",
           "options": [
-            "The subject pronoun 'he' must be deleted to avoid redundant double subject pronoun error.",
             "The relative pronoun 'who' should be 'which'.",
+            "The subject pronoun 'he' must be deleted to avoid redundant double subject pronoun error.",
             "The verb 'flies' should be 'fly'.",
             "The adjective 'experienced' should be 'experience'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Who' already serves as the subject of 'flies'; repeating 'he' is ungrammatical.",
           "visualClue": "⚠️ Resumptive Pronoun Error"
         },
@@ -10971,12 +10971,12 @@ window.APP_DATA = {
           "id": "e18_q15",
           "question": "Diagnose the error in: 'Fahd is a doctor. He is work at King Fahd Medical City.'",
           "options": [
-            "Use the Simple Present for permanent employment: 'He works at King Fahd Medical City'.",
             "The noun 'doctor' should be 'doc'.",
             "The preposition 'at' should be 'on'.",
-            "The proper noun 'City' should be lowercase."
+            "The proper noun 'City' should be lowercase.",
+            "Use the Simple Present for permanent employment: 'He works at King Fahd Medical City'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Is work' is ungrammatical; regular habitual employment takes the Simple Present 'works'.",
           "visualClue": "⚠️ Verb Phrase Malformation"
         },
@@ -10984,12 +10984,12 @@ window.APP_DATA = {
           "id": "e18_q16",
           "question": "Diagnose the error in: 'Sometimes I am going to the desert on weekends.'",
           "options": [
-            "Habitual weekend trips take the Simple Present: 'Sometimes I go to the desert on weekends'.",
-            "The adverb 'Sometimes' cannot appear at the start of a sentence.",
+            "The noun 'desert' must be capitalized.",
             "The preposition 'to' should be 'at'.",
-            "The noun 'desert' must be capitalized."
+            "The adverb 'Sometimes' cannot appear at the start of a sentence.",
+            "Habitual weekend trips take the Simple Present: 'Sometimes I go to the desert on weekends'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Habitual recurring weekend trips demand the Simple Present ('I go'), not Present Progressive.",
           "visualClue": "⚠️ Aspectual Habitual Error"
         },
@@ -10998,9 +10998,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'A radar is a system who detects aircraft in the sky.'",
           "options": [
             "The relative pronoun 'who' must be changed to 'which' or 'that' for non-human technology.",
-            "The verb 'detects' should be plural 'detect'.",
+            "The article 'a' should be 'an'.",
             "The noun 'sky' should be 'air space'.",
-            "The article 'a' should be 'an'."
+            "The verb 'detects' should be plural 'detect'."
           ],
           "correctAnswer": 0,
           "explanation": "Radar is a technological apparatus, requiring 'which' or 'that'.",
@@ -11010,12 +11010,12 @@ window.APP_DATA = {
           "id": "e18_q18",
           "question": "Diagnose the error in: 'She wants be an architect in the future.'",
           "options": [
+            "The noun 'architect' should be 'architecture'.",
             "The verb 'want' requires the full infinitive marker 'to': 'wants to be an architect'.",
             "The article 'an' should be 'a'.",
-            "The noun 'architect' should be 'architecture'.",
             "The word 'future' should be 'time ahead'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Want' commands full infinitive complementation ('wants to be').",
           "visualClue": "⚠️ Omission of Infinitive Marker"
         },
@@ -11023,12 +11023,12 @@ window.APP_DATA = {
           "id": "e18_q19",
           "question": "Diagnose the error in: 'We train three time a week on the basketball court.'",
           "options": [
+            "The noun 'court' should be 'pitch'.",
             "The plural frequency phrase requires the plural noun 'times': 'three times a week'.",
-            "The preposition 'on' should be 'under'.",
             "The verb 'train' should be 'training'.",
-            "The noun 'court' should be 'pitch'."
+            "The preposition 'on' should be 'under'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Numbers greater than one require the plural noun: 'three times a week'.",
           "visualClue": "⚠️ Frequency Numeral Concord"
         },
@@ -11036,12 +11036,12 @@ window.APP_DATA = {
           "id": "e18_q20",
           "question": "Select the sentence with completely correct punctuation, capitalization, and syntax:",
           "options": [
-            "In Saudi Arabia, half of the population is under the age of 25, which represents a huge economic asset.",
+            "In Saudi Arabia half of population is under 25 who it represents an asset.",
             "in saudi arabia half of the population is under age of 25 which represents an asset",
-            "In Saudi arabia, half of population are under age 25 who represents an asset.",
-            "In Saudi Arabia half of population is under 25 who it represents an asset."
+            "In Saudi Arabia, half of the population is under the age of 25, which represents a huge economic asset.",
+            "In Saudi arabia, half of population are under age 25 who represents an asset."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Option A features accurate capitalization of proper nouns, correct comma usage, and correct relative pronoun 'which'.",
           "visualClue": "✅ Editorial Excellence Standard"
         }
@@ -11059,12 +11059,12 @@ window.APP_DATA = {
           "id": "e19_q01",
           "question": "Capt. Al-Otaibi is a commercial pilot ______ flies Boeing 787s. He ______ how to navigate through severe storms.",
           "options": [
-            "who / knows",
+            "where / knows",
             "which / know",
-            "whom / is knowing",
-            "where / knows"
+            "who / knows",
+            "whom / is knowing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Pilot' is a human requiring 'who', and subject 'he' takes 'knows'.",
           "visualClue": "✈️ Aviation Professional Syntax"
         },
@@ -11072,12 +11072,12 @@ window.APP_DATA = {
           "id": "e19_q02",
           "question": "How often does Fahd exercise at the community fitness gym?",
           "options": [
-            "He works out three days a week on Monday, Wednesday, and Thursday.",
-            "He never exercises because he is always studying.",
             "He exercises once every two months.",
-            "He only exercises on annual national holidays."
+            "He works out three days a week on Monday, Wednesday, and Thursday.",
+            "He only exercises on annual national holidays.",
+            "He never exercises because he is always studying."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The workbook passage states: 'He works out three days a week on Monday, Wednesday, and Thursday.'",
           "visualClue": "🏋️ Athletic Regimen Verification"
         },
@@ -11098,12 +11098,12 @@ window.APP_DATA = {
           "id": "e19_q04",
           "question": "Adnan is a bus driver. He ______ city buses every day, but this morning he ______ a private tour group to historical Diriyah.",
           "options": [
-            "drives / is driving",
             "is driving / drives",
-            "drive / drive",
-            "drove / is driven"
+            "drives / is driving",
+            "drove / is driven",
+            "drive / drive"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Every day' takes the Simple Present 'drives', while 'this morning' introduces a temporary assignment requiring the Present Progressive 'is driving'.",
           "visualClue": "🚌 Transit Driver Schedule"
         },
@@ -11112,9 +11112,9 @@ window.APP_DATA = {
           "question": "Noura loves creative arts. She ______ spends two or three hours painting watercolor landscapes on weekends.",
           "options": [
             "often",
+            "every days",
             "never not",
-            "once times",
-            "every days"
+            "once times"
           ],
           "correctAnswer": 0,
           "explanation": "The adverb 'often' correctly precedes the main verb 'spends'.",
@@ -11126,8 +11126,8 @@ window.APP_DATA = {
           "options": [
             "To lower the unemployment rate from 11.6% down to 7%.",
             "To increase unemployment to 25%.",
-            "To keep unemployment exactly at 11.6%.",
-            "To eliminate all private sector corporations."
+            "To eliminate all private sector corporations.",
+            "To keep unemployment exactly at 11.6%."
           ],
           "correctAnswer": 0,
           "explanation": "Vision 2030 explicitly targets lowering national unemployment from 11.6% to 7%.",
@@ -11137,12 +11137,12 @@ window.APP_DATA = {
           "id": "e19_q07",
           "question": "My classmates and I can't stand ______ in heavy traffic, so we prefer ______ the new driverless metro trains.",
           "options": [
+            "sat / rode",
             "sitting / riding",
             "to sit / ride",
-            "sit / to riding",
-            "sat / rode"
+            "sit / to riding"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Can't stand' and 'prefer' both take gerund complements in this context.",
           "visualClue": "🚇 Urban Commuter Preference"
         },
@@ -11150,12 +11150,12 @@ window.APP_DATA = {
           "id": "e19_q08",
           "question": "A pediatric nurse is a healthcare professional ______ specializes in caring for hospitalized infants and children.",
           "options": [
-            "who",
-            "which",
             "where",
-            "whose"
+            "whose",
+            "who",
+            "which"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Nurse' is a person, taking 'who'.",
           "visualClue": "🏥 Pediatric Healthcare"
         },
@@ -11163,12 +11163,12 @@ window.APP_DATA = {
           "id": "e19_q09",
           "question": "Teens who practice athletics and eat wholesome food are ______ lethargic or exhausted.",
           "options": [
-            "seldom",
             "always",
             "all the time",
+            "seldom",
             "every day"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Seldom' (rarely) reflects the high stamina resulting from athletic habits.",
           "visualClue": "🥗 Healthy Youth Stamina"
         },
@@ -11176,12 +11176,12 @@ window.APP_DATA = {
           "id": "e19_q10",
           "question": "Miniature jet-turbine aeromodels reach extraordinary speeds of up to 380 km/h, which is faster than ______.",
           "options": [
-            "a Formula 1 race car",
-            "a pedestrian walking",
             "a commercial freight truck",
-            "a hot air balloon"
+            "a hot air balloon",
+            "a pedestrian walking",
+            "a Formula 1 race car"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "As stated in the reading text, 380 km/h surpasses the top speed of a Formula 1 car.",
           "visualClue": "🏎️ High-Speed Comparison"
         },
@@ -11190,8 +11190,8 @@ window.APP_DATA = {
           "question": "Guy specializes in crafting living room furniture, ______ he doesn't build outdoor metal gates.",
           "options": [
             "but",
-            "and",
             "or",
+            "and",
             "so"
           ],
           "correctAnswer": 0,
@@ -11202,12 +11202,12 @@ window.APP_DATA = {
           "id": "e19_q12",
           "question": "______ the Holy Qur'an every morning ______ peace, clarity, and spiritual focus to students.",
           "options": [
-            "Reciting / brings",
             "Recite / bring",
-            "Recited / are bringing",
-            "To reciting / bring"
+            "Reciting / brings",
+            "To reciting / bring",
+            "Recited / are bringing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The gerund phrase 'Reciting the Holy Qur'an' functions as a singular subject requiring the singular verb 'brings'.",
           "visualClue": "📖 Devotional Subject Concord"
         },
@@ -11215,12 +11215,12 @@ window.APP_DATA = {
           "id": "e19_q13",
           "question": "The apprentice technician wants ______ how to assemble radio telemetry receivers.",
           "options": [
+            "learned",
             "to learn",
             "learning",
-            "learn",
-            "learned"
+            "learn"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Want' commands infinitive complementation ('wants to learn').",
           "visualClue": "📻 Telemetry Assembly Aspiration"
         },
@@ -11228,12 +11228,12 @@ window.APP_DATA = {
           "id": "e19_q14",
           "question": "Where do Lee Jinho and his colleagues produce innovative advertising graphics?",
           "options": [
-            "In an advertising firm downtown",
             "On an offshore oil tanker",
-            "In an operating theater",
-            "In a school cafeteria"
+            "In a school cafeteria",
+            "In an advertising firm downtown",
+            "In an operating theater"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Lee Jinho is a graphic designer who works in an advertising firm.",
           "visualClue": "🏢 Advertising Firm Workplace"
         },
@@ -11241,12 +11241,12 @@ window.APP_DATA = {
           "id": "e19_q15",
           "question": "Our robotics coach ______ encourages students to test their drone sensors before taking off.",
           "options": [
-            "always",
-            "never",
             "seldom",
-            "rarely"
+            "never",
+            "rarely",
+            "always"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Pre-flight safety checks are systematically enforced on every occasion ('always').",
           "visualClue": "🛩️ Pre-Flight Sensor Testing"
         },
@@ -11254,12 +11254,12 @@ window.APP_DATA = {
           "id": "e19_q16",
           "question": "The chemical engineer ______ synthesized the eco-friendly plastic compound won an international patent.",
           "options": [
-            "who",
-            "which",
+            "whom",
             "where",
-            "whom"
+            "which",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Chemical engineer' is a scientist (person), taking 'who'.",
           "visualClue": "🔬 Chemical Innovation Award"
         },
@@ -11269,8 +11269,8 @@ window.APP_DATA = {
           "options": [
             "eat",
             "eats",
-            "is eating",
-            "eating"
+            "eating",
+            "is eating"
           ],
           "correctAnswer": 0,
           "explanation": "Compound plural subject ('Fahd and his classmates') takes base verb 'eat'.",
@@ -11280,12 +11280,12 @@ window.APP_DATA = {
           "id": "e19_q18",
           "question": "A multimeter is an electrical testing instrument ______ technicians use to measure voltage and current.",
           "options": [
-            "which",
             "who",
-            "whom",
-            "whoever"
+            "whoever",
+            "which",
+            "whom"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Multimeter' is a hand-held electronic tool, requiring 'which' or 'that'.",
           "visualClue": "⚡ Electrical Diagnostics Tool"
         },
@@ -11293,12 +11293,12 @@ window.APP_DATA = {
           "id": "e19_q19",
           "question": "What percentage of internet users among American teens send and receive emails according to the Unit 4 chart?",
           "options": [
-            "89%",
             "50%",
+            "30%",
             "12%",
-            "30%"
+            "89%"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "As recorded in the textbook chart on page 27, 89% of teens send and receive emails.",
           "visualClue": "📊 Digital Usage Statistics"
         },
@@ -11306,12 +11306,12 @@ window.APP_DATA = {
           "id": "e19_q20",
           "question": "Select the sentence with completely flawless syntax and concord across Units 3 & 4 standards:",
           "options": [
-            "Young Saudi engineers who graduate from prestigious universities often establish innovative technology startups.",
-            "Young Saudi engineers which graduate from prestigious universities establishes often startups.",
+            "Young Saudi engineers whose graduate from universities establishing always startups.",
             "Young Saudi engineers who they graduate from universities is often establishing startups.",
-            "Young Saudi engineers whose graduate from universities establishing always startups."
+            "Young Saudi engineers which graduate from prestigious universities establishes often startups.",
+            "Young Saudi engineers who graduate from prestigious universities often establish innovative technology startups."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Option A uses correct human 'who', plural verb 'graduate', adverb placement 'often establish', and correct plural concord.",
           "visualClue": "🌟 Capstone Syntactic Excellence"
         }
@@ -11329,12 +11329,12 @@ window.APP_DATA = {
           "id": "e20_q01",
           "question": "At the hotel reception desk, a polite guest inquiring about reservations says: 'I ______ to check into my room, please.'",
           "options": [
-            "would like",
             "want",
+            "am needing",
             "demands",
-            "am needing"
+            "would like"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Would like' is the premier formal modal expression taught in Unit 1 for polite customer interactions.",
           "visualClue": "🏨 Unit 1 Hospitality Standard"
         },
@@ -11342,12 +11342,12 @@ window.APP_DATA = {
           "id": "e20_q02",
           "question": "On a film production studio set, the director shouts to the camera crew: '______ the cameras! Action!'",
           "options": [
-            "Roll",
-            "Rolling",
             "You are roll",
-            "Don't roll"
+            "Don't roll",
+            "Roll",
+            "Rolling"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 2 teaches affirmative imperatives using base verb forms for direct instructions on a movie set.",
           "visualClue": "🎬 Unit 2 Movie Set Directive"
         },
@@ -11355,12 +11355,12 @@ window.APP_DATA = {
           "id": "e20_q03",
           "question": "Capt. Al-Otaibi is an airline pilot ______ navigates jumbo passenger aircraft across international corridors.",
           "options": [
-            "who",
-            "which",
             "where",
-            "whose"
+            "whose",
+            "which",
+            "who"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 3 relative clauses require 'who' for persons and professionals.",
           "visualClue": "✈️ Unit 3 Aviation Career"
         },
@@ -11368,12 +11368,12 @@ window.APP_DATA = {
           "id": "e20_q04",
           "question": "How often do dedicated athletes at the Saudi Olympic Training Center work out?",
           "options": [
-            "They usually work out every day to maintain peak physical performance.",
             "They never work out.",
+            "They work out once a month.",
             "They only train once a year.",
-            "They work out once a month."
+            "They usually work out every day to maintain peak physical performance."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 4 frequency expressions denote daily discipline ('every day' / 'usually').",
           "visualClue": "🏅 Unit 4 Olympic Conditioning"
         },
@@ -11382,9 +11382,9 @@ window.APP_DATA = {
           "question": "Where is the post office located? 'It is ______ the bank and the bookstore on King Fahd Road.'",
           "options": [
             "between",
-            "across",
             "under",
-            "inside of"
+            "inside of",
+            "across"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 1 spatial prepositions require 'between' when locating an entity between two landmarks.",
@@ -11394,12 +11394,12 @@ window.APP_DATA = {
           "id": "e20_q06",
           "question": "Look at the sound technician on the film set! He ______ high-fidelity boom microphones over the actors.",
           "options": [
-            "is holding",
-            "holds",
             "hold",
-            "is hold"
+            "is holding",
+            "is hold",
+            "holds"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 2 Present Progressive ('is holding') depicts active events in progress at the moment of speech.",
           "visualClue": "🎙️ Unit 2 Studio Production"
         },
@@ -11407,12 +11407,12 @@ window.APP_DATA = {
           "id": "e20_q07",
           "question": "A civil engineer is someone ______ designs bridges, roads, and municipal transportation systems.",
           "options": [
-            "who",
-            "which",
             "what",
-            "whom"
+            "whom",
+            "who",
+            "which"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 3 relative pronoun 'who' connects the defining clause describing an engineer.",
           "visualClue": "🏗️ Unit 3 Infrastructure Design"
         },
@@ -11421,8 +11421,8 @@ window.APP_DATA = {
           "question": "______ radio-controlled model airplanes ______ an exciting pastime that unites science and recreation.",
           "options": [
             "Flying / is",
-            "Fly / are",
             "Flew / was",
+            "Fly / are",
             "To flying / are"
           ],
           "correctAnswer": 0,
@@ -11433,12 +11433,12 @@ window.APP_DATA = {
           "id": "e20_q09",
           "question": "'Are you here on vacation?' — 'No, I'm here ______ business for an international trade conference.'",
           "options": [
+            "for to",
             "on",
             "in",
-            "at",
-            "for to"
+            "at"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 1 prepositional collocation: 'on vacation' vs. 'on business'.",
           "visualClue": "🧳 Unit 1 Travel Collocation"
         },
@@ -11447,9 +11447,9 @@ window.APP_DATA = {
           "question": "Identify the stative verb that normally REJECTS the continuous -ing form in standard English:",
           "options": [
             "know",
-            "run",
             "fly",
-            "paint"
+            "paint",
+            "run"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 2 and 3 grammar establishes that stative cognitive verbs like 'know', 'like', and 'want' do not take progressive forms.",
@@ -11459,12 +11459,12 @@ window.APP_DATA = {
           "id": "e20_q11",
           "question": "A stethoscope is a diagnostic instrument ______ physicians use to evaluate pulmonary and cardiac health.",
           "options": [
-            "which",
-            "who",
             "whom",
-            "whoever"
+            "whoever",
+            "who",
+            "which"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 3 relative clauses require 'which' or 'that' for inanimate medical tools.",
           "visualClue": "🩺 Unit 3 Medical Diagnostics"
         },
@@ -11472,12 +11472,12 @@ window.APP_DATA = {
           "id": "e20_q12",
           "question": "Sabah is an exceptional student. She ______ forgets to submit her homework on time.",
           "options": [
-            "never",
             "always",
+            "never",
             "every day",
             "all the time"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 4 adverbs of frequency: 'never' indicates 0% frequency of forgotten assignments.",
           "visualClue": "📚 Unit 4 Academic Discipline"
         },
@@ -11485,12 +11485,12 @@ window.APP_DATA = {
           "id": "e20_q13",
           "question": "In the S.A.Y.H.A. youth hostel system in Saudi Arabia, what accommodation feature keeps prices affordable for students?",
           "options": [
-            "Shared dormitory rooms and communal bathroom facilities.",
-            "Guests must bring their own building materials.",
             "Hostels do not have electricity.",
-            "Hostels only operate during desert sandstorms."
+            "Hostels only operate during desert sandstorms.",
+            "Shared dormitory rooms and communal bathroom facilities.",
+            "Guests must bring their own building materials."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 1 reading highlights that shared dormitory spaces lower operating costs for budget travelers.",
           "visualClue": "🏰 Unit 1 SAYHA Youth Hostels"
         },
@@ -11499,9 +11499,9 @@ window.APP_DATA = {
           "question": "According to the Unit 2 reading 'E-Learning Is Easy!', how does Khan Academy help students learn mathematics?",
           "options": [
             "Through short instructional video clips that students can pause and rewind at their own pace.",
-            "By printing paper encyclopedias.",
             "By hiring actors to perform plays.",
-            "By replacing all school exams with physical sports."
+            "By replacing all school exams with physical sports.",
+            "By printing paper encyclopedias."
           ],
           "correctAnswer": 0,
           "explanation": "Unit 2 reading explains that online instructional videos allow learners to absorb math concepts at their own speed.",
@@ -11511,12 +11511,12 @@ window.APP_DATA = {
           "id": "e20_q15",
           "question": "Under Saudi Vision 2030, what demographic constitutes over half of the national population, serving as a vital engine for economic growth?",
           "options": [
-            "Youth under the age of 25.",
-            "Citizens over 85 years old.",
             "Foreign tourists on seasonal holidays.",
-            "Retired factory supervisors."
+            "Retired factory supervisors.",
+            "Youth under the age of 25.",
+            "Citizens over 85 years old."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 3 reading highlights that 50% of the population is under 25, representing the Kingdom's greatest demographic asset.",
           "visualClue": "🇸🇦 Unit 3 Youth Demographics"
         },
@@ -11524,12 +11524,12 @@ window.APP_DATA = {
           "id": "e20_q16",
           "question": "What propulsion system enables scale jet models to travel at speeds exceeding 380 km/h in aeromodelling competitions?",
           "options": [
+            "Hand-pulled cotton cables.",
             "Miniature jet combustion turbines.",
             "Twisted elastic rubber bands.",
-            "Hand-pulled cotton cables.",
             "Clockwork windup springs."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 4 reading confirms that miniature jet turbines deliver extreme thrust exceeding Formula 1 speeds.",
           "visualClue": "🔥 Unit 4 Turbine Propulsion"
         },
@@ -11537,12 +11537,12 @@ window.APP_DATA = {
           "id": "e20_q17",
           "question": "Select the sentence with strictly accurate adverb of frequency placement:",
           "options": [
-            "The museum guides are always polite and welcoming to international tourists.",
             "The museum guides always are polite and welcoming to international tourists.",
+            "Always the museum guides are polite and welcoming to international tourists.",
             "The museum guides are polite always and welcoming to international tourists.",
-            "Always the museum guides are polite and welcoming to international tourists."
+            "The museum guides are always polite and welcoming to international tourists."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Adverbs of frequency follow the verb 'be': 'are always polite'.",
           "visualClue": "🏛️ Adverb of Frequency Precision"
         },
@@ -11550,12 +11550,12 @@ window.APP_DATA = {
           "id": "e20_q18",
           "question": "I would like ______ an internship at the King Abdulaziz City for Science and Technology this summer.",
           "options": [
+            "pursued",
             "to pursue",
-            "pursuing",
             "pursue",
-            "pursued"
+            "pursuing"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Would like' is followed by an infinitive with 'to' ('to pursue').",
           "visualClue": "🔬 KACST Research Internship"
         },
@@ -11565,8 +11565,8 @@ window.APP_DATA = {
           "options": [
             "scene (/i/) vs. sin (/ɪ/)",
             "cat vs. cut",
-            "boat vs. boot",
-            "bed vs. bad"
+            "bed vs. bad",
+            "boat vs. boot"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 2 phonology teaches the vowel contrast between long /i/ ('scene') and short /ɪ/ ('sin' / 'film').",
@@ -11576,12 +11576,12 @@ window.APP_DATA = {
           "id": "e20_q20",
           "question": "Select the capstone sentence demonstrating master-level lexical, grammatical, and syntactic accuracy:",
           "options": [
-            "Under the guidance of Teacher Mahmoud Al-Saeed, ambitious students who master Super Goal 2 demonstrate superior fluency and distinction.",
+            "Ambitious students whose masters Super Goal 2 demonstrates never distinction.",
             "Ambitious students which masters Super Goal 2 demonstrates always distinction.",
-            "Ambitious students who they master Super Goal 2 is demonstrating distinction.",
-            "Ambitious students whose masters Super Goal 2 demonstrates never distinction."
+            "Under the guidance of Teacher Mahmoud Al-Saeed, ambitious students who master Super Goal 2 demonstrate superior fluency and distinction.",
+            "Ambitious students who they master Super Goal 2 is demonstrating distinction."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Option A exemplifies perfect subject-verb concord, human relative clause syntax, and honors Teacher Mahmoud Al-Saeed's academic standards.",
           "visualClue": "🏆 Super Goal Grand Distinction"
         }
@@ -11599,12 +11599,12 @@ window.APP_DATA = {
           "id": "e21_q01",
           "question": "Which of the following items is a NON-COUNT noun in standard English?",
           "options": [
-            "rice",
-            "apple",
             "sandwich",
-            "burger"
+            "burger",
+            "apple",
+            "rice"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Rice' is a mass grain substance that cannot be counted as individual units without a partitive container (e.g. a bowl of rice).",
           "visualClue": "🍚 Food Category Classification"
         },
@@ -11612,12 +11612,12 @@ window.APP_DATA = {
           "id": "e21_q02",
           "question": "'Is there ______ milk left in the carton?' — 'No, there isn't ______ milk.'",
           "options": [
-            "any / any",
             "some / some",
-            "many / much",
-            "a few / a little"
+            "any / any",
+            "a few / a little",
+            "many / much"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Questions and negative statements with non-count nouns require the quantifier 'any'.",
           "visualClue": "🥛 Dairy Quantifier Syntax"
         },
@@ -11625,12 +11625,12 @@ window.APP_DATA = {
           "id": "e21_q03",
           "question": "A hot liquid dish prepared by simmering meat, chicken, or lentils in seasoned broth is ______.",
           "options": [
-            "soup",
             "ice cream",
             "salad",
-            "sandwich"
+            "sandwich",
+            "soup"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Soup is a warm liquid dish commonly served as an appetizer.",
           "visualClue": "🍲 Warm Starter Dish"
         },
@@ -11640,8 +11640,8 @@ window.APP_DATA = {
           "options": [
             "bottles",
             "slices",
-            "pieces",
-            "bowls"
+            "bowls",
+            "pieces"
           ],
           "correctAnswer": 0,
           "explanation": "Water is packaged and served in 'bottles'.",
@@ -11651,12 +11651,12 @@ window.APP_DATA = {
           "id": "e21_q05",
           "question": "There are ______ fresh oranges in the fruit basket on the dining counter.",
           "options": [
-            "some",
             "much",
-            "a little",
-            "any not"
+            "any not",
+            "some",
+            "a little"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Oranges' is a plural count noun in an affirmative statement, requiring 'some'.",
           "visualClue": "🍊 Fruit Basket Quantifier"
         },
@@ -11664,12 +11664,12 @@ window.APP_DATA = {
           "id": "e21_q06",
           "question": "Which noun can take a plural form with '-s'?",
           "options": [
-            "sandwich (sandwiches)",
-            "bread",
             "cheese",
-            "tea"
+            "tea",
+            "bread",
+            "sandwich (sandwiches)"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Sandwich' is a countable noun that forms the regular plural 'sandwiches'. 'Bread', 'cheese', and 'tea' are non-count.",
           "visualClue": "🥪 Count Noun Pluralization"
         },
@@ -11677,12 +11677,12 @@ window.APP_DATA = {
           "id": "e21_q07",
           "question": "'How ______ apples did you buy at the hypermarket?'",
           "options": [
-            "many",
             "much",
-            "often",
-            "long"
+            "long",
+            "many",
+            "often"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Apples' is a plural count noun, requiring 'How many'.",
           "visualClue": "🍎 Count Quantity Inquiry"
         },
@@ -11690,12 +11690,12 @@ window.APP_DATA = {
           "id": "e21_q08",
           "question": "Fahd took a warm ______ of pepperoni pizza from the food court tray.",
           "options": [
-            "slice",
-            "bottle",
             "cup",
+            "bottle",
+            "slice",
             "can"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Pizza is conventionally portioned into triangular 'slices'.",
           "visualClue": "🍕 Pizza Partitive Division"
         },
@@ -11704,9 +11704,9 @@ window.APP_DATA = {
           "question": "The traditional national Saudi dish of fragrant spiced rice with tender chicken or lamb is ______.",
           "options": [
             "kabsa",
-            "pizza",
+            "sushi",
             "taco",
-            "sushi"
+            "pizza"
           ],
           "correctAnswer": 0,
           "explanation": "Kabsa is the iconic national dish of Saudi Arabia.",
@@ -11716,12 +11716,12 @@ window.APP_DATA = {
           "id": "e21_q10",
           "question": "'There isn't ______ olive oil left in the cooking bottle.'",
           "options": [
-            "much",
+            "several",
             "many",
             "a few",
-            "several"
+            "much"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Olive oil' is non-count; in negative statements, non-count nouns take 'much'.",
           "visualClue": "🫒 Culinary Oil Measurement"
         },
@@ -11729,12 +11729,12 @@ window.APP_DATA = {
           "id": "e21_q11",
           "question": "He drank a hot ______ of spiced Arabic coffee with sweet dates.",
           "options": [
+            "can",
             "cup",
             "slice",
-            "piece",
-            "can"
+            "piece"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Hot beverages like coffee are served in a 'cup' (or Finjan).",
           "visualClue": "☕ Traditional Coffee Serving"
         },
@@ -11742,12 +11742,12 @@ window.APP_DATA = {
           "id": "e21_q12",
           "question": "Which of the following foods is categorized as SEAFOOD?",
           "options": [
-            "shrimp",
-            "beef burger",
             "roast chicken",
-            "cheese pizza"
+            "shrimp",
+            "cheese pizza",
+            "beef burger"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Shrimp is a saltwater crustacean categorized under seafood.",
           "visualClue": "🦐 Marine Protein Classification"
         },
@@ -11756,9 +11756,9 @@ window.APP_DATA = {
           "question": "We only have ______ minutes before our school bus arrives.",
           "options": [
             "a few",
+            "any",
             "a little",
-            "much",
-            "any"
+            "much"
           ],
           "correctAnswer": 0,
           "explanation": "'Minutes' is a plural count noun, taking 'a few' to mean a small number.",
@@ -11768,12 +11768,12 @@ window.APP_DATA = {
           "id": "e21_q14",
           "question": "Please add ______ saffron to the boiling rice broth to give it a rich golden color.",
           "options": [
-            "a little",
-            "a few",
             "many",
-            "several"
+            "several",
+            "a little",
+            "a few"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Saffron is an uncountable spice powder, requiring 'a little'.",
           "visualClue": "🌾 Saffron Spice Measurement"
         },
@@ -11781,12 +11781,12 @@ window.APP_DATA = {
           "id": "e21_q15",
           "question": "A sweet frozen dairy dessert flavored with vanilla, chocolate, or fruit is ______.",
           "options": [
-            "ice cream",
             "lentil soup",
             "beef steak",
-            "green salad"
+            "green salad",
+            "ice cream"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Ice cream is a frozen dessert prepared from cream and sugar.",
           "visualClue": "🍨 Chilled Dessert Selection"
         },
@@ -11794,12 +11794,12 @@ window.APP_DATA = {
           "id": "e21_q16",
           "question": "'Are there ______ tomatoes in the kitchen pantry?'",
           "options": [
-            "any",
             "much",
-            "a little",
-            "some not"
+            "any",
+            "some not",
+            "a little"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "In general questions, plural count nouns take 'any'.",
           "visualClue": "🍅 Pantry Inventory Check"
         },
@@ -11807,12 +11807,12 @@ window.APP_DATA = {
           "id": "e21_q17",
           "question": "He opened a cold ______ of sparkling lemonade.",
           "options": [
-            "can",
             "slice",
             "bowl",
+            "can",
             "piece"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Carbonated beverages are commonly packaged in aluminum 'cans'.",
           "visualClue": "🥤 Beverage Can Packaging"
         },
@@ -11821,9 +11821,9 @@ window.APP_DATA = {
           "question": "In the sentence 'There is a lot of rice and a lot of apples', the phrase 'a lot of' is used ______.",
           "options": [
             "with both non-count nouns (rice) and plural count nouns (apples)",
+            "only with questions",
             "only with non-count nouns",
-            "only with negative sentences",
-            "only with questions"
+            "only with negative sentences"
           ],
           "correctAnswer": 0,
           "explanation": "'A lot of' is a versatile universal quantifier that functions with both count and non-count nouns.",
@@ -11833,12 +11833,12 @@ window.APP_DATA = {
           "id": "e21_q19",
           "question": "The shaved spiced meat wrap originally from the Middle East that has become popular globally is ______.",
           "options": [
-            "shawarma",
-            "pancake",
             "waffle",
-            "doughnut"
+            "shawarma",
+            "doughnut",
+            "pancake"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Shawarma (or doner) is a renowned Middle Eastern street food enjoyed worldwide.",
           "visualClue": "🌯 Middle Eastern Global Wrap"
         },
@@ -11847,9 +11847,9 @@ window.APP_DATA = {
           "question": "Which of the following items requires a non-count container phrase to be ordered in a restaurant?",
           "options": [
             "soup (a bowl of soup)",
-            "apple",
             "sandwich",
-            "burger"
+            "burger",
+            "apple"
           ],
           "correctAnswer": 0,
           "explanation": "Soup is a liquid non-count noun requiring a partitive noun such as 'a bowl of soup'.",
@@ -11869,12 +11869,12 @@ window.APP_DATA = {
           "id": "e22_q01",
           "question": "Server: 'May I take your order?' — Customer: 'Yes, please. I ______ the grilled chicken sandwich.'",
           "options": [
-            "would like",
-            "want to",
+            "demand",
             "am wanting",
-            "demand"
+            "want to",
+            "would like"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Would like' is the expected polite modal formula in hospitality interactions.",
           "visualClue": "🍽️ Courteous Order Etiquette"
         },
@@ -11882,12 +11882,12 @@ window.APP_DATA = {
           "id": "e22_q02",
           "question": "I cannot drink this tea immediately because it is ______ hot.",
           "options": [
-            "too",
-            "enough",
             "many",
-            "much"
+            "much",
+            "enough",
+            "too"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Too' precedes an adjective to signify an excessive degree that causes an obstacle.",
           "visualClue": "☕ Degree Excess Indicator"
         },
@@ -11895,12 +11895,12 @@ window.APP_DATA = {
           "id": "e22_q03",
           "question": "'Is the soup ______ for you?' — 'Yes, it is seasoned perfectly.'",
           "options": [
-            "warm enough",
-            "enough warm",
             "too enough",
+            "enough warm",
+            "warm enough",
             "warmly"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Enough' must follow the adjective it modifies: 'warm enough'.",
           "visualClue": "🥣 Adequacy Word Order"
         },
@@ -11908,12 +11908,12 @@ window.APP_DATA = {
           "id": "e22_q04",
           "question": "'______ is the family seafood platter?' — 'It is 95 Saudi Riyals.'",
           "options": [
+            "How long",
             "How much",
-            "How many",
             "How often",
-            "How long"
+            "How many"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'How much' is used to inquire about the monetary price or total cost of an item.",
           "visualClue": "💵 Menu Pricing Formula"
         },
@@ -11921,12 +11921,12 @@ window.APP_DATA = {
           "id": "e22_q05",
           "question": "A small savory dish served at the very beginning of a restaurant meal is an ______.",
           "options": [
-            "appetizer",
-            "dessert",
             "beverage",
+            "dessert",
+            "appetizer",
             "utensil"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "An appetizer is a light opening course that stimulates appetite.",
           "visualClue": "🥗 Menu Course Structure"
         },
@@ -11935,9 +11935,9 @@ window.APP_DATA = {
           "question": "'Would you like ______ chocolate ice cream for dessert?' — 'Yes, please!'",
           "options": [
             "some",
-            "any",
+            "a few",
             "many",
-            "a few"
+            "any"
           ],
           "correctAnswer": 0,
           "explanation": "In polite offers where an affirmative response is anticipated, 'some' is used.",
@@ -11947,12 +11947,12 @@ window.APP_DATA = {
           "id": "e22_q07",
           "question": "We cannot sit outside on the restaurant terrace because it is ______ windy tonight.",
           "options": [
-            "too",
-            "enough",
             "much",
+            "enough",
+            "too",
             "many"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Too' precedes the adjective 'windy' to explain why an action cannot occur.",
           "visualClue": "💨 Weather Excess Barrier"
         },
@@ -11960,12 +11960,12 @@ window.APP_DATA = {
           "id": "e22_q08",
           "question": "Do we have ______ chairs at the table for all eight guests?",
           "options": [
-            "enough",
             "too",
+            "enough",
             "many enough",
             "too much"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "When modifying a noun ('chairs'), 'enough' precedes the noun: 'enough chairs'.",
           "visualClue": "🪑 Seating Adequacy Concord"
         },
@@ -11973,12 +11973,12 @@ window.APP_DATA = {
           "id": "e22_q09",
           "question": "Which of the following phrases is the most polite way to request a beverage?",
           "options": [
-            "I would like a glass of orange juice, please.",
+            "Orange juice is needed by me.",
             "Give me orange juice.",
             "I want orange juice right now.",
-            "Orange juice is needed by me."
+            "I would like a glass of orange juice, please."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'I would like..., please' reflects standard English courtesy in customer interactions.",
           "visualClue": "🍹 Hospitality Politeness Metric"
         },
@@ -11986,12 +11986,12 @@ window.APP_DATA = {
           "id": "e22_q10",
           "question": "The customer didn't eat the dessert because it was ______ sweet for his taste.",
           "options": [
-            "too",
-            "enough",
+            "a few",
             "many",
-            "a few"
+            "too",
+            "enough"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Too' conveys excess sweetness that resulted in the customer leaving the dish.",
           "visualClue": "🍰 Flavor Imbalance Assessment"
         },
@@ -11999,12 +11999,12 @@ window.APP_DATA = {
           "id": "e22_q11",
           "question": "Sweet items such as Kunafa, date pudding, and fruit tarts are categorized as ______.",
           "options": [
-            "desserts",
+            "beverages",
             "appetizers",
             "main dishes",
-            "beverages"
+            "desserts"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Sweet concluding courses of a meal are classified as desserts.",
           "visualClue": "🍮 Dessert Course Categorization"
         },
@@ -12012,12 +12012,12 @@ window.APP_DATA = {
           "id": "e22_q12",
           "question": "In fast-food dining, the global expansion of international food chains is an example of ______.",
           "options": [
-            "globalization",
             "unemployment",
+            "globalization",
             "aeromodelling",
             "calligraphy"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The worldwide spread and integration of food chains and ethnic recipes is 'globalization'.",
           "visualClue": "🌍 Cross-Cultural Globalization"
         },
@@ -12025,12 +12025,12 @@ window.APP_DATA = {
           "id": "e22_q13",
           "question": "Select the sentence with strictly correct word order:",
           "options": [
-            "Is the coffee sweet enough for you?",
+            "Is the coffee enough sweetly for you?",
             "Is the coffee enough sweet for you?",
             "Is the coffee too enough for you?",
-            "Is the coffee enough sweetly for you?"
+            "Is the coffee sweet enough for you?"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Enough' must follow the adjective 'sweet': 'sweet enough'.",
           "visualClue": "📐 Syntax Rule: Adjective + Enough"
         },
@@ -12038,12 +12038,12 @@ window.APP_DATA = {
           "id": "e22_q14",
           "question": "The server asked: 'What ______ to drink with your meal?'",
           "options": [
-            "would you like",
-            "do you would like",
             "are you wanting",
-            "would you like to"
+            "would you like to",
+            "would you like",
+            "do you would like"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The standard server inquiry formula is: 'What would you like + infinitive (to drink)?'",
           "visualClue": "🥤 Server Inquiry Structure"
         },
@@ -12052,9 +12052,9 @@ window.APP_DATA = {
           "question": "Identify the sentence that contains an ungrammatical quantifier error:",
           "options": [
             "I ordered three rices and two milks.",
-            "I ordered three bowls of rice and two glasses of milk.",
             "There is some bread on the counter.",
-            "We don't have any cheese left."
+            "We don't have any cheese left.",
+            "I ordered three bowls of rice and two glasses of milk."
           ],
           "correctAnswer": 0,
           "explanation": "Non-count nouns like 'rice' and 'milk' cannot take plural '-s' or numeral determiners directly.",
@@ -12065,9 +12065,9 @@ window.APP_DATA = {
           "question": "The spicy salsa was ______ hot that Khalid drank three glasses of water.",
           "options": [
             "so",
-            "enough",
+            "many",
             "such",
-            "many"
+            "enough"
           ],
           "correctAnswer": 0,
           "explanation": "'So' precedes standalone adjectives in 'so... that' result clauses.",
@@ -12077,12 +12077,12 @@ window.APP_DATA = {
           "id": "e22_q17",
           "question": "A step-by-step instructional text that explains how to prepare a culinary dish is a ______.",
           "options": [
+            "reception",
             "recipe",
             "receipt",
-            "reception",
             "resort"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A recipe provides ingredients and preparation directions for cooking a dish.",
           "visualClue": "📖 Culinary Instruction Genre"
         },
@@ -12091,8 +12091,8 @@ window.APP_DATA = {
           "question": "'Would your father like a cup of green tea?' — 'Yes, he ______.'",
           "options": [
             "would",
-            "does",
             "is",
+            "does",
             "likes"
           ],
           "correctAnswer": 0,
@@ -12103,12 +12103,12 @@ window.APP_DATA = {
           "id": "e22_q19",
           "question": "We didn't have ______ time to bake a homemade cake before the party started.",
           "options": [
+            "many",
             "enough",
             "too",
-            "many",
             "a few"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Enough' precedes the non-count noun 'time' to denote sufficient duration.",
           "visualClue": "⏰ Time Adequacy Pre-Position"
         },
@@ -12117,9 +12117,9 @@ window.APP_DATA = {
           "question": "What is the localized Saudi McDonald's flatbread sandwich highlighted in the textbook?",
           "options": [
             "The McArabia",
-            "The McSushi",
             "The McTaco",
-            "The McWaffle"
+            "The McWaffle",
+            "The McSushi"
           ],
           "correctAnswer": 0,
           "explanation": "The McArabia sandwich with grilled chicken or beef is specifically noted in the reading text.",
@@ -12141,8 +12141,8 @@ window.APP_DATA = {
           "options": [
             "museum",
             "restaurant",
-            "pharmacy",
-            "bakery"
+            "bakery",
+            "pharmacy"
           ],
           "correctAnswer": 0,
           "explanation": "A museum is an institution dedicated to preserving and displaying cultural heritage.",
@@ -12152,12 +12152,12 @@ window.APP_DATA = {
           "id": "e23_q02",
           "question": "Faisal ______ at the King Fahd Stadium last night to watch the derby match.",
           "options": [
-            "was",
-            "were",
             "is",
-            "are"
+            "are",
+            "was",
+            "were"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Third-person singular 'Faisal' takes the singular past verb 'was'.",
           "visualClue": "🏟️ Sports Event Past Tense"
         },
@@ -12165,12 +12165,12 @@ window.APP_DATA = {
           "id": "e23_q03",
           "question": "The historical manuscripts on display ______ ancient and beautifully illuminated.",
           "options": [
-            "were",
             "was",
-            "are being",
-            "was been"
+            "were",
+            "was been",
+            "are being"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Plural subject 'The historical manuscripts' (= they) takes the plural past 'were'.",
           "visualClue": "📜 Manuscript Past Concord"
         },
@@ -12178,12 +12178,12 @@ window.APP_DATA = {
           "id": "e23_q04",
           "question": "'______ you at the Islamic calligraphy exhibition yesterday?' — 'Yes, I was.'",
           "options": [
-            "Were",
-            "Was",
+            "Are",
             "Did",
-            "Are"
+            "Was",
+            "Were"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Subject 'you' takes the past auxiliary 'Were' in the Simple Past of 'be'.",
           "visualClue": "🎨 Exhibition Attendance Inquiry"
         },
@@ -12191,12 +12191,12 @@ window.APP_DATA = {
           "id": "e23_q05",
           "question": "The decorative art of exquisite stylized handwriting is called ______.",
           "options": [
-            "calligraphy",
             "astronomy",
-            "geography",
-            "mechanics"
+            "calligraphy",
+            "mechanics",
+            "geography"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Calligraphy literally denotes the fine art of beautiful penmanship.",
           "visualClue": "✒️ Decorative Lettering Art"
         },
@@ -12204,12 +12204,12 @@ window.APP_DATA = {
           "id": "e23_q06",
           "question": "A historic object excavated by archaeologists that reveals human history is an ______.",
           "options": [
-            "artifact",
             "ingredient",
             "beverage",
+            "artifact",
             "aeromodel"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Artifacts are historical items made or modified by human beings.",
           "visualClue": "🏺 Archaeological Discovery"
         },
@@ -12219,8 +12219,8 @@ window.APP_DATA = {
           "options": [
             "was",
             "were",
-            "is been",
-            "are"
+            "are",
+            "is been"
           ],
           "correctAnswer": 0,
           "explanation": "Singular subject 'The class field trip' takes the singular past 'was'.",
@@ -12230,12 +12230,12 @@ window.APP_DATA = {
           "id": "e23_q08",
           "question": "Which ancient script style features bold, straight geometric lines ideal for stone carving?",
           "options": [
-            "Kufic",
-            "Diwani",
             "Ruq'ah",
+            "Diwani",
+            "Kufic",
             "Naskh"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Kufic script is the earliest geometric calligraphy style.",
           "visualClue": "📐 Geometric Arabic Epigraphy"
         },
@@ -12243,12 +12243,12 @@ window.APP_DATA = {
           "id": "e23_q09",
           "question": "Students received a 50% ______ on museum admission by showing their school identity cards.",
           "options": [
-            "discount",
-            "penalty",
             "deficit",
-            "tariff"
+            "tariff",
+            "penalty",
+            "discount"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "A discount is a price reduction granted on tickets or purchases.",
           "visualClue": "🎟️ Student Ticket Discount"
         },
@@ -12256,12 +12256,12 @@ window.APP_DATA = {
           "id": "e23_q10",
           "question": "The massive skeleton of a prehistoric ______ stood in the center of the natural history hall.",
           "options": [
-            "dinosaur",
-            "sandwich",
             "drone",
+            "sandwich",
+            "dinosaur",
             "spacecraft"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Dinosaurs are prehistoric extinct reptiles whose fossil skeletons are exhibited in museums.",
           "visualClue": "🦖 Paleontological Exhibit"
         },
@@ -12269,12 +12269,12 @@ window.APP_DATA = {
           "id": "e23_q11",
           "question": "We ______ not tired after our museum tour because the exhibits were so fascinating.",
           "options": [
+            "did",
             "were",
-            "was",
             "are",
-            "did"
+            "was"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Subject 'We' takes 'were' in the negative past ('were not').",
           "visualClue": "🚶 Visitor Stamina Past Tense"
         },
@@ -12284,8 +12284,8 @@ window.APP_DATA = {
           "options": [
             "Thuluth",
             "Kufic",
-            "Diwani",
-            "Ruq'ah"
+            "Ruq'ah",
+            "Diwani"
           ],
           "correctAnswer": 0,
           "explanation": "The Saudi national flag features the sacred inscription in Thuluth script.",
@@ -12295,12 +12295,12 @@ window.APP_DATA = {
           "id": "e23_q13",
           "question": "A knowledgeable professional who guides visitors through museum galleries is a ______.",
           "options": [
-            "museum guide",
             "pilot",
+            "cashier",
             "chef",
-            "cashier"
+            "museum guide"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Museum guides explain artifacts and historical contexts to visitors.",
           "visualClue": "🧑‍🏫 Docent Tour Guide"
         },
@@ -12308,12 +12308,12 @@ window.APP_DATA = {
           "id": "e23_q14",
           "question": "'Where ______ your family last Friday?' — 'We ______ in historic Diriyah.'",
           "options": [
-            "was / were",
             "were / was",
             "did / did",
-            "are / was"
+            "are / was",
+            "was / were"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Collective singular noun 'your family' takes 'was' (or plural 'were' in British English; standard singular 'was'), and 'we' takes 'were'.",
           "visualClue": "🏰 Historic Diriyah Excursion"
         },
@@ -12322,9 +12322,9 @@ window.APP_DATA = {
           "question": "Historic documents written completely by hand before the printing press was invented are called ______.",
           "options": [
             "manuscripts",
+            "posters",
             "recipes",
-            "magazines",
-            "posters"
+            "magazines"
           ],
           "correctAnswer": 0,
           "explanation": "Manuscripts are handwritten historical texts.",
@@ -12334,12 +12334,12 @@ window.APP_DATA = {
           "id": "e23_q16",
           "question": "The space exploration gallery featured a genuine lunar exploration ______.",
           "options": [
-            "spacecraft",
             "submarine",
+            "tractor",
             "train",
-            "tractor"
+            "spacecraft"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Spacecraft are vehicles engineered for outer-space voyages.",
           "visualClue": "🚀 Aerospace Exhibition Hall"
         },
@@ -12347,12 +12347,12 @@ window.APP_DATA = {
           "id": "e23_q17",
           "question": "'Was the football match exciting?' — 'Yes, it ______! The crowd cheered loudly.'",
           "options": [
+            "did",
             "was",
             "were",
-            "did",
             "is"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Singular subject 'it' takes the short answer past 'was'.",
           "visualClue": "⚽ Match Retrospective Analysis"
         },
@@ -12361,9 +12361,9 @@ window.APP_DATA = {
           "question": "Which calligraphy script is the standard legible style used for printing school textbooks and newspapers?",
           "options": [
             "Naskh",
-            "Diwani",
             "Kufic",
-            "Ta'liq"
+            "Ta'liq",
+            "Diwani"
           ],
           "correctAnswer": 0,
           "explanation": "Naskh is the clean, balanced standard script utilized in modern Arabic printing.",
@@ -12373,12 +12373,12 @@ window.APP_DATA = {
           "id": "e23_q19",
           "question": "The ancient rock-hewn tombs of Hegra in Al-Ula are majestic UNESCO world ______.",
           "options": [
-            "monuments",
-            "recipes",
             "soft drinks",
+            "recipes",
+            "monuments",
             "airfields"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Monumental carved tombs represent historic monuments.",
           "visualClue": "🏛️ UNESCO World Heritage"
         },
@@ -12386,12 +12386,12 @@ window.APP_DATA = {
           "id": "e23_q20",
           "question": "What does the conversational exclamation 'It was out of this world!' mean?",
           "options": [
-            "It was absolutely amazing, magnificent, and extraordinary.",
             "It occurred on another planet in space.",
+            "It was absolutely amazing, magnificent, and extraordinary.",
             "It was extremely boring and exhausting.",
             "It had to be cancelled due to rain."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Out of this world' is an idiomatic superlative expressing profound wonder and delight.",
           "visualClue": "💬 Idiomatic Evaluative Praise"
         }
@@ -12409,12 +12409,12 @@ window.APP_DATA = {
           "id": "e24_q01",
           "question": "Last weekend, our family ______ to the National Museum and ______ ancient calligraphy manuscripts.",
           "options": [
-            "went / saw",
-            "go / see",
+            "was went / seen",
             "goed / seed",
-            "was went / seen"
+            "went / saw",
+            "go / see"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Go' and 'see' are irregular verbs whose past tense forms are 'went' and 'saw'.",
           "visualClue": "🏛️ Irregular Past Tense Pair"
         },
@@ -12423,8 +12423,8 @@ window.APP_DATA = {
           "question": "'What ______ in the archaeological gallery?' — 'We saw ancient Nabataean coins.'",
           "options": [
             "did you see",
-            "did you saw",
             "were you see",
+            "did you saw",
             "did you seen"
           ],
           "correctAnswer": 0,
@@ -12435,12 +12435,12 @@ window.APP_DATA = {
           "id": "e24_q03",
           "question": "Fahd ______ buy any souvenirs because he forgot his wallet at home.",
           "options": [
-            "didn't",
             "wasn't",
+            "haven't",
             "doesn't",
-            "haven't"
+            "didn't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The past negative auxiliary for main lexical verbs is 'didn't'.",
           "visualClue": "👛 Negative Past Auxiliary"
         },
@@ -12448,12 +12448,12 @@ window.APP_DATA = {
           "id": "e24_q04",
           "question": "The exhibition on Islamic civilization was ______ fascinating that we stayed until closing time.",
           "options": [
-            "so",
-            "such",
             "too",
-            "enough"
+            "such",
+            "enough",
+            "so"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'So' modifies the standalone adjective 'fascinating' before the result clause 'that...'.",
           "visualClue": "✨ Intensifier 'So' + Adjective"
         },
@@ -12461,12 +12461,12 @@ window.APP_DATA = {
           "id": "e24_q05",
           "question": "It was ______ an inspiring museum tour that the students wrote long essays about it.",
           "options": [
-            "such",
+            "enough",
             "so",
-            "too",
-            "enough"
+            "such",
+            "too"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Such' precedes a modified noun phrase ('an inspiring museum tour').",
           "visualClue": "🌟 Intensifier 'Such a' + Noun Phrase"
         },
@@ -12474,12 +12474,12 @@ window.APP_DATA = {
           "id": "e24_q06",
           "question": "The calligrapher ______ a smooth reed quill to inscribe the holy verses.",
           "options": [
-            "used",
             "use",
-            "is used",
-            "using"
+            "using",
+            "used",
+            "is used"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Regular verbs form the past tense by adding '-ed' (or '-d' to verbs ending in e): 'used'.",
           "visualClue": "🖋️ Regular Past Inflection"
         },
@@ -12487,12 +12487,12 @@ window.APP_DATA = {
           "id": "e24_q07",
           "question": "'Did you ______ the colossal iron meteorite in the space pavilion?' — 'Yes, I did.'",
           "options": [
+            "admiring",
             "admire",
             "admired",
-            "admiring",
             "admires"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "In questions beginning with 'Did', the main verb must remain in its base form 'admire'.",
           "visualClue": "☄️ Base Verb with Auxiliary 'Did'"
         },
@@ -12500,12 +12500,12 @@ window.APP_DATA = {
           "id": "e24_q08",
           "question": "Early Islamic scribes ______ copies of the Holy Qur'an with profound devotion.",
           "options": [
-            "wrote",
             "writed",
             "write",
+            "wrote",
             "was wrote"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Write' is an irregular verb whose past tense is 'wrote'.",
           "visualClue": "📜 Irregular Verb: Write -> Wrote"
         },
@@ -12514,9 +12514,9 @@ window.APP_DATA = {
           "question": "We ______ delicious traditional Kabsa at the heritage restaurant after touring the fortress.",
           "options": [
             "ate",
-            "eated",
+            "are eating",
             "eat",
-            "are eating"
+            "eated"
           ],
           "correctAnswer": 0,
           "explanation": "'Eat' is an irregular verb whose past form is 'ate'.",
@@ -12526,12 +12526,12 @@ window.APP_DATA = {
           "id": "e24_q10",
           "question": "Identify the sentence that contains an ungrammatical auxiliary verb error:",
           "options": [
+            "She bought a beautiful book.",
             "Did you visited the museum yesterday?",
             "Did you visit the museum yesterday?",
-            "We didn't see the dinosaur bones.",
-            "She bought a beautiful book."
+            "We didn't see the dinosaur bones."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Using the past form 'visited' after 'Did' is ungrammatical; it must be base form 'visit'.",
           "visualClue": "⚠️ Auxiliary 'Did' Violation"
         },
@@ -12539,12 +12539,12 @@ window.APP_DATA = {
           "id": "e24_q11",
           "question": "The historical fortress in Diriyah was ______ magnificent under the evening illumination lights.",
           "options": [
-            "really",
-            "such",
             "enough",
-            "many"
+            "many",
+            "such",
+            "really"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Really' serves as an emphatic intensifier preceding the adjective 'magnificent'.",
           "visualClue": "🏰 Emphatic Adverb Modification"
         },
@@ -12552,12 +12552,12 @@ window.APP_DATA = {
           "id": "e24_q12",
           "question": "Imad ______ his digital camera, so he ______ photograph the illuminated manuscripts.",
           "options": [
-            "didn't bring / couldn't",
-            "wasn't bring / can't",
+            "don't bring / won't",
             "didn't brought / wasn't",
-            "don't bring / won't"
+            "didn't bring / couldn't",
+            "wasn't bring / can't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Didn't bring' correctly pairs the negative auxiliary with base 'bring', followed by past modal 'couldn't'.",
           "visualClue": "📷 Past Negation & Modality"
         },
@@ -12566,9 +12566,9 @@ window.APP_DATA = {
           "question": "Our tour guide ______ the historical evolution of Arabic calligraphy styles.",
           "options": [
             "explained",
-            "explain",
+            "explaining",
             "is explain",
-            "explaining"
+            "explain"
           ],
           "correctAnswer": 0,
           "explanation": "Regular past tense takes '-ed': 'explained'.",
@@ -12578,12 +12578,12 @@ window.APP_DATA = {
           "id": "e24_q14",
           "question": "Faisal was ______ excited after his team won the championship match that he couldn't sleep.",
           "options": [
-            "so",
-            "such",
             "too",
-            "enough"
+            "so",
+            "enough",
+            "such"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'So' modifies the adjective 'excited' in the result structure 'so... that'.",
           "visualClue": "🏆 Emotional Excitement Result"
         },
@@ -12591,12 +12591,12 @@ window.APP_DATA = {
           "id": "e24_q15",
           "question": "She took ______ great photographs of the ancient tombs that the school magazine published them.",
           "options": [
+            "too",
             "such",
-            "so",
             "very",
-            "too"
+            "so"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Before a plural noun phrase ('great photographs'), use 'such' without an article.",
           "visualClue": "📸 Intensifier 'Such' + Plural Noun"
         },
@@ -12604,12 +12604,12 @@ window.APP_DATA = {
           "id": "e24_q16",
           "question": "Which of the following irregular verb forms is INCORRECT?",
           "options": [
-            "buy -> buyed",
-            "go -> went",
             "see -> saw",
-            "take -> took"
+            "take -> took",
+            "go -> went",
+            "buy -> buyed"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Buy' is irregular; its past tense is 'bought', not '*buyed'.",
           "visualClue": "⚠️ Irregular Verb Paradigm Check"
         },
@@ -12618,8 +12618,8 @@ window.APP_DATA = {
           "question": "'How ______ your trip to the heritage site?' — 'It was incredible!'",
           "options": [
             "was",
-            "were",
             "did",
+            "were",
             "are"
           ],
           "correctAnswer": 0,
@@ -12631,9 +12631,9 @@ window.APP_DATA = {
           "question": "The calligrapher ______ a delicate diamond-shaped Diwani greeting card for the festival.",
           "options": [
             "made",
-            "maked",
+            "is made",
             "make",
-            "is made"
+            "maked"
           ],
           "correctAnswer": 0,
           "explanation": "'Make' is an irregular verb whose past tense is 'made'.",
@@ -12643,12 +12643,12 @@ window.APP_DATA = {
           "id": "e24_q19",
           "question": "We ______ an appointment with the museum curator two weeks ago.",
           "options": [
-            "had",
-            "haved",
             "have",
-            "having"
+            "having",
+            "haved",
+            "had"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Have' is irregular; its past tense is 'had'.",
           "visualClue": "📅 Irregular Verb: Have -> Had"
         },
@@ -12656,12 +12656,12 @@ window.APP_DATA = {
           "id": "e24_q20",
           "question": "Select the sentence with completely flawless Simple Past grammar:",
           "options": [
-            "Yesterday, we visited the National Museum and admired the sacred calligraphy.",
             "Yesterday, we visit the National Museum and admire the sacred calligraphy.",
+            "Yesterday, we visited the National Museum and admired the sacred calligraphy.",
             "Yesterday, we did visited the National Museum and seed the calligraphy.",
             "Yesterday, we were visit the National Museum and sawed the calligraphy."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Option A coordinates two correct regular past verbs ('visited' and 'admired') in completed past time.",
           "visualClue": "✅ Flawless Past Narrative Concord"
         }
@@ -12679,12 +12679,12 @@ window.APP_DATA = {
           "id": "e25_q01",
           "question": "Yesterday evening, we ______ dinner at a traditional restaurant and ______ grilled chicken kabsa.",
           "options": [
-            "had / ordered",
             "have / order",
-            "did have / ordering",
-            "had / were ordered"
+            "had / ordered",
+            "had / were ordered",
+            "did have / ordering"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Yesterday evening' establishes completed past time, requiring irregular 'had' and regular 'ordered'.",
           "visualClue": "🍽️ Dining Past Concord"
         },
@@ -12692,12 +12692,12 @@ window.APP_DATA = {
           "id": "e25_q02",
           "question": "'Would you like ______ fresh orange juice with your meal?' — 'No, thank you. I'd like a bottle of ______.'",
           "options": [
-            "some / water",
             "any / waters",
-            "many / water",
-            "a few / the waters"
+            "a few / the waters",
+            "some / water",
+            "many / water"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Polite offers take 'some', and 'water' is non-count in 'a bottle of water'.",
           "visualClue": "🍊 Beverage Partitive Synthesis"
         },
@@ -12705,12 +12705,12 @@ window.APP_DATA = {
           "id": "e25_q03",
           "question": "The historical exhibition was ______ an inspiring experience that our teacher ______ us to visit again.",
           "options": [
-            "such / encouraged",
+            "enough / encouraging",
             "so / encourage",
             "too / was encourage",
-            "enough / encouraging"
+            "such / encouraged"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Such' precedes 'an inspiring experience', and regular past 'encouraged' completes the action.",
           "visualClue": "🏛️ Intensifier + Past Verb Synergy"
         },
@@ -12718,12 +12718,12 @@ window.APP_DATA = {
           "id": "e25_q04",
           "question": "We didn't have ______ flour at home, so my brother ______ to the grocery market to buy a bag.",
           "options": [
-            "enough / went",
             "too / go",
-            "many / was gone",
-            "a few / goed"
+            "a few / goed",
+            "enough / went",
+            "many / was gone"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Non-count 'flour' takes 'enough flour', and irregular past of 'go' is 'went'.",
           "visualClue": "🌾 Pantry Supply & Action Concord"
         },
@@ -12733,8 +12733,8 @@ window.APP_DATA = {
           "options": [
             "see / saw",
             "saw / see",
-            "saw / saw",
-            "seen / was seeing"
+            "seen / was seeing",
+            "saw / saw"
           ],
           "correctAnswer": 0,
           "explanation": "Questions with 'Did' require base form 'see'; the affirmative response requires past 'saw'.",
@@ -12744,12 +12744,12 @@ window.APP_DATA = {
           "id": "e25_q06",
           "question": "The spiced lentil soup was ______ salty to finish, so the customer ______ a fresh bowl.",
           "options": [
+            "such / requesting",
             "too / requested",
-            "enough / request",
             "so / was request",
-            "such / requesting"
+            "enough / request"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Too' signals excess preventing completion, followed by regular past 'requested'.",
           "visualClue": "🥣 Flavor Excess & Resolution"
         },
@@ -12757,12 +12757,12 @@ window.APP_DATA = {
           "id": "e25_q07",
           "question": "Early calligraphers ______ sacred Qur'anic verses using bamboo quills ______ into sharp angles.",
           "options": [
+            "inscribing / was carve",
             "inscribed / carved",
             "inscribe / carve",
-            "was inscribed / carving",
-            "inscribing / was carve"
+            "was inscribed / carving"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Historical narrative takes regular past 'inscribed' and passive participle 'carved'.",
           "visualClue": "🖋️ Historical Penmanship Mechanics"
         },
@@ -12770,12 +12770,12 @@ window.APP_DATA = {
           "id": "e25_q08",
           "question": "'How ______ loaves of bread did you bake this morning?' — 'We baked ______ loaves.'",
           "options": [
-            "many / a few",
-            "much / a little",
             "often / some of",
+            "much / a little",
+            "many / a few",
             "long / any"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Loaves' is a plural count noun, requiring 'How many' and 'a few'.",
           "visualClue": "🍞 Bread Baking Measurement"
         },
@@ -12783,12 +12783,12 @@ window.APP_DATA = {
           "id": "e25_q09",
           "question": "The students ______ excited because the museum guide ______ ancient gold coins from the Nabataean era.",
           "options": [
-            "were / displayed",
+            "are / displaying",
             "was / display",
             "did / was displayed",
-            "are / displaying"
+            "were / displayed"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Plural 'students' takes 'were', and singular 'guide' takes regular past 'displayed'.",
           "visualClue": "🪙 Museum Discovery Concord"
         },
@@ -12796,12 +12796,12 @@ window.APP_DATA = {
           "id": "e25_q10",
           "question": "Is there ______ olive oil in the pantry? We need ______ oil to prepare the chicken marinade.",
           "options": [
-            "any / a little",
             "some / many",
+            "a few / much",
             "many / a few",
-            "a few / much"
+            "any / a little"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Non-count question takes 'any'; small non-count quantity takes 'a little'.",
           "visualClue": "🫒 Marinade Preparation Quantifiers"
         },
@@ -12809,12 +12809,12 @@ window.APP_DATA = {
           "id": "e25_q11",
           "question": "The Arabic flag inscription in Thuluth script is ______ majestic that visitors admire its artistic balance.",
           "options": [
-            "so",
-            "such",
+            "enough",
             "too",
-            "enough"
+            "so",
+            "such"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'So' modifies the standalone predicate adjective 'majestic'.",
           "visualClue": "🇸🇦 National Epigraphy Intensifier"
         },
@@ -12823,9 +12823,9 @@ window.APP_DATA = {
           "question": "They ______ enjoy the fast-food burgers because the meat ______ cooked enough.",
           "options": [
             "didn't / wasn't",
-            "weren't / didn't",
+            "doesn't / weren't",
             "haven't / isn't",
-            "doesn't / weren't"
+            "weren't / didn't"
           ],
           "correctAnswer": 0,
           "explanation": "'Didn't enjoy' (action verb negative) and 'wasn't cooked' (passive past state).",
@@ -12835,12 +12835,12 @@ window.APP_DATA = {
           "id": "e25_q13",
           "question": "'What would you like for dessert?' — 'I'd like ______ date pudding, please.'",
           "options": [
-            "some",
             "any",
+            "some",
             "many",
             "a few"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Date pudding' is a non-count dessert mass in a polite request, requiring 'some'.",
           "visualClue": "🍮 Dessert Ordering Protocol"
         },
@@ -12848,12 +12848,12 @@ window.APP_DATA = {
           "id": "e25_q14",
           "question": "Archaeologists ______ an ancient stone inscription that ______ back three thousand years.",
           "options": [
-            "unearthed / dated",
             "unearth / date",
+            "unearthed / dated",
             "was unearth / dating",
             "unearthed / was date"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Coordinated regular past verbs: 'unearthed' and 'dated'.",
           "visualClue": "🏺 Archaeology Discovery Chronology"
         },
@@ -12861,12 +12861,12 @@ window.APP_DATA = {
           "id": "e25_q15",
           "question": "The tea was ______ hot to sip, but after ten minutes it was cool ______ to enjoy.",
           "options": [
-            "too / enough",
+            "very / too",
             "enough / too",
             "so / such",
-            "very / too"
+            "too / enough"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Too hot' expresses excessive heat; 'cool enough' expresses achieved adequacy.",
           "visualClue": "☕ Dual Degree Adverb Contrast"
         },
@@ -12876,8 +12876,8 @@ window.APP_DATA = {
           "options": [
             "We didn't buy any tickets because admission was free for students.",
             "We didn't bought any tickets because admission was free for students.",
-            "We weren't buy some tickets because admission did free.",
-            "We didn't buy many ticket because admission were free."
+            "We didn't buy many ticket because admission were free.",
+            "We weren't buy some tickets because admission did free."
           ],
           "correctAnswer": 0,
           "explanation": "Option A uses 'didn't buy' (auxiliary + base verb), 'any tickets', and singular past 'was free'.",
@@ -12887,12 +12887,12 @@ window.APP_DATA = {
           "id": "e25_q17",
           "question": "Last year, international tourists ______ to Al-Ula to explore rock-cut monuments.",
           "options": [
-            "traveled",
-            "travel",
             "are traveling",
-            "was travel"
+            "was travel",
+            "traveled",
+            "travel"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Last year' requires the simple past tense 'traveled'.",
           "visualClue": "🏜️ Al-Ula Tourism Past Tense"
         },
@@ -12913,12 +12913,12 @@ window.APP_DATA = {
           "id": "e25_q19",
           "question": "The illuminated manuscript was ______ a priceless treasure that the museum kept it inside bulletproof glass.",
           "options": [
-            "such",
             "so",
             "too",
-            "enough"
+            "enough",
+            "such"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Such' modifies the singular noun phrase 'a priceless treasure'.",
           "visualClue": "💎 Museum Security Intensifier"
         },
@@ -12928,8 +12928,8 @@ window.APP_DATA = {
           "options": [
             "The main verb after 'Did' must be in the base form: 'Did they have enough rice...'",
             "The noun 'rice' should be plural 'rices'.",
-            "The word 'enough' should follow 'rice'.",
-            "The auxiliary 'Did' should be 'Were'."
+            "The auxiliary 'Did' should be 'Were'.",
+            "The word 'enough' should follow 'rice'."
           ],
           "correctAnswer": 0,
           "explanation": "After auxiliary 'Did', the main verb must be base form 'have', not past 'had'.",
@@ -12949,12 +12949,12 @@ window.APP_DATA = {
           "id": "e26_q01",
           "question": "The ancient calligraphy script characterized by straight, geometric letters cut into stone or wood is ______.",
           "options": [
-            "Kufic",
+            "Ta'liq",
             "Diwani",
-            "Ruq'ah",
-            "Ta'liq"
+            "Kufic",
+            "Ruq'ah"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Kufic script is known for its rigid, straight, angular geometric strokes.",
           "visualClue": "📐 Epigraphy Classification"
         },
@@ -12962,12 +12962,12 @@ window.APP_DATA = {
           "id": "e26_q02",
           "question": "The worldwide integration and spread of foods, cultural cuisines, and consumer habits is called ______.",
           "options": [
-            "globalization",
-            "unemployment",
             "propulsion",
-            "aerobatics"
+            "globalization",
+            "aerobatics",
+            "unemployment"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Globalization denotes the worldwide circulation and adoption of cultural traditions and goods.",
           "visualClue": "🌍 Cultural Phenomenon"
         },
@@ -12975,12 +12975,12 @@ window.APP_DATA = {
           "id": "e26_q03",
           "question": "Which calligraphy script features majestic, curving, sweeping vertical letters and adorns the Saudi national flag?",
           "options": [
-            "Thuluth",
             "Naskh",
+            "Kufic",
             "Ruq'ah",
-            "Kufic"
+            "Thuluth"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Thuluth is the grand cursive script of surah titles and the national flag of Saudi Arabia.",
           "visualClue": "🇸🇦 National Flag Inscription"
         },
@@ -12988,12 +12988,12 @@ window.APP_DATA = {
           "id": "e26_q04",
           "question": "A small, savory dish consumed before the main course to stimulate appetite is an ______.",
           "options": [
-            "appetizer",
-            "dessert",
+            "beverage",
             "ingredient",
-            "beverage"
+            "dessert",
+            "appetizer"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "An appetizer precedes the main course.",
           "visualClue": "🥗 Culinary Course Division"
         },
@@ -13002,8 +13002,8 @@ window.APP_DATA = {
           "question": "Historical manuscripts written before the invention of paper were often inscribed onto treated animal skins called ______.",
           "options": [
             "parchment",
-            "quills",
             "multimeters",
+            "quills",
             "wingspans"
           ],
           "correctAnswer": 0,
@@ -13014,12 +13014,12 @@ window.APP_DATA = {
           "id": "e26_q06",
           "question": "Which term designates the clear, balanced cursive Arabic script used to print textbooks and newspapers?",
           "options": [
-            "Naskh",
             "Diwani",
             "Kufic",
-            "Farsi"
+            "Farsi",
+            "Naskh"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Naskh is the clean, highly legible standard script for modern printing.",
           "visualClue": "📚 Print Typographic Standard"
         },
@@ -13027,12 +13027,12 @@ window.APP_DATA = {
           "id": "e26_q07",
           "question": "The physical container unit used to quantify liquids such as milk, oil, or water is a ______.",
           "options": [
-            "bottle",
-            "slice",
             "piece",
-            "loaf"
+            "loaf",
+            "slice",
+            "bottle"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Liquids are measured and stored in bottles.",
           "visualClue": "🍾 Liquid Container Partitive"
         },
@@ -13040,12 +13040,12 @@ window.APP_DATA = {
           "id": "e26_q08",
           "question": "A highly ornate, flowing decorative script commonly seen on ceremonial wedding invitations and greeting cards is ______.",
           "options": [
-            "Diwani",
             "Kufic",
+            "Diwani",
             "Naskh",
             "Ruq'ah"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Diwani is an artistic, flowery script favored for ceremonial announcements.",
           "visualClue": "💌 Decorative Calligraphy Style"
         },
@@ -13053,12 +13053,12 @@ window.APP_DATA = {
           "id": "e26_q09",
           "question": "A solid piece of rocky or metallic debris that falls through the atmosphere and lands on the desert floor is a ______.",
           "options": [
-            "meteorite",
-            "monument",
             "sculpture",
-            "fossil"
+            "fossil",
+            "meteorite",
+            "monument"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Meteorites are celestial bodies that impact the Earth's surface.",
           "visualClue": "☄️ Astronomy Museum Specimen"
         },
@@ -13066,12 +13066,12 @@ window.APP_DATA = {
           "id": "e26_q10",
           "question": "A traditional Middle Eastern wrap composed of seasoned meat shaved from a rotating spit is ______.",
           "options": [
-            "shawarma",
+            "biscuit",
             "pancake",
             "waffle",
-            "biscuit"
+            "shawarma"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Shawarma is shaved spiced meat wrapped in bread, known internationally also as doner.",
           "visualClue": "🌯 Middle Eastern Global Wrap"
         },
@@ -13080,8 +13080,8 @@ window.APP_DATA = {
           "question": "The petrified remains or mineralized impression of an ancient organism preserved in sedimentary rock is a ______.",
           "options": [
             "fossil",
-            "quill",
             "manuscript",
+            "quill",
             "recipe"
           ],
           "correctAnswer": 0,
@@ -13092,12 +13092,12 @@ window.APP_DATA = {
           "id": "e26_q12",
           "question": "A writing instrument fashioned from a sharpened reed stalk dipped in natural black ink is a ______.",
           "options": [
+            "multimeter",
             "quill",
-            "parchment",
             "stethoscope",
-            "multimeter"
+            "parchment"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "A quill or reed pen (Qalam) is the traditional tool of master calligraphers.",
           "visualClue": "🖋️ Traditional Scribe Pen"
         },
@@ -13105,12 +13105,12 @@ window.APP_DATA = {
           "id": "e26_q13",
           "question": "A sweet course served at the very conclusion of a formal dinner is a ______.",
           "options": [
-            "dessert",
-            "appetizer",
             "marinade",
-            "beverage"
+            "dessert",
+            "beverage",
+            "appetizer"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Dessert concludes a meal.",
           "visualClue": "🍮 Culinary Menu Course"
         },
@@ -13118,12 +13118,12 @@ window.APP_DATA = {
           "id": "e26_q14",
           "question": "The compact, simplified everyday handwriting style taught for swift penmanship in schools is ______.",
           "options": [
-            "Ruq'ah",
-            "Kufic",
             "Diwani",
-            "Thuluth"
+            "Thuluth",
+            "Ruq'ah",
+            "Kufic"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Ruq'ah is the swift, compact cursive style common in daily handwriting.",
           "visualClue": "✍️ Daily School Penmanship"
         },
@@ -13131,12 +13131,12 @@ window.APP_DATA = {
           "id": "e26_q15",
           "question": "A historical monument, excavated citadel, or carved tomb of archaeological significance is an archaeological ______.",
           "options": [
-            "site",
-            "recipe",
             "appetizer",
-            "beverage"
+            "site",
+            "beverage",
+            "recipe"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "An archaeological site contains physical remains of past human settlements.",
           "visualClue": "🏛️ Archaeological Monument"
         },
@@ -13146,8 +13146,8 @@ window.APP_DATA = {
           "options": [
             "The primary, most substantial course of a meal (e.g. roast chicken or kabsa).",
             "The dessert served after coffee.",
-            "The napkin placed on the customer's lap.",
-            "The paper bill brought by the cashier."
+            "The paper bill brought by the cashier.",
+            "The napkin placed on the customer's lap."
           ],
           "correctAnswer": 0,
           "explanation": "The main dish constitutes the central, hearty protein and starch component of a dining experience.",
@@ -13157,12 +13157,12 @@ window.APP_DATA = {
           "id": "e26_q17",
           "question": "A complete chapter of the Holy Qur'an comprising a collection of verses is a ______.",
           "options": [
-            "surah",
-            "quill",
             "script",
+            "quill",
+            "surah",
             "parchment"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Surahs are the 114 sacred chapters of the Holy Qur'an.",
           "visualClue": "📖 Sacred Scripture Term"
         },
@@ -13171,9 +13171,9 @@ window.APP_DATA = {
           "question": "Which adjective describes historic clothing and garments characteristic of regional folklore?",
           "options": [
             "traditional costumes",
+            "wingspan",
             "aeromodelling",
-            "propulsion",
-            "wingspan"
+            "propulsion"
           ],
           "correctAnswer": 0,
           "explanation": "Traditional costumes represent folklore garments preserved in cultural museums.",
@@ -13183,12 +13183,12 @@ window.APP_DATA = {
           "id": "e26_q19",
           "question": "When a manuscript is decorated by hand with burnished gold leaf and colorful floral borders, it is ______.",
           "options": [
-            "illuminated",
-            "unemployed",
             "radio-controlled",
-            "aerobatic"
+            "aerobatic",
+            "illuminated",
+            "unemployed"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Illuminated manuscripts feature gold leaf and decorative illustrations.",
           "visualClue": "✨ Manuscript Illumination"
         },
@@ -13220,9 +13220,9 @@ window.APP_DATA = {
           "question": "Why did early Muslim scholars and calligraphers develop more expressive and refined Arabic scripts?",
           "options": [
             "To transcribe and communicate Allah's sacred words in the Holy Qur'an with supreme clarity and dignity.",
-            "To speed up the writing of commercial trade invoices.",
+            "To win decorative prizes at international festivals.",
             "To replace all spoken dialects with mechanical printing.",
-            "To win decorative prizes at international festivals."
+            "To speed up the writing of commercial trade invoices."
           ],
           "correctAnswer": 0,
           "explanation": "The text explains that with the spread of Islam, there was a profound need for an expressive, clear script to preserve the Holy Qur'an.",
@@ -13245,12 +13245,12 @@ window.APP_DATA = {
           "id": "e27_q03",
           "question": "What physical characteristic made Kufic script the preferred choice for carving on ancient stone and wood?",
           "options": [
+            "Its small size that saved ink.",
             "Its bold, straight, geometric letters.",
             "Its delicate hanging cursive loops.",
-            "Its small size that saved ink.",
             "Its bright red and gold colors."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The text states: 'It has straight, geometric letters that make it easy to cut into wood or stone.'",
           "visualClue": "📐 Epigraphic Material Suitability"
         },
@@ -13258,12 +13258,12 @@ window.APP_DATA = {
           "id": "e27_q04",
           "question": "In Peru, why was Coca Cola unable to surpass the market popularity of Inca Kola?",
           "options": [
-            "Because Inca Kola was the deeply entrenched national cultural soft drink favored by local consumers.",
             "Because Peru prohibited the importation of bottled soda.",
-            "Because Coca Cola refused to open a factory in South America.",
-            "Because Inca Kola was distributed for free."
+            "Because Inca Kola was the deeply entrenched national cultural soft drink favored by local consumers.",
+            "Because Inca Kola was distributed for free.",
+            "Because Coca Cola refused to open a factory in South America."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Inca Kola was the established national favorite, prompting Coca Cola to purchase the factory to share production.",
           "visualClue": "🥤 Soft Drink Commercial Dynamics"
         },
@@ -13271,12 +13271,12 @@ window.APP_DATA = {
           "id": "e27_q05",
           "question": "Which script is officially utilized to inscribe the Shahadah on the national flag of Saudi Arabia?",
           "options": [
-            "Thuluth script",
-            "Kufic script",
             "Ruq'ah script",
-            "Diwani script"
+            "Diwani script",
+            "Kufic script",
+            "Thuluth script"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The passage notes: 'Thuluth is a long and elegant script... It is also the script of the Saudi Arabian flag.'",
           "visualClue": "🇸🇦 National Flag Typography"
         },
@@ -13284,12 +13284,12 @@ window.APP_DATA = {
           "id": "e27_q06",
           "question": "Approximately how many pizzerias operate in the United States today according to the reading passage?",
           "options": [
-            "Over 78,000 pizzerias.",
+            "Over ten million pizzerias.",
             "Fewer than 1,000 pizzerias.",
-            "Exactly 500 pizzerias.",
-            "Over ten million pizzerias."
+            "Over 78,000 pizzerias.",
+            "Exactly 500 pizzerias."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The text explicitly records: 'today there are over 78,000 pizzerias in the U.S., and the number is growing.'",
           "visualClue": "🍕 Global Culinary Statistics"
         },
@@ -13297,12 +13297,12 @@ window.APP_DATA = {
           "id": "e27_q07",
           "question": "Why are Naskh and Ruq'ah the most prevalent scripts in contemporary Arabic daily life?",
           "options": [
-            "Because they are generally smaller, highly legible, and easier to read and write.",
-            "Because they are the only scripts permitted by law.",
+            "Because they can only be written on parchment.",
             "Because they have no connecting letters.",
-            "Because they can only be written on parchment."
+            "Because they are the only scripts permitted by law.",
+            "Because they are generally smaller, highly legible, and easier to read and write."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Paragraph four explains: 'They are generally smaller and easier to read and write.'",
           "visualClue": "✍️ Practical Penmanship Analysis"
         },
@@ -13310,12 +13310,12 @@ window.APP_DATA = {
           "id": "e27_q08",
           "question": "What beverage trend in China is highlighted in the text as demonstrating globalization?",
           "options": [
+            "The replacement of restaurants with juice stands.",
             "The rising popularity of coffee, evidenced by about 4,800 Starbucks coffee shops in a traditionally tea-drinking nation.",
-            "The total abandonment of hot tea by all citizens.",
             "The mandatory drinking of mineral water in schools.",
-            "The replacement of restaurants with juice stands."
+            "The total abandonment of hot tea by all citizens."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Although traditionally tea-drinking, coffee's growth is reflected in 4,800 coffee shops.",
           "visualClue": "☕ Cross-Cultural Beverage Trends"
         },
@@ -13325,8 +13325,8 @@ window.APP_DATA = {
           "options": [
             "Hanging",
             "Geometric",
-            "Fast",
-            "Printed"
+            "Printed",
+            "Fast"
           ],
           "correctAnswer": 0,
           "explanation": "The passage notes: 'Farsi or Ta'liq, which means hanging, is an old script that is sometimes used in literature.'",
@@ -13336,12 +13336,12 @@ window.APP_DATA = {
           "id": "e27_q10",
           "question": "What is an inference you can draw regarding the global popularity of Middle Eastern shawarma?",
           "options": [
-            "Convenient preparation, rich spices, and street-food adaptability make it appealing across diverse cultures.",
-            "It is only eaten by travelers on international flights.",
             "It can only be prepared in five countries.",
-            "It requires specialized machinery imported from Europe."
+            "It requires specialized machinery imported from Europe.",
+            "Convenient preparation, rich spices, and street-food adaptability make it appealing across diverse cultures.",
+            "It is only eaten by travelers on international flights."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Its flavorful shaved spiced meats and flatbread wrap format make it universally accessible.",
           "visualClue": "🌯 Culinary Sociology Inference"
         },
@@ -13349,12 +13349,12 @@ window.APP_DATA = {
           "id": "e27_q11",
           "question": "Which exhibition is featured at the Islamic Heritage Museum during the summer?",
           "options": [
-            "Art of the Pen: Arabic Calligraphy",
             "Prehistoric Dinosaurs of the Sahara",
+            "The Science of Fast-Food Packaging",
             "Modern Aviation and Drone Aeromodelling",
-            "The Science of Fast-Food Packaging"
+            "Art of the Pen: Arabic Calligraphy"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text announces: 'the Islamic Heritage Museum is proud to present a special exhibit called Art of the Pen: Arabic Calligraphy.'",
           "visualClue": "🏛️ Exhibition Title Verification"
         },
@@ -13363,9 +13363,9 @@ window.APP_DATA = {
           "question": "Why was early Arabic writing considered insufficient before the comprehensive standardization of calligraphy?",
           "options": [
             "The earliest script was very simple and lacked the expressive clarity needed for widespread Islamic communication.",
-            "Early scribes had no ink or paper.",
             "Writing was strictly prohibited in ancient Arabia.",
-            "Early letters were identical to Greek alphabets."
+            "Early letters were identical to Greek alphabets.",
+            "Early scribes had no ink or paper."
           ],
           "correctAnswer": 0,
           "explanation": "Paragraph two records: 'The first Arabic system of writing was very simple... there was a need for a more expressive form of writing.'",
@@ -13375,12 +13375,12 @@ window.APP_DATA = {
           "id": "e27_q13",
           "question": "What common culinary characteristic links Japanese shrimp burgers and Saudi McArabia sandwiches?",
           "options": [
+            "Both sandwiches are eaten only for breakfast.",
             "Both represent deliberate localized adaptations of international fast food to reflect local dining preferences.",
             "Both dishes are served cold without buns.",
-            "Both recipes originated in South America.",
-            "Both sandwiches are eaten only for breakfast."
+            "Both recipes originated in South America."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Both illustrate menu localization matching the distinct cultural tastes of the host country.",
           "visualClue": "🍔 Comparative Menu Analysis"
         },
@@ -13388,12 +13388,12 @@ window.APP_DATA = {
           "id": "e27_q14",
           "question": "Which classical script style is most frequently selected for artistic greetings and ceremonial cards?",
           "options": [
-            "Diwani script",
             "Kufic script",
+            "Block print",
             "Naskh script",
-            "Block print"
+            "Diwani script"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The text confirms: 'Diwani is a very decorative style that is often seen on greeting cards.'",
           "visualClue": "💌 Decorative Script Selection"
         },
@@ -13401,12 +13401,12 @@ window.APP_DATA = {
           "id": "e27_q15",
           "question": "How has globalization transformed ethnic foods that were historically restricted to specific geographic regions?",
           "options": [
-            "They have spread globally, becoming staple offerings in international restaurants and food courts.",
-            "They have been completely forgotten by younger generations.",
             "They are now strictly forbidden from being served abroad.",
-            "They can only be prepared by robot chefs."
+            "They can only be prepared by robot chefs.",
+            "They have spread globally, becoming staple offerings in international restaurants and food courts.",
+            "They have been completely forgotten by younger generations."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Paragraph three observes: 'In the past, most ethnic foods were just local. Nowadays with globalization, ethnic foods are also becoming popular everywhere.'",
           "visualClue": "🌐 Global Culinary Diffusion"
         },
@@ -13427,12 +13427,12 @@ window.APP_DATA = {
           "id": "e27_q17",
           "question": "Why did calligraphers inscribe surah headings in Thuluth script rather than smaller scripts?",
           "options": [
-            "Because Thuluth's tall, elegant proportions provide grand architectural prominence to chapter titles.",
-            "Because Thuluth is the fastest script to write.",
+            "Because Thuluth was the only script available.",
             "Because Thuluth has no curves or flourishes.",
-            "Because Thuluth was the only script available."
+            "Because Thuluth's tall, elegant proportions provide grand architectural prominence to chapter titles.",
+            "Because Thuluth is the fastest script to write."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Its majestic stature and elongated vertical strokes create commanding visual emphasis for headings.",
           "visualClue": "📐 Chapter Heading Typography"
         },
@@ -13440,12 +13440,12 @@ window.APP_DATA = {
           "id": "e27_q18",
           "question": "What does the reading passage indicate about the taste of pizza across global metropolitan cities?",
           "options": [
-            "Pizza in New York generally tastes more or less like a pizza in Italy or Hong Kong.",
+            "Asian cities refuse to bake pizza.",
             "Pizza in New York is totally unrecognizable compared to Italian pizza.",
-            "Pizza is only eaten in Europe.",
-            "Asian cities refuse to bake pizza."
+            "Pizza in New York generally tastes more or less like a pizza in Italy or Hong Kong.",
+            "Pizza is only eaten in Europe."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The passage notes: 'In general, pizza in New York tastes more or less like a pizza in Italy or Hong Kong.'",
           "visualClue": "🍕 Global Culinary Consistency"
         },
@@ -13453,12 +13453,12 @@ window.APP_DATA = {
           "id": "e27_q19",
           "question": "What role did parchment play in the preservation of early Qur'anic calligraphy?",
           "options": [
+            "It was manufactured from wood pulp in paper mills.",
             "It provided a durable, resilient writing surface that survived centuries in library archives.",
-            "It was easily dissolved in water.",
             "It was used exclusively for fast-food wrappers.",
-            "It was manufactured from wood pulp in paper mills."
+            "It was easily dissolved in water."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Treated animal parchment was exceptionally resilient, preserving early holy folios intact.",
           "visualClue": "📜 Archival Material Durability"
         },
@@ -13466,12 +13466,12 @@ window.APP_DATA = {
           "id": "e27_q20",
           "question": "What overarching conclusion can be drawn from both reading passages?",
           "options": [
-            "Cultural traditions—whether culinary or calligraphic—flourish through deep heritage while dynamically adapting across global borders.",
-            "Modern technology will eliminate all historical heritage.",
             "People around the world prefer to eat only one single food.",
-            "Ancient scripts are no longer valued by contemporary society."
+            "Modern technology will eliminate all historical heritage.",
+            "Ancient scripts are no longer valued by contemporary society.",
+            "Cultural traditions—whether culinary or calligraphic—flourish through deep heritage while dynamically adapting across global borders."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Both passages celebrate how heritage (Islamic calligraphy, regional foods) maintains its core identity while thriving across modern global contexts.",
           "visualClue": "🌟 Universal Cultural Synthesis"
         }
@@ -13489,12 +13489,12 @@ window.APP_DATA = {
           "id": "e28_q01",
           "question": "Diagnose the error in: 'Can I have three milks and two rices, please?'",
           "options": [
-            "Non-count substances cannot take plural '-s'; use partitives: 'three glasses of milk and two bowls of rice'.",
             "The modal 'Can' should be replaced with 'Do'.",
             "The adjective 'three' should be 'third'.",
-            "The word 'please' should be at the start."
+            "The word 'please' should be at the start.",
+            "Non-count substances cannot take plural '-s'; use partitives: 'three glasses of milk and two bowls of rice'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Mass liquids and grains are non-count nouns and require partitive container units to be quantified.",
           "visualClue": "⚠️ Non-Count Pluralization Error"
         },
@@ -13504,8 +13504,8 @@ window.APP_DATA = {
           "options": [
             "After the auxiliary 'Did', the lexical verb must revert to its uninflected base form: 'Did you visit...'",
             "The proper noun 'Museum' should be lowercase.",
-            "The time adverb 'yesterday' should be 'tomorrow'.",
-            "The auxiliary 'Did' must be 'Were'."
+            "The auxiliary 'Did' must be 'Were'.",
+            "The time adverb 'yesterday' should be 'tomorrow'."
           ],
           "correctAnswer": 0,
           "explanation": "The auxiliary 'did' already carries the past tense marker; combining it with 'visited' creates an ungrammatical double past.",
@@ -13516,9 +13516,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'The lentil soup is enough hot to serve.'",
           "options": [
             "When modifying an adjective, 'enough' must follow it: 'hot enough to serve'.",
+            "The preposition 'to' should be 'for'.",
             "The noun 'soup' should be plural 'soups'.",
-            "The verb 'is' should be 'are'.",
-            "The preposition 'to' should be 'for'."
+            "The verb 'is' should be 'are'."
           ],
           "correctAnswer": 0,
           "explanation": "'Enough' follows adjectives ('hot enough'), but precedes nouns ('enough bread').",
@@ -13528,12 +13528,12 @@ window.APP_DATA = {
           "id": "e28_q04",
           "question": "Diagnose the error in: 'We didn't bought any tickets for the calligraphy exhibit.'",
           "options": [
-            "The negative auxiliary 'didn't' requires the base verb 'buy': 'We didn't buy any tickets...'",
             "The quantifier 'any' should be 'some'.",
-            "The noun 'tickets' must be singular.",
-            "The preposition 'for' should be 'about'."
+            "The negative auxiliary 'didn't' requires the base verb 'buy': 'We didn't buy any tickets...'",
+            "The preposition 'for' should be 'about'.",
+            "The noun 'tickets' must be singular."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "After 'didn't', the verb must appear in its base form ('buy'), not past ('bought').",
           "visualClue": "⚠️ Negative 'Didn't' + Base Verb"
         },
@@ -13554,12 +13554,12 @@ window.APP_DATA = {
           "id": "e28_q06",
           "question": "Diagnose the error in: 'He writed a beautiful sentence in Thuluth script.'",
           "options": [
-            "'Write' is an irregular verb; its simple past form is 'wrote', not '*writed'.",
-            "The adjective 'beautiful' should be an adverb 'beautifully'.",
             "The preposition 'in' should be 'with by'.",
+            "The adjective 'beautiful' should be an adverb 'beautifully'.",
+            "'Write' is an irregular verb; its simple past form is 'wrote', not '*writed'.",
             "The noun 'script' should be plural."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Overgeneralizing regular '-ed' to irregular 'write' produces an error; use 'wrote'.",
           "visualClue": "⚠️ Irregular Past Overgeneralization"
         },
@@ -13568,9 +13568,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'It was so amazing museum that we stayed three hours.'",
           "options": [
             "When modifying an adjective before a singular noun, use 'such an': 'such an amazing museum'.",
+            "The verb 'stayed' should be 'stay'.",
             "The conjunction 'that' should be 'so'.",
-            "The numeral 'three' should be 'third'.",
-            "The verb 'stayed' should be 'stay'."
+            "The numeral 'three' should be 'third'."
           ],
           "correctAnswer": 0,
           "explanation": "'So' modifies standalone adjectives ('so amazing'); before 'an amazing museum', use 'such an'.",
@@ -13580,12 +13580,12 @@ window.APP_DATA = {
           "id": "e28_q08",
           "question": "Diagnose the error in: 'Customer: I want a chicken sandwich and coffee.'",
           "options": [
-            "In polite restaurant etiquette, use the courteous modal formula: 'I would like... please'.",
+            "The noun 'coffee' must take plural '-s'.",
             "The word 'chicken' must be capitalized.",
-            "The conjunction 'and' should be 'but'.",
-            "The noun 'coffee' must take plural '-s'."
+            "In polite restaurant etiquette, use the courteous modal formula: 'I would like... please'.",
+            "The conjunction 'and' should be 'but'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Using 'I want' in formal dining is overly blunt and breaches hospitality politeness standards.",
           "visualClue": "⚠️ Hospitality Pragmatic Etiquette"
         },
@@ -13593,12 +13593,12 @@ window.APP_DATA = {
           "id": "e28_q09",
           "question": "Diagnose the error in: 'The students was fascinated by the colossal iron meteorite.'",
           "options": [
-            "The plural subject 'The students' requires the plural past verb 'were', not singular 'was'.",
-            "The adjective 'fascinated' should be 'fascinating'.",
             "The noun 'meteorite' must be plural.",
-            "The preposition 'by' should be 'with'."
+            "The preposition 'by' should be 'with'.",
+            "The adjective 'fascinated' should be 'fascinating'.",
+            "The plural subject 'The students' requires the plural past verb 'were', not singular 'was'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Third-person plural subjects take 'were' in the Simple Past.",
           "visualClue": "⚠️ Subject-Verb Concord (Past)"
         },
@@ -13606,12 +13606,12 @@ window.APP_DATA = {
           "id": "e28_q10",
           "question": "Diagnose the error in: 'How many is the traditional chicken kabsa banquet?'",
           "options": [
-            "Inquiring about total price or monetary cost requires 'How much', not 'How many'.",
+            "The verb 'is' should be 'are'.",
             "The word 'traditional' should be deleted.",
             "The noun 'banquet' must be plural.",
-            "The verb 'is' should be 'are'."
+            "Inquiring about total price or monetary cost requires 'How much', not 'How many'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'How many' asks for countable numbers; asking for monetary cost requires 'How much'.",
           "visualClue": "⚠️ Price Interrogative Formula"
         },
@@ -13619,12 +13619,12 @@ window.APP_DATA = {
           "id": "e28_q11",
           "question": "Select the sentence that is completely FREE of grammatical defects:",
           "options": [
-            "Yesterday, we saw ancient copies of the Holy Qur'an written on treated parchment.",
             "Yesterday, we seed ancient copies of the Holy Qur'an writed on parchment.",
             "Yesterday, we did saw ancient copies of the Holy Qur'an on parchment.",
+            "Yesterday, we saw ancient copies of the Holy Qur'an written on treated parchment.",
             "Yesterday, we was seeing ancient copies of the Holy Qur'an on parchment."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Option A flawlessly utilizes the irregular past 'saw' and correct past participle 'written'.",
           "visualClue": "✅ Flawless Past Concord Standard"
         },
@@ -13632,12 +13632,12 @@ window.APP_DATA = {
           "id": "e28_q12",
           "question": "Diagnose the error in: 'Are there some apples left in the fruit bowl?'",
           "options": [
-            "In standard questions regarding existence, use 'any': 'Are there any apples left...'",
-            "The noun 'apples' must be non-count.",
             "The verb 'Are' should be singular 'Is'.",
-            "The preposition 'in' should be 'at'."
+            "The preposition 'in' should be 'at'.",
+            "The noun 'apples' must be non-count.",
+            "In standard questions regarding existence, use 'any': 'Are there any apples left...'"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Any' is the standard quantifier in general questions; 'some' is reserved for affirmative statements or polite offers.",
           "visualClue": "⚠️ Question Quantifier Syntax"
         },
@@ -13646,9 +13646,9 @@ window.APP_DATA = {
           "question": "Diagnose the error in: 'The tea was too sweet enough for him to drink.'",
           "options": [
             "Combining 'too' and 'enough' produces a contradictory double degree modifier; use either 'too sweet' or 'sweet enough'.",
+            "The verb 'was' should be 'were'.",
             "The noun 'tea' should be plural.",
-            "The pronoun 'him' should be 'he'.",
-            "The verb 'was' should be 'were'."
+            "The pronoun 'him' should be 'he'."
           ],
           "correctAnswer": 0,
           "explanation": "'Too' (excessive problem) and 'enough' (adequate satisfaction) are mutually exclusive semantic opposites.",
@@ -13658,12 +13658,12 @@ window.APP_DATA = {
           "id": "e28_q14",
           "question": "Diagnose the error in: 'Yesterday, he goed to the historical citadel in Diriyah.'",
           "options": [
-            "'Go' is an irregular verb; its simple past form is 'went', not '*goed'.",
             "The preposition 'to' should be 'at'.",
+            "'Go' is an irregular verb; its simple past form is 'went', not '*goed'.",
             "The noun 'citadel' should be capitalized.",
             "The proper noun 'Diriyah' should be lowercase."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The past tense of 'go' is 'went'.",
           "visualClue": "⚠️ Irregular Past Tense Error"
         },
@@ -13671,12 +13671,12 @@ window.APP_DATA = {
           "id": "e28_q15",
           "question": "Diagnose the error in: 'We don't have many rice left in the storage container.'",
           "options": [
-            "'Rice' is a non-count noun and requires 'much' in negative statements, not 'many'.",
             "The auxiliary 'don't' should be 'doesn't'.",
-            "The noun 'container' should be plural.",
-            "The adjective 'many' should be 'a few'."
+            "'Rice' is a non-count noun and requires 'much' in negative statements, not 'many'.",
+            "The adjective 'many' should be 'a few'.",
+            "The noun 'container' should be plural."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Many' cannot modify the non-count noun 'rice'; use 'much' or 'a lot of'.",
           "visualClue": "⚠️ Non-Count Quantifier Mismatch"
         },
@@ -13684,12 +13684,12 @@ window.APP_DATA = {
           "id": "e28_q16",
           "question": "Diagnose the error in: 'Where did you bought that commemorative calligraphy quill?'",
           "options": [
-            "After 'did you', the verb must appear in its base form: 'Where did you buy...'",
-            "The demonstrative 'that' should be 'those'.",
             "The noun 'quill' should be 'quills'.",
-            "The word 'Where' should be 'When'."
+            "The word 'Where' should be 'When'.",
+            "The demonstrative 'that' should be 'those'.",
+            "After 'did you', the verb must appear in its base form: 'Where did you buy...'"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "The auxiliary 'did' requires the base verb 'buy', not the past form 'bought'.",
           "visualClue": "⚠️ Auxiliary 'Did' + Past Form Violation"
         },
@@ -13697,12 +13697,12 @@ window.APP_DATA = {
           "id": "e28_q17",
           "question": "Diagnose the error in: 'The soup is so hot to eat right now.'",
           "options": [
-            "To express that an excess prevents an action from happening, use 'too': 'too hot to eat'.",
             "The verb 'is' should be 'was'.",
             "The preposition 'to' should be 'for'.",
+            "To express that an excess prevents an action from happening, use 'too': 'too hot to eat'.",
             "The adverb 'now' should be 'then'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The construction expressing negative excess is 'too + adjective + infinitive': 'too hot to eat'.",
           "visualClue": "⚠️ Excess Infinitive Formula"
         },
@@ -13710,12 +13710,12 @@ window.APP_DATA = {
           "id": "e28_q18",
           "question": "Diagnose the error in: 'They eated a delicious feast of roasted lamb and basmati rice.'",
           "options": [
-            "'Eat' is an irregular verb; its simple past form is 'ate', not '*eated'.",
             "The article 'a' should be 'an'.",
+            "'Eat' is an irregular verb; its simple past form is 'ate', not '*eated'.",
             "The adjective 'roasted' should be 'roast'.",
             "The noun 'rice' should be 'rices'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The past tense of 'eat' is 'ate'.",
           "visualClue": "⚠️ Irregular Past Inflection"
         },
@@ -13723,12 +13723,12 @@ window.APP_DATA = {
           "id": "e28_q19",
           "question": "Diagnose the error in: 'It was such interesting museum that we stayed all afternoon.'",
           "options": [
-            "Before a singular countable noun ('museum') beginning with a vowel sound, use 'such an': 'such an interesting museum'.",
-            "The noun 'museum' should be plural.",
             "The conjunction 'that' should be 'so'.",
+            "The noun 'museum' should be plural.",
+            "Before a singular countable noun ('museum') beginning with a vowel sound, use 'such an': 'such an interesting museum'.",
             "The pronoun 'we' should be 'us'."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Singular count nouns modified by 'such' require the indefinite article 'a' or 'an': 'such an interesting museum'.",
           "visualClue": "⚠️ Article Omission with 'Such'"
         },
@@ -13736,12 +13736,12 @@ window.APP_DATA = {
           "id": "e28_q20",
           "question": "Select the sentence demonstrating completely flawless syntax and concord:",
           "options": [
-            "Our guide explained the history of Thuluth script, which calligraphers used to inscribe surah headings.",
-            "Our guide explained history of Thuluth script who calligraphers used to inscribe.",
             "Our guide explain the history of Thuluth script which calligraphers used it.",
-            "Our guide was explained Thuluth script who it was used for headings."
+            "Our guide explained the history of Thuluth script, which calligraphers used to inscribe surah headings.",
+            "Our guide was explained Thuluth script who it was used for headings.",
+            "Our guide explained history of Thuluth script who calligraphers used to inscribe."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Option A flawlessly utilizes regular past 'explained', non-human relative pronoun 'which', and active past 'used'.",
           "visualClue": "✅ Master Syntactic Integration"
         }
@@ -13760,9 +13760,9 @@ window.APP_DATA = {
           "question": "Yesterday afternoon, our family ______ lunch at a seafood restaurant and ______ fresh grilled shrimp.",
           "options": [
             "ate / ordered",
+            "did eat / were ordered",
             "eated / order",
-            "was eat / ordering",
-            "did eat / were ordered"
+            "was eat / ordering"
           ],
           "correctAnswer": 0,
           "explanation": "'Yesterday afternoon' requires the irregular past 'ate' and regular past 'ordered'.",
@@ -13772,12 +13772,12 @@ window.APP_DATA = {
           "id": "e29_q02",
           "question": "'Is there ______ saffron left in the spice jar?' — 'There is only ______ saffron left; we need to buy more.'",
           "options": [
+            "many / much",
             "any / a little",
             "some / a few",
-            "many / much",
             "a few / any"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Non-count questions take 'any'; small non-count quantities take 'a little'.",
           "visualClue": "🌾 Spice Measurement Synthesis"
         },
@@ -13786,9 +13786,9 @@ window.APP_DATA = {
           "question": "The tour of the National Museum was ______ an inspiring journey that students ______ dozens of notes.",
           "options": [
             "such / took",
-            "so / take",
+            "enough / taken",
             "too / was taking",
-            "enough / taken"
+            "so / take"
           ],
           "correctAnswer": 0,
           "explanation": "'Such an inspiring journey' coordinates with the irregular past verb 'took'.",
@@ -13798,12 +13798,12 @@ window.APP_DATA = {
           "id": "e29_q04",
           "question": "How did Coca Cola overcome competitive challenges against the popular soft drink Inca Kola in Peru?",
           "options": [
-            "They purchased the Inca Kola factory and began producing both beverages.",
+            "They lowered their prices to zero.",
             "They ceased selling beverages in South America entirely.",
-            "They petitioned the government to ban all yellow soft drinks.",
-            "They lowered their prices to zero."
+            "They purchased the Inca Kola factory and began producing both beverages.",
+            "They petitioned the government to ban all yellow soft drinks."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The reading passage confirms Coca Cola bought the factory and produced both drinks.",
           "visualClue": "🥤 Beverage Commercial Strategy"
         },
@@ -13812,9 +13812,9 @@ window.APP_DATA = {
           "question": "Early Islamic scribes in Kufa ______ bold geometric strokes onto stone tablets, creating the ancient ______ script.",
           "options": [
             "carved / Kufic",
+            "carving / Naskh",
             "carve / Diwani",
-            "was carved / Ruq'ah",
-            "carving / Naskh"
+            "was carved / Ruq'ah"
           ],
           "correctAnswer": 0,
           "explanation": "Regular past 'carved' matches the historical origin of the geometric Kufic script.",
@@ -13824,12 +13824,12 @@ window.APP_DATA = {
           "id": "e29_q06",
           "question": "The spiced lentil soup was ______ hot to swallow, but after cooling for five minutes it was ______ to enjoy.",
           "options": [
-            "too / cool enough",
-            "enough / too cool",
             "so / such cool",
-            "very / too"
+            "very / too",
+            "too / cool enough",
+            "enough / too cool"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Too hot' indicates excessive temperature; 'cool enough' indicates achieved adequacy.",
           "visualClue": "🥣 Temperature Degree Pair"
         },
@@ -13837,12 +13837,12 @@ window.APP_DATA = {
           "id": "e29_q07",
           "question": "'What would you like for your main dish?' — Customer: 'I ______ the traditional chicken kabsa, please.'",
           "options": [
+            "will wanting",
             "would like",
-            "am wanting",
             "like to",
-            "will wanting"
+            "am wanting"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "'Would like' is the polite formula expected in hospitality customer discourse.",
           "visualClue": "🍗 Main Dish Ordering Protocol"
         },
@@ -13851,9 +13851,9 @@ window.APP_DATA = {
           "question": "Why did Prophet Muhammad, peace be upon him, and early Muslim leaders require a unified writing system?",
           "options": [
             "To have a clear, expressive script that all people across Islamic lands could easily read and understand.",
-            "To speed up commercial accounting in markets.",
+            "To replace all regional languages with Latin.",
             "To translate foreign Greek plays.",
-            "To replace all regional languages with Latin."
+            "To speed up commercial accounting in markets."
           ],
           "correctAnswer": 0,
           "explanation": "The text explains a clear script was essential for all Muslims to read and comprehend the Holy Qur'an.",
@@ -13863,12 +13863,12 @@ window.APP_DATA = {
           "id": "e29_q09",
           "question": "Faisal ______ go to the football stadium on Friday because he ______ sick with a high fever.",
           "options": [
-            "didn't / was",
+            "haven't / is",
             "wasn't / did",
             "doesn't / were",
-            "haven't / is"
+            "didn't / was"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Past negative auxiliary 'didn't go' paired with singular past state 'was sick'.",
           "visualClue": "⚽ Past Absence Cause & Effect"
         },
@@ -13876,12 +13876,12 @@ window.APP_DATA = {
           "id": "e29_q10",
           "question": "How many pizzerias currently operate across the United States according to the food globalization text?",
           "options": [
+            "Exactly 1,000 pizzerias.",
             "Over 78,000 pizzerias.",
             "Fewer than 5,000 pizzerias.",
-            "About 4,800 pizzerias.",
-            "Exactly 1,000 pizzerias."
+            "About 4,800 pizzerias."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The passage records: 'today there are over 78,000 pizzerias in the U.S.'",
           "visualClue": "🍕 Food Globalization Metrics"
         },
@@ -13891,8 +13891,8 @@ window.APP_DATA = {
           "options": [
             "buy / bought",
             "bought / buy",
-            "bought / bought",
-            "buy / buy"
+            "buy / buy",
+            "bought / bought"
           ],
           "correctAnswer": 0,
           "explanation": "'Did' requires base form 'buy'; affirmative answer takes irregular past 'bought'.",
@@ -13902,12 +13902,12 @@ window.APP_DATA = {
           "id": "e29_q12",
           "question": "The Shahadah on the Saudi Arabian flag is rendered in the elegant, sweeping ______ script.",
           "options": [
+            "Farsi",
             "Thuluth",
-            "Kufic",
             "Ruq'ah",
-            "Farsi"
+            "Kufic"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "The national flag features sacred lettering in Thuluth script.",
           "visualClue": "🇸🇦 National Flag Typography"
         },
@@ -13915,12 +13915,12 @@ window.APP_DATA = {
           "id": "e29_q13",
           "question": "We needed ______ loaves of bread and ______ olive oil to complete our family dinner recipe.",
           "options": [
-            "a few / a little",
+            "many / a few",
             "a little / a few",
-            "much / many",
-            "many / a few"
+            "a few / a little",
+            "much / many"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "'Loaves' is plural count ('a few'); 'olive oil' is non-count ('a little').",
           "visualClue": "🥖 Dual Quantifier Recipe Needs"
         },
@@ -13928,12 +13928,12 @@ window.APP_DATA = {
           "id": "e29_q14",
           "question": "The special exhibition 'Art of the Pen' at the Islamic Heritage Museum showcased ______.",
           "options": [
-            "rare historic Qur'anic manuscripts and classical Arabic calligraphy styles",
             "modern aerospace jet turbine engines",
             "industrial farm tractors and harvesting machinery",
+            "rare historic Qur'anic manuscripts and classical Arabic calligraphy styles",
             "international fast-food restaurant franchises"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "The exhibition focused specifically on Arabic calligraphy and Holy Qur'anic verses.",
           "visualClue": "🏛️ Heritage Museum Content"
         },
@@ -13941,12 +13941,12 @@ window.APP_DATA = {
           "id": "e29_q15",
           "question": "The coffee was ______ sweet because the waiter added ______ sugar cubes.",
           "options": [
-            "too / too many",
-            "enough / much",
             "so / too much",
-            "such / enough"
+            "such / enough",
+            "enough / much",
+            "too / too many"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "'Too sweet' expresses excess; 'too many' modifies plural count 'sugar cubes'.",
           "visualClue": "☕ Beverage Flavor Excess Concord"
         },
@@ -13954,12 +13954,12 @@ window.APP_DATA = {
           "id": "e29_q16",
           "question": "The historical citadels of Diriyah ______ so breathtaking that the tourists ______ hours taking photographs.",
           "options": [
-            "were / spent",
             "was / spend",
             "did / were spent",
-            "are / spending"
+            "are / spending",
+            "were / spent"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Plural subject 'citadels' takes 'were', and irregular past of spend is 'spent'.",
           "visualClue": "🏰 Diriyah Photography Narrative"
         },
@@ -13967,12 +13967,12 @@ window.APP_DATA = {
           "id": "e29_q17",
           "question": "Which script is widely described as compact, quick to write, and taught as standard daily school handwriting?",
           "options": [
-            "Ruq'ah",
-            "Thuluth",
             "Kufic",
-            "Diwani"
+            "Ruq'ah",
+            "Diwani",
+            "Thuluth"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Ruq'ah is the compact, swift script common in daily handwriting.",
           "visualClue": "✍️ School Handwriting Character"
         },
@@ -13980,12 +13980,12 @@ window.APP_DATA = {
           "id": "e29_q18",
           "question": "'How much ______ the family banquet platter?' — 'It ______ 95 Riyals.'",
           "options": [
-            "was / was",
             "were / were",
+            "is / are",
             "did / did",
-            "is / are"
+            "was / was"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Singular count noun 'platter' takes the singular copula 'was' in both question and answer.",
           "visualClue": "💵 Past Price Concord"
         },
@@ -13993,12 +13993,12 @@ window.APP_DATA = {
           "id": "e29_q19",
           "question": "What Middle Eastern wrapped food item is recognized worldwide under the alternative name 'doner'?",
           "options": [
-            "Shawarma",
-            "Sushi",
+            "Pancake",
             "Taco",
-            "Pancake"
+            "Sushi",
+            "Shawarma"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Shawarma is often called doner in international restaurants.",
           "visualClue": "🌯 Shawarma Alternative Nomenclature"
         },
@@ -14006,12 +14006,12 @@ window.APP_DATA = {
           "id": "e29_q20",
           "question": "Select the sentence with completely flawless grammar and concord across Units 5 & 6 standards:",
           "options": [
-            "Last weekend, we visited the historical museum and admired such an extraordinary exhibition of Thuluth calligraphy.",
-            "Last weekend, we visit the historical museum and admired so extraordinary exhibition of Thuluth calligraphy.",
+            "Last weekend, we were visit the museum and admired so an extraordinary exhibition.",
             "Last weekend, we did visited the museum and seed such an extraordinary exhibition.",
-            "Last weekend, we were visit the museum and admired so an extraordinary exhibition."
+            "Last weekend, we visited the historical museum and admired such an extraordinary exhibition of Thuluth calligraphy.",
+            "Last weekend, we visit the historical museum and admired so extraordinary exhibition of Thuluth calligraphy."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Option A coordinates past 'visited' and 'admired', and correctly employs 'such an extraordinary exhibition'.",
           "visualClue": "🌟 Capstone Syntactic Excellence"
         }
@@ -14030,8 +14030,8 @@ window.APP_DATA = {
           "question": "At the hotel reception counter, the traveler states: 'Good afternoon. I ______ a single room for four nights, please.'",
           "options": [
             "would like to reserve",
-            "am wanting reserve",
             "want reserve",
+            "am wanting reserve",
             "demands"
           ],
           "correctAnswer": 0,
@@ -14042,12 +14042,12 @@ window.APP_DATA = {
           "id": "e30_q02",
           "question": "On the film set, the director shouts: '______ talk during the take! Silence on set!'",
           "options": [
-            "Don't",
-            "Not",
             "No",
-            "You aren't"
+            "Not",
+            "You aren't",
+            "Don't"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 2 negative imperatives use 'Don't + base verb'.",
           "visualClue": "🎬 Unit 2 Movie Set Imperative"
         },
@@ -14056,9 +14056,9 @@ window.APP_DATA = {
           "question": "Capt. Al-Otaibi is an experienced airline pilot ______ navigates jumbo jets for Saudia.",
           "options": [
             "who",
-            "which",
+            "whose",
             "where",
-            "whose"
+            "which"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 3 relative pronoun 'who' defines persons and professionals.",
@@ -14068,12 +14068,12 @@ window.APP_DATA = {
           "id": "e30_q04",
           "question": "How often do dedicated athletes at the sports club work out? 'They ______ work out three times a week.'",
           "options": [
-            "usually",
             "never not",
+            "usually",
             "once day",
             "every days"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 4 adverbs of frequency: 'usually' precedes the main verb 'work out'.",
           "visualClue": "🏋️ Unit 4 Workout Frequency"
         },
@@ -14082,9 +14082,9 @@ window.APP_DATA = {
           "question": "Customer: 'May I have a glass of cold water?' — Server: 'Certainly! Would you like ______ lemon with it?'",
           "options": [
             "some",
+            "a few",
             "any",
-            "many",
-            "a few"
+            "many"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 5 polite offers take 'some'.",
@@ -14094,12 +14094,12 @@ window.APP_DATA = {
           "id": "e30_q06",
           "question": "Last Saturday, our class ______ the National Museum and ______ ancient illuminated manuscripts.",
           "options": [
-            "visited / saw",
+            "was visit / seed",
             "visit / see",
-            "did visited / seen",
-            "was visit / seed"
+            "visited / saw",
+            "did visited / seen"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 6 simple past takes regular 'visited' and irregular 'saw'.",
           "visualClue": "🏛️ Unit 6 Museum Field Trip"
         },
@@ -14109,8 +14109,8 @@ window.APP_DATA = {
           "options": [
             "across from",
             "between",
-            "inside of",
-            "away"
+            "away",
+            "inside of"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 1 spatial preposition: 'across from' denotes opposite sides of a street.",
@@ -14120,12 +14120,12 @@ window.APP_DATA = {
           "id": "e30_q08",
           "question": "Look at the sound engineer! He ______ high-fidelity boom microphones over the film actors.",
           "options": [
+            "is hold",
             "is holding",
-            "holds",
             "hold",
-            "is hold"
+            "holds"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 2 Present Progressive depicts actions in active progress right now.",
           "visualClue": "🎙️ Unit 2 Film Set Action"
         },
@@ -14133,12 +14133,12 @@ window.APP_DATA = {
           "id": "e30_q09",
           "question": "A civil engineer is someone who ______ how to design suspension bridges and modern highway overpasses.",
           "options": [
-            "knows",
-            "know",
             "is know",
-            "knowing"
+            "knowing",
+            "know",
+            "knows"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 3 ability structure: singular subject takes 'knows how to'.",
           "visualClue": "🏗️ Unit 3 Engineering Competence"
         },
@@ -14146,12 +14146,12 @@ window.APP_DATA = {
           "id": "e30_q10",
           "question": "______ radio-controlled model planes ______ a thrilling hobby that teaches physics and aerodynamics.",
           "options": [
-            "Flying / is",
             "Fly / are",
             "Flew / was",
+            "Flying / is",
             "To flying / are"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 4 gerund subject 'Flying...' acts as a singular noun taking singular 'is'.",
           "visualClue": "✈️ Unit 4 Gerund Subject"
         },
@@ -14159,12 +14159,12 @@ window.APP_DATA = {
           "id": "e30_q11",
           "question": "'Is there ______ rice left for dinner?' — 'No, there isn't ______ rice; we must cook more.'",
           "options": [
-            "any / any",
             "some / some",
+            "any / any",
             "many / much",
             "a few / a little"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 5 non-count questions and negatives take 'any'.",
           "visualClue": "🍚 Unit 5 Non-Count Quantifiers"
         },
@@ -14172,12 +14172,12 @@ window.APP_DATA = {
           "id": "e30_q12",
           "question": "The Arabic calligraphy exhibition was ______ magnificent that thousands of visitors attended.",
           "options": [
-            "so",
-            "such",
+            "enough",
             "too",
-            "enough"
+            "so",
+            "such"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 6 intensifier 'so' modifies the standalone predicate adjective 'magnificent'.",
           "visualClue": "✒️ Unit 6 Calligraphy Intensifier"
         },
@@ -14185,12 +14185,12 @@ window.APP_DATA = {
           "id": "e30_q13",
           "question": "Which accommodation feature keeps youth hostels in Saudi Arabia (S.A.Y.H.A.) budget-friendly for students?",
           "options": [
-            "Shared dormitory rooms and communal kitchen facilities.",
             "Guests must bring their own lumber to build beds.",
+            "Hostels only open during desert storms.",
             "Hostels do not have electricity or running water.",
-            "Hostels only open during desert storms."
+            "Shared dormitory rooms and communal kitchen facilities."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 1 reading highlights that shared dormitory spaces lower lodging expenses.",
           "visualClue": "🏰 Unit 1 SAYHA Youth Hostels"
         },
@@ -14198,12 +14198,12 @@ window.APP_DATA = {
           "id": "e30_q14",
           "question": "According to Unit 2, how does Khan Academy empower students worldwide?",
           "options": [
-            "Through short, focused video lessons that students can pause and replay at their own pace.",
             "By printing millions of paper books.",
             "By eliminating all math exams.",
+            "Through short, focused video lessons that students can pause and replay at their own pace.",
             "By requiring students to build television studios."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 2 reading details how online educational video tutorials allow self-paced mastery.",
           "visualClue": "💻 Unit 2 Digital E-Learning"
         },
@@ -14211,12 +14211,12 @@ window.APP_DATA = {
           "id": "e30_q15",
           "question": "Under Saudi Vision 2030, what demographic constitutes over 50% of the population, driving innovation?",
           "options": [
-            "Youth under 25 years old.",
-            "Citizens over 85 years old.",
             "Foreign tourists on holiday.",
-            "Retired factory directors."
+            "Youth under 25 years old.",
+            "Retired factory directors.",
+            "Citizens over 85 years old."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Unit 3 reading highlights that half of Saudi Arabia is under 25, representing the nation's greatest human asset.",
           "visualClue": "🇸🇦 Unit 3 Youth Demographic Asset"
         },
@@ -14224,12 +14224,12 @@ window.APP_DATA = {
           "id": "e30_q16",
           "question": "In aeromodelling competitions, what extreme speed can jet-powered scale models achieve?",
           "options": [
-            "236 mph (380 km/h) — faster than a Formula 1 race car.",
             "30 mph (48 km/h).",
             "5 mph (8 km/h).",
+            "236 mph (380 km/h) — faster than a Formula 1 race car.",
             "The speed of a pedestrian walking."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 2,
           "explanation": "Unit 4 reading confirms scale jet turbines reach 380 km/h.",
           "visualClue": "🏎️ Unit 4 Jet Aeromodel Velocity"
         },
@@ -14237,12 +14237,12 @@ window.APP_DATA = {
           "id": "e30_q17",
           "question": "What localized sandwich is highlighted in Unit 5 as being especially popular in Saudi Arabia?",
           "options": [
-            "The McArabia flatbread sandwich with chicken or beef.",
-            "A sweet pineapple burger.",
             "A raw oyster taco.",
-            "A cold seaweed wrap."
+            "A cold seaweed wrap.",
+            "A sweet pineapple burger.",
+            "The McArabia flatbread sandwich with chicken or beef."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 5 reading confirms the McArabia sandwich is a localized favorite in KSA.",
           "visualClue": "🍔 Unit 5 Local Menu Innovation"
         },
@@ -14250,12 +14250,12 @@ window.APP_DATA = {
           "id": "e30_q18",
           "question": "Which ancient script style features bold, straight geometric lines used on the earliest Qur'anic folios?",
           "options": [
-            "Kufic script",
-            "Diwani script",
             "Ruq'ah script",
-            "Ta'liq script"
+            "Diwani script",
+            "Ta'liq script",
+            "Kufic script"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 3,
           "explanation": "Unit 6 reading confirms Kufic is the geometric script used for early Qur'an copies.",
           "visualClue": "📐 Unit 6 Kufic Script Heritage"
         },
@@ -14265,8 +14265,8 @@ window.APP_DATA = {
           "options": [
             "scene (/i/) vs. sin (/ɪ/)",
             "pen vs. pan",
-            "cat vs. cut",
-            "boot vs. boat"
+            "boot vs. boat",
+            "cat vs. cut"
           ],
           "correctAnswer": 0,
           "explanation": "Unit 2 phonology contrasts tense /i/ ('scene') with lax /ɪ/ ('sin' / 'film').",
@@ -14276,12 +14276,12 @@ window.APP_DATA = {
           "id": "e30_q20",
           "question": "Select the master sentence demonstrating peak grammatical, lexical, and stylistic excellence across Super Goal 2:",
           "options": [
-            "Under the supervision of Teacher Mahmoud Al-Saeed, students who master Super Goal 2 demonstrate superior linguistic distinction and academic honor.",
             "Students which masters Super Goal 2 demonstrates always distinction.",
+            "Under the supervision of Teacher Mahmoud Al-Saeed, students who master Super Goal 2 demonstrate superior linguistic distinction and academic honor.",
             "Students who they master Super Goal 2 is demonstrating distinction.",
             "Students whose masters Super Goal 2 demonstrates never distinction."
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Option A exemplifies flawless subject-verb concord, human relative clause syntax, and honors Teacher Mahmoud Al-Saeed's academic leadership.",
           "visualClue": "🏆 Super Goal Grand Olympic Distinction"
         }
