@@ -90,6 +90,82 @@ body {
 }
 
 /* ==========================================================================
+   TOP ANIMATED TICKER (Distinguished Student Honor Roll - Every 5 Minutes)
+   ========================================================================== */
+
+.distinguished-ticker-bar {
+  background: linear-gradient(90deg, #064e3b 0%, #047857 25%, #92400e 50%, #047857 75%, #064e3b 100%);
+  background-size: 200% auto;
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent-gold);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.45s ease;
+  position: relative;
+  z-index: 999;
+}
+
+.distinguished-ticker-bar.active {
+  max-height: 48px;
+  opacity: 1;
+}
+
+.distinguished-ticker-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+  white-space: nowrap;
+  padding: 0.55rem 1.5rem;
+  will-change: transform;
+}
+
+.distinguished-ticker-bar.animating .distinguished-ticker-track {
+  animation: tickerScrollPass 26s linear forwards;
+}
+
+@keyframes tickerScrollPass {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-badge-honor {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #ffffff;
+  padding: 0.22rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.ticker-student-highlight {
+  color: #fef08a;
+  font-weight: 800;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.ticker-xp-badge {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.15rem 0.55rem;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+/* ==========================================================================
    TOP ANNOUNCEMENT BAR (Saudi Ministry & Teacher)
    ========================================================================== */
 

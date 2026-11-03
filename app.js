@@ -11,12 +11,24 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  // Initialize Student XP (Defaults to 0; clears legacy testing values like 363 or 120)
+  let initialStudentXP = 0;
+  const storedXP = localStorage.getItem('sg2_student_xp_v3');
+  if (storedXP !== null) {
+    initialStudentXP = parseInt(storedXP, 10) || 0;
+  } else {
+    // Purge legacy testing keys
+    localStorage.removeItem('sg2_student_xp');
+    localStorage.setItem('sg2_student_xp_v3', '0');
+    initialStudentXP = 0;
+  }
+
   // Application State
   const state = {
     currentTab: 'overview',
-    studentName: localStorage.getItem('sg2_student_name') || 'Abdullah Al-Otaibi',
-    studentSchool: localStorage.getItem('sg2_student_school') || 'Riyadh Intermediate School',
-    studentXP: parseInt(localStorage.getItem('sg2_student_xp') || '120', 10),
+    studentName: localStorage.getItem('sg2_student_name') || 'Student of Distinction',
+    studentSchool: localStorage.getItem('sg2_student_school') || 'Intermediate Second Grade',
+    studentXP: initialStudentXP,
     deepgramApiKey: localStorage.getItem('deepgram_api_key') || '',
     deepgramVoice: localStorage.getItem('deepgram_voice') || 'aura-asteria-en', // Natural American Voice
     speechRate: parseFloat(localStorage.getItem('preferred_speech_rate')) || 1.0,
@@ -250,10 +262,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Gamification XP Addition
   function addXP(points) {
     state.studentXP += points;
-    localStorage.setItem('sg2_student_xp', state.studentXP.toString());
+    localStorage.setItem('sg2_student_xp_v3', state.studentXP.toString());
     const xpElem = document.getElementById('studentXPDisplay');
     if (xpElem) {
       xpElem.textContent = state.studentXP.toString();
+    }
+    const tickerXP = document.getElementById('tickerStudentXP');
+    if (tickerXP) {
+      tickerXP.textContent = state.studentXP.toString();
     }
   }
 
@@ -268,8 +284,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (nameDisplay) nameDisplay.textContent = state.studentName;
     if (schoolDisplay) schoolDisplay.textContent = `${state.studentSchool} • Saudi Arabia`;
     if (xpDisplay) xpDisplay.textContent = state.studentXP.toString();
-    if (nameInput) nameInput.value = state.studentName;
+    if (nameInput) nameInput.value = (state.studentName === 'Student of Distinction' ? '' : state.studentName);
     if (schoolInput) schoolInput.value = state.studentSchool;
+
+    const tickerName = document.getElementById('tickerStudentName');
+    const tickerSchool = document.getElementById('tickerStudentSchool');
+    const tickerXP = document.getElementById('tickerStudentXP');
+    if (tickerName) tickerName.textContent = state.studentName;
+    if (tickerSchool) tickerSchool.textContent = state.studentSchool;
+    if (tickerXP) tickerXP.textContent = state.studentXP.toString();
   }
 
   const savePassportBtn = document.getElementById('savePassportBtn');
@@ -277,20 +300,71 @@ document.addEventListener('DOMContentLoaded', () => {
     savePassportBtn.addEventListener('click', () => {
       const nameIn = document.getElementById('regStudentName');
       const schoolIn = document.getElementById('regStudentSchool');
-      if (nameIn && nameIn.value.trim()) {
-        state.studentName = nameIn.value.trim();
+      const enteredName = nameIn && nameIn.value.trim() ? nameIn.value.trim() : '';
+
+      if (enteredName) {
+        state.studentName = enteredName;
         localStorage.setItem('sg2_student_name', state.studentName);
       }
       if (schoolIn && schoolIn.value.trim()) {
         state.studentSchool = schoolIn.value.trim();
         localStorage.setItem('sg2_student_school', state.studentSchool);
       }
-      addXP(25);
+
+      // Award +50 XP Welcome Registration Bonus upon registering student name
+      const hasBonus = localStorage.getItem('sg2_name_bonus_awarded');
+      if (!hasBonus && enteredName) {
+        localStorage.setItem('sg2_name_bonus_awarded', 'true');
+        addXP(50);
+      } else if (enteredName) {
+        addXP(10);
+      }
+
       syncStudentPassport();
+      triggerDistinguishedTicker();
       playSound('correct');
-      alert(`Student identity successfully registered for: ${state.studentName}!\nThis name will now appear on all official Certificates endorsed by Teacher Mahmoud Al-Saeed.`);
+      alert(`Student identity successfully registered for: ${state.studentName}!\n+50 XP Welcome Registration Bonus Awarded!\nYour distinguished name is now featured on the Official Super Goal 2 Distinction Roll.`);
     });
   }
+
+  // ==========================================================================
+  // DISTINGUISHED STUDENT TOP TICKER (5-MINUTE CYCLE)
+  // ==========================================================================
+  const TICKER_CYCLE_MS = 5 * 60 * 1000; // 5 minutes (300,000 ms)
+  let tickerHideTimer = null;
+
+  function triggerDistinguishedTicker() {
+    const bar = document.getElementById('distinguishedTickerBar');
+    const track = document.getElementById('distinguishedTickerTrack');
+    if (!bar || !track) return;
+
+    // Refresh dynamic text
+    const tickerName = document.getElementById('tickerStudentName');
+    const tickerSchool = document.getElementById('tickerStudentSchool');
+    const tickerXP = document.getElementById('tickerStudentXP');
+    if (tickerName) tickerName.textContent = state.studentName;
+    if (tickerSchool) tickerSchool.textContent = state.studentSchool;
+    if (tickerXP) tickerXP.textContent = state.studentXP.toString();
+
+    // Restart animation
+    bar.classList.remove('active', 'animating');
+    void track.offsetWidth; // Force reflow
+
+    bar.classList.add('active', 'animating');
+
+    // Auto-hide when the single pass completes (26.5 seconds)
+    if (tickerHideTimer) clearTimeout(tickerHideTimer);
+    tickerHideTimer = setTimeout(() => {
+      bar.classList.remove('active', 'animating');
+    }, 26500);
+  }
+  window.triggerDistinguishedTicker = triggerDistinguishedTicker;
+
+  // Initial celebratory pass 2.5 seconds after load
+  setTimeout(triggerDistinguishedTicker, 2500);
+
+  // Scheduled pass once every 5 minutes
+  setInterval(triggerDistinguishedTicker, TICKER_CYCLE_MS);
 
   // Direct Certificate Gateway Buttons
   const directCertBtn = document.getElementById('directCertBtn');

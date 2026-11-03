@@ -12,6 +12,19 @@
 </head>
 <body>
 
+  <!-- Top Animated Ticker Bar: Distinguished Student Honor Roll (Passes every 5 minutes) -->
+  <div class="distinguished-ticker-bar" id="distinguishedTickerBar" aria-live="polite">
+    <div class="distinguished-ticker-track" id="distinguishedTickerTrack">
+      <span class="ticker-badge-honor">🏆 ACADEMIC DISTINCTION ROLL</span>
+      <span>
+        🌟 Distinguished Scholar: <strong class="ticker-student-highlight" id="tickerStudentName">Student of Distinction</strong> (<span id="tickerStudentSchool">Intermediate Second Grade</span>)
+        • Learning Score: <span class="ticker-xp-badge"><strong id="tickerStudentXP">0</strong> XP</span>
+        • Commended for Superior Linguistic Competence Across Super Goal 2 (Units 1 to 6)
+        • Endorsed by <strong>Teacher Mahmoud Al-Saeed</strong> 🇸🇦
+      </span>
+    </div>
+  </div>
+
   <!-- Top Announcement Bar -->
   <aside class="announcement-bar" aria-label="Official Endorsement">
     <div class="announcement-content">
@@ -53,6 +66,9 @@
         </div>
       </div>
       <div class="header-controls">
+        <button class="theme-toggle-btn" id="tickerManualTriggerBtn" title="Display Distinguished Student Honor Roll" onclick="triggerDistinguishedTicker()">
+          🏆 Honor Roll
+        </button>
         <button class="deepgram-toggle-btn" id="deepgramSettingsBtn" title="Configure Deepgram American Natural Voice">
           🎙️ Deepgram Voice
         </button>
@@ -97,14 +113,14 @@
       <div class="passport-form">
         <input type="text" id="regStudentName" class="passport-input" placeholder="Type Student Name in English (e.g. Abdullah Al-Otaibi)">
         <input type="text" id="regStudentSchool" class="passport-input" placeholder="School / City (e.g. Riyadh Intermediate)">
-        <button class="btn-passport-save" id="savePassportBtn">💾 Register Name</button>
+        <button class="btn-passport-save" id="savePassportBtn">💾 Register Name (+50 XP)</button>
       </div>
 
       <!-- Live Gamification & Certificate Trigger -->
       <div class="passport-rewards">
         <div class="xp-counter-card">
           <span class="xp-label">Learning Score</span>
-          <span class="xp-val"><strong id="studentXPDisplay">100</strong> XP</span>
+          <span class="xp-val"><strong id="studentXPDisplay">0</strong> XP</span>
         </div>
         <button class="btn-cert-direct" id="directCertBtn">
           🎓 Official Certificate
