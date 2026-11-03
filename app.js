@@ -829,21 +829,62 @@ document.addEventListener('DOMContentLoaded', () => {
     const q = mod.diagnosticQuestions[qIdx];
     const parent = btnElem.closest('.diag-question-item');
     const buttons = parent.querySelectorAll('.diag-opt-btn');
+    const isCorrect = (selectedOptIdx === q.correctAnswer);
+
     buttons.forEach((b, i) => {
       b.disabled = true;
-      if (i === q.correctAnswer) b.classList.add('correct');
-      if (i === selectedOptIdx && i !== q.correctAnswer) b.classList.add('incorrect');
+      if (i === q.correctAnswer) {
+        b.classList.add('correct');
+        b.innerHTML = `<span>${String.fromCharCode(65 + i)}. ${q.options[i]}</span><span class="diag-status-badge badge-correct">✓ Correct Answer</span>`;
+      } else if (i === selectedOptIdx && !isCorrect) {
+        b.classList.add('incorrect');
+        b.innerHTML = `<span>${String.fromCharCode(65 + i)}. ${q.options[i]}</span><span class="diag-status-badge badge-incorrect">✕ Your Selection (Incorrect)</span>`;
+      } else {
+        b.classList.add('dimmed');
+      }
     });
 
-    if (selectedOptIdx === q.correctAnswer) {
+    if (isCorrect) {
       playSound('correct');
       addXP(15);
     } else {
-      playSound('click');
+      playSound('incorrect');
     }
 
     const expDiv = document.getElementById(`exp_${modId}_${qIdx}`);
-    if (expDiv) expDiv.style.display = 'block';
+    if (expDiv) {
+      expDiv.style.display = 'block';
+      if (isCorrect) {
+        expDiv.innerHTML = `
+          <div class="diag-feedback-card feedback-correct">
+            <div class="feedback-header">
+              <span style="font-size:1.25rem;">🎉</span>
+              <strong>Spot On! Correct Answer!</strong>
+            </div>
+            <p class="feedback-details">You accurately selected: <strong>"${q.options[q.correctAnswer]}"</strong></p>
+            <div class="feedback-rule">
+              <strong>Academic Rationale:</strong> ${q.explanation}
+            </div>
+          </div>
+        `;
+      } else {
+        expDiv.innerHTML = `
+          <div class="diag-feedback-card feedback-incorrect">
+            <div class="feedback-header">
+              <span style="font-size:1.25rem;">💡</span>
+              <strong>Learning Notice: Your selection is incorrect.</strong>
+            </div>
+            <p class="feedback-details">
+              You selected: <span class="diag-wrong-chip">✕ "${q.options[selectedOptIdx]}"</span><br>
+              The correct answer is: <span class="diag-correct-chip">✓ "${q.options[q.correctAnswer]}"</span>
+            </p>
+            <div class="feedback-rule">
+              <strong>Why? Academic Rationale:</strong> ${q.explanation}
+            </div>
+          </div>
+        `;
+      }
+    }
   };
 
   // ==========================================================================
@@ -1330,21 +1371,63 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!story) return;
     const q = story.comprehensionQuestions[qIdx];
     const parent = btnElem.closest('.diag-question-item');
-    parent.querySelectorAll('.diag-opt-btn').forEach((b, i) => {
+    const buttons = parent.querySelectorAll('.diag-opt-btn');
+    const isCorrect = (optIdx === q.correctAnswer);
+
+    buttons.forEach((b, i) => {
       b.disabled = true;
-      if (i === q.correctAnswer) b.classList.add('correct');
-      if (i === optIdx && i !== q.correctAnswer) b.classList.add('incorrect');
+      if (i === q.correctAnswer) {
+        b.classList.add('correct');
+        b.innerHTML = `<span>${String.fromCharCode(65 + i)}. ${q.options[i]}</span><span class="diag-status-badge badge-correct">✓ Correct Answer</span>`;
+      } else if (i === optIdx && !isCorrect) {
+        b.classList.add('incorrect');
+        b.innerHTML = `<span>${String.fromCharCode(65 + i)}. ${q.options[i]}</span><span class="diag-status-badge badge-incorrect">✕ Your Selection (Incorrect)</span>`;
+      } else {
+        b.classList.add('dimmed');
+      }
     });
 
-    if (optIdx === q.correctAnswer) {
+    if (isCorrect) {
       playSound('correct');
       addXP(15);
     } else {
-      playSound('click');
+      playSound('incorrect');
     }
 
     const expDiv = document.getElementById(`read_exp_${storyId}_${qIdx}`);
-    if (expDiv) expDiv.style.display = 'block';
+    if (expDiv) {
+      expDiv.style.display = 'block';
+      if (isCorrect) {
+        expDiv.innerHTML = `
+          <div class="diag-feedback-card feedback-correct">
+            <div class="feedback-header">
+              <span style="font-size:1.25rem;">🎉</span>
+              <strong>Spot On! Correct Answer!</strong>
+            </div>
+            <p class="feedback-details">You accurately selected: <strong>"${q.options[q.correctAnswer]}"</strong></p>
+            <div class="feedback-rule">
+              <strong>Academic Explanation:</strong> ${q.explanation}
+            </div>
+          </div>
+        `;
+      } else {
+        expDiv.innerHTML = `
+          <div class="diag-feedback-card feedback-incorrect">
+            <div class="feedback-header">
+              <span style="font-size:1.25rem;">💡</span>
+              <strong>Learning Notice: Your selection is incorrect.</strong>
+            </div>
+            <p class="feedback-details">
+              You selected: <span class="diag-wrong-chip">✕ "${q.options[optIdx]}"</span><br>
+              The correct answer is: <span class="diag-correct-chip">✓ "${q.options[q.correctAnswer]}"</span>
+            </p>
+            <div class="feedback-rule">
+              <strong>Why? Academic Explanation:</strong> ${q.explanation}
+            </div>
+          </div>
+        `;
+      }
+    }
   };
 
   // ==========================================================================

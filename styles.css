@@ -1133,7 +1133,7 @@ body {
 
 .diag-opt-btn {
   background: var(--bg-main);
-  border: 1px solid var(--border-color);
+  border: 1.5px solid var(--border-color);
   padding: 0.65rem 0.95rem;
   border-radius: var(--radius-sm);
   text-align: left;
@@ -1141,6 +1141,10 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .diag-opt-btn:hover {
@@ -1149,27 +1153,108 @@ body {
 }
 
 .diag-opt-btn.correct {
-  background: var(--success-bg) !important;
-  border-color: var(--success) !important;
-  color: var(--success) !important;
+  background: #ecfdf5 !important;
+  border-color: #10b981 !important;
+  color: #065f46 !important;
   font-weight: 700;
+  box-shadow: 0 0 0 1.5px #10b981;
 }
 
 .diag-opt-btn.incorrect {
-  background: var(--error-bg) !important;
-  border-color: var(--error) !important;
-  color: var(--error) !important;
+  background: #fef2f2 !important;
+  border-color: #ef4444 !important;
+  color: #991b1b !important;
+  font-weight: 700;
+  box-shadow: 0 0 0 1.5px #ef4444;
+}
+
+.diag-opt-btn.dimmed {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.diag-status-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.diag-status-badge.badge-correct {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.diag-status-badge.badge-incorrect {
+  background: #ef4444;
+  color: #ffffff;
 }
 
 .diag-explanation {
-  margin-top: 0.75rem;
-  padding: 0.75rem 1rem;
-  border-radius: var(--radius-sm);
-  font-size: 0.88rem;
-  background: var(--info-bg);
-  border-left: 3.5px solid var(--info);
-  color: var(--accent-slate-dark);
+  margin-top: 0.85rem;
   display: none;
+}
+
+.diag-feedback-card {
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-sm);
+  animation: cheerFadeIn 0.3s ease-out;
+}
+
+.diag-feedback-card.feedback-correct {
+  background: #ecfdf5;
+  border: 1.5px solid #10b981;
+  color: #065f46;
+}
+
+.diag-feedback-card.feedback-incorrect {
+  background: #fef2f2;
+  border: 1.5px solid #ef4444;
+  color: #991b1b;
+}
+
+.diag-feedback-card .feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.98rem;
+  margin-bottom: 0.45rem;
+}
+
+.diag-feedback-card .feedback-details {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.35rem 0 0.65rem 0;
+}
+
+.diag-feedback-card .diag-wrong-chip {
+  display: inline-block;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-weight: 700;
+  margin: 0.15rem 0;
+}
+
+.diag-feedback-card .diag-correct-chip {
+  display: inline-block;
+  background: #dcfce7;
+  color: #15803d;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-weight: 700;
+  margin: 0.15rem 0;
+}
+
+.diag-feedback-card .feedback-rule {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
 }
 
 /* ==========================================================================
